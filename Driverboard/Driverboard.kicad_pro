@@ -332,6 +332,30 @@
     [
       "936c0d0d-8e5d-45ee-b2af-97f899d73356",
       "Devboard"
+    ],
+    [
+      "9a3634a1-650b-4433-9935-d45c8ecd7a1e",
+      "Controller"
+    ],
+    [
+      "bbf27a54-0caa-4cac-bbd3-774570944538",
+      "New power supply"
+    ],
+    [
+      "fb691eed-2688-4ca1-80da-ae3c81e39d6f",
+      "Motor Driver1"
+    ],
+    [
+      "891ff323-977b-4f15-b566-b2e1630b3e24",
+      "Motor Driver2"
+    ],
+    [
+      "c5f75bcb-eadd-4d70-a6bc-67ea37def329",
+      "Motor Driver3"
+    ],
+    [
+      "41833aad-8369-4465-8a15-e062909c2cd8",
+      "Motor Driver4"
     ]
   ],
   "text_variables": {}

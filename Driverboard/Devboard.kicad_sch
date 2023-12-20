@@ -47,7 +47,7 @@
   (symbol (lib_id "CustomSymbols:STM32H755ZI") (at 116.84 66.802 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6416546d-2d1e-4a62-809a-64c81dada4c6)
-    (property "Reference" "U?" (id 0) (at 109.347 58.039 0)
+    (property "Reference" "U4" (id 0) (at 109.347 58.039 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32H755ZI" (id 1) (at 109.347 76.962 0)
