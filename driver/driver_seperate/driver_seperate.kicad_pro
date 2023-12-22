@@ -54,7 +54,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -112,7 +112,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Driverboard.kicad_pro",
+    "filename": "driver_seperate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -459,7 +459,6 @@
     "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
-      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
@@ -468,7 +467,6 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
-    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -479,44 +477,8 @@
   },
   "sheets": [
     [
-      "a1c58a4b-b60a-4b3b-9c3d-534325b98006",
+      "8aa936d6-33ab-4874-8145-d1c763a0b8a3",
       ""
-    ],
-    [
-      "84583ace-7a9a-4156-b487-dfd6e4ddef0e",
-      "Power Supply"
-    ],
-    [
-      "647e161e-7b45-4d1c-8989-c5d1c6c3812e",
-      "Connectors"
-    ],
-    [
-      "936c0d0d-8e5d-45ee-b2af-97f899d73356",
-      "Devboard"
-    ],
-    [
-      "9a3634a1-650b-4433-9935-d45c8ecd7a1e",
-      "Controller"
-    ],
-    [
-      "bbf27a54-0caa-4cac-bbd3-774570944538",
-      "New power supply"
-    ],
-    [
-      "fb691eed-2688-4ca1-80da-ae3c81e39d6f",
-      "Motor Driver1"
-    ],
-    [
-      "891ff323-977b-4f15-b566-b2e1630b3e24",
-      "Motor Driver2"
-    ],
-    [
-      "c5f75bcb-eadd-4d70-a6bc-67ea37def329",
-      "Motor Driver3"
-    ],
-    [
-      "41833aad-8369-4465-8a15-e062909c2cd8",
-      "Motor Driver4"
     ]
   ],
   "text_variables": {}
