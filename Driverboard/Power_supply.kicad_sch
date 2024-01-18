@@ -2987,7 +2987,7 @@
     (uuid ff9b5fec-c9a6-494f-84ed-c6e90c015019)
   )
 
-  (text "DC/DC 24V" (at 25.4 95.885 0)
+  (text "DC/DC 12V" (at 25.4 95.885 0)
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid 2386f74f-be2d-4f81-b3aa-8d72286b1f0c)
   )

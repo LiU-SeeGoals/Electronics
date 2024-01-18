@@ -2,7 +2,7 @@ import random
 resistors = [10, 11, 12, 13, 15, 16, 18, 20, 22, 24, 27, 30, 33, 36, 39, 43, 47, 51, 56, 62, 68, 75, 82, 91]
 
 def ilim_calc(Vin, desired_threshold):
-    desired_Vout = (-0.4/8)*desired_threshold+(3.3/2)
+    desired_Vout = (3.3/2) - 0.4*0.9*desired_threshold/8
     print(desired_Vout)
     diff_Vout = 10000
     output = []
@@ -20,4 +20,4 @@ def ilim_calc(Vin, desired_threshold):
 
     return output
 
-print(ilim_calc(3.3, 6))
+print(ilim_calc(3.3, 5.48))

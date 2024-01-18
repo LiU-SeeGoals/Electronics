@@ -1070,7 +1070,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0dbe97fb-a1c7-41c6-890b-e88ba5cf244a)
-    (property "Reference" "R35" (at 98.425 107.95 90)
+    (property "Reference" "R17" (at 98.425 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "243k 1%" (at 102.235 107.95 90)
@@ -1086,9 +1086,6 @@
     (pin "1" (uuid 15dbb140-6774-4c51-b1bf-248fafdb8d63))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "R35") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "R17") (unit 1)
         )
@@ -1099,7 +1096,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11fbd2dc-4d13-4a29-b9c6-a9291de17bc2)
-    (property "Reference" "C25" (at 107.315 167.64 0)
+    (property "Reference" "C55" (at 107.315 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uF" (at 108.585 171.45 0)
@@ -1118,9 +1115,6 @@
     (pin "2" (uuid c7bbdd0b-1685-42df-a13a-66572e6213e7))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C25") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C55") (unit 1)
         )
@@ -1131,7 +1125,7 @@
   (symbol (lib_id "power:+12V") (at 128.27 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b971f93-9473-4e58-9d73-ae265965aa65)
-    (property "Reference" "#PWR08" (at 128.27 104.14 0)
+    (property "Reference" "#PWR017" (at 128.27 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 128.27 96.52 0)
@@ -1146,9 +1140,6 @@
     (pin "1" (uuid f5db10ab-a3fa-4675-a629-a8725961c829))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR08") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR017") (unit 1)
         )
@@ -1159,7 +1150,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c05a511-2a27-47de-beb6-62bb03291102)
-    (property "Reference" "R16" (at 98.425 179.07 90)
+    (property "Reference" "R38" (at 98.425 179.07 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22k1 1%" (at 102.235 179.07 90)
@@ -1175,9 +1166,6 @@
     (pin "1" (uuid 15b3b6b1-1d1f-421e-ae86-5df36c736b1a))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "R16") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "R38") (unit 1)
         )
@@ -1188,7 +1176,7 @@
   (symbol (lib_id "Device:L_Small") (at 87.63 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dec9ccf-eaaf-4c21-9ca3-0e7bd9b8e048)
-    (property "Reference" "L2" (at 86.36 99.06 90)
+    (property "Reference" "L13" (at 86.36 99.06 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "16uH" (at 87.63 103.505 90)
@@ -1207,9 +1195,6 @@
     (pin "2" (uuid 74c1e684-e563-4d04-854e-15c8d5e9c8ab))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "L2") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "L13") (unit 1)
         )
@@ -1220,7 +1205,7 @@
   (symbol (lib_id "Device:C_Small") (at 26.67 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a3e80b9-e59c-4694-a204-959b8cc4854f)
-    (property "Reference" "C15" (at 29.21 168.91 0)
+    (property "Reference" "C45" (at 29.21 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 29.845 172.72 0)
@@ -1239,9 +1224,6 @@
     (pin "2" (uuid 3f5bb10b-6a86-4d7e-9ce4-6e831abbbfe4))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C15") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C45") (unit 1)
         )
@@ -1252,7 +1234,7 @@
   (symbol (lib_id "Device:C_Small") (at 120.65 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a42cac3-825f-4f4b-a2f8-7796ff2ce4cc)
-    (property "Reference" "C13" (at 123.19 112.395 0)
+    (property "Reference" "C58" (at 123.19 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uF" (at 123.825 116.205 0)
@@ -1271,9 +1253,6 @@
     (pin "2" (uuid 916edb58-b812-43b1-a9a9-0de65aac1a3b))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C13") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C58") (unit 1)
         )
@@ -1284,7 +1263,7 @@
   (symbol (lib_id "Device:L_Small") (at 22.86 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2dd78b1a-f68e-4626-a103-a969370d1ebc)
-    (property "Reference" "L11" (at 21.59 99.06 90)
+    (property "Reference" "L6" (at 21.59 99.06 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "470uH" (at 22.86 103.505 90)
@@ -1303,9 +1282,6 @@
     (pin "2" (uuid a0f77b67-2f8c-4da7-85c1-42c3a2f655c4))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "L11") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "L6") (unit 1)
         )
@@ -1316,7 +1292,7 @@
   (symbol (lib_id "Device:C_Small") (at 105.41 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 322050a5-afb6-4d29-8452-53399aae1413)
-    (property "Reference" "C9" (at 107.315 112.395 0)
+    (property "Reference" "C54" (at 107.315 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uF" (at 108.585 116.205 0)
@@ -1335,9 +1311,6 @@
     (pin "2" (uuid f008ae0d-0f60-46b8-bc5e-c7e9016beecf))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C9") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C54") (unit 1)
         )
@@ -1348,7 +1321,7 @@
   (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 120.65 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 327dedf3-afbc-447a-a442-6cba1039da3d)
-    (property "Reference" "#PWR011" (at 120.65 159.385 0)
+    (property "Reference" "#PWR016" (at 120.65 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 120.65 151.765 0)
@@ -1363,9 +1336,6 @@
     (pin "1" (uuid 2fa5afe9-f3a8-44c1-bca1-d6c6207d7efd))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR016") (unit 1)
         )
@@ -1376,7 +1346,7 @@
   (symbol (lib_id "Device:L_Small") (at 87.63 156.845 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 518f87ae-30c5-431c-a451-fe8216bd1804)
-    (property "Reference" "L5" (at 86.36 154.305 90)
+    (property "Reference" "L14" (at 86.36 154.305 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "16uH" (at 87.63 158.75 90)
@@ -1395,9 +1365,6 @@
     (pin "2" (uuid bf67e81c-7f5f-4fd8-aae9-0abc45e15d57))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "L5") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "L14") (unit 1)
         )
@@ -1408,7 +1375,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.64 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5419c1ab-b3d3-42f7-89ab-abeeb80acaf2)
-    (property "Reference" "C22" (at 43.18 175.26 0)
+    (property "Reference" "C49" (at 43.18 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 43.815 179.07 0)
@@ -1427,9 +1394,6 @@
     (pin "2" (uuid 7e7c0af2-f322-4f24-89ee-346291061cb2))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C22") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C49") (unit 1)
         )
@@ -1440,7 +1404,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 123.825 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63ef3477-a120-43eb-9fa5-4c2a972a19d5)
-    (property "Reference" "R11" (at 98.425 123.825 90)
+    (property "Reference" "R36" (at 98.425 123.825 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22k1 1%" (at 102.235 123.825 90)
@@ -1456,9 +1420,6 @@
     (pin "1" (uuid de7e3739-6325-49b4-8b2a-83cc6c04777a))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "R11") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "R36") (unit 1)
         )
@@ -1469,7 +1430,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.64 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 657fc648-ce3d-449b-b7b0-ccc37c94302e)
-    (property "Reference" "C11" (at 43.18 120.015 0)
+    (property "Reference" "C48" (at 43.18 120.015 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 43.815 123.825 0)
@@ -1488,9 +1449,6 @@
     (pin "2" (uuid cd62434f-84e4-4cb0-ab7f-655858f0b209))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C11") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C48") (unit 1)
         )
@@ -1501,7 +1459,7 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ef9ede0-3e57-475e-8755-e415f2ee0d36)
-    (property "Reference" "C14" (at 130.81 112.395 0)
+    (property "Reference" "C60" (at 130.81 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 132.08 116.205 0)
@@ -1517,9 +1475,6 @@
     (pin "2" (uuid ff5764bb-43c3-452b-8018-f3742ccfe909))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C14") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C60") (unit 1)
         )
@@ -1530,7 +1485,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ffee0b0-cac5-4a72-9ee3-b95ff1b804f8)
-    (property "Reference" "C7" (at 93.345 106.045 0)
+    (property "Reference" "C52" (at 93.345 106.045 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18pF" (at 94.615 109.855 0)
@@ -1546,9 +1501,6 @@
     (pin "2" (uuid 17e42614-8975-493f-8194-8b5c97c81c4f))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C7") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C52") (unit 1)
         )
@@ -1559,7 +1511,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.03 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86da2d58-5bb8-41a8-be38-f390e41abed7)
-    (property "Reference" "C12" (at 115.57 112.395 0)
+    (property "Reference" "C56" (at 115.57 112.395 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uF" (at 116.205 116.205 0)
@@ -1578,9 +1530,6 @@
     (pin "2" (uuid ec811568-ec04-4834-85d2-d9a0ac76ab30))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C12") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C56") (unit 1)
         )
@@ -1591,7 +1540,7 @@
   (symbol (lib_id "Device:C_Small") (at 78.74 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b27a389-3a03-4c33-a21e-8db500dc72ac)
-    (property "Reference" "C16" (at 81.28 103.505 0)
+    (property "Reference" "C50" (at 81.28 103.505 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 81.28 107.315 0)
@@ -1607,9 +1556,6 @@
     (pin "2" (uuid 0e739bf5-a6f4-46f4-a6ac-cb8647f49c22))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C16") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C50") (unit 1)
         )
@@ -1620,7 +1566,7 @@
   (symbol (lib_id "LMR23630ADDA:LMR23630ADDA") (at 41.91 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8be94ce5-7384-4418-a942-fae35b0b577a)
-    (property "Reference" "IC4" (at 48.514 97.282 0)
+    (property "Reference" "IC9" (at 48.514 97.282 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR23630ADDA" (at 54.102 131.318 0)
@@ -1670,9 +1616,6 @@
     (pin "9" (uuid 3bb637e6-108e-49d9-b29b-f40910ba8212))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "IC4") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "IC9") (unit 1)
         )
@@ -1683,7 +1626,7 @@
   (symbol (lib_id "power:GND") (at 26.67 189.865 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e71de4e-eb72-4fa9-951b-a7911326e957)
-    (property "Reference" "#PWR010" (at 26.67 196.215 0)
+    (property "Reference" "#PWR015" (at 26.67 196.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 193.675 0)
@@ -1698,9 +1641,6 @@
     (pin "1" (uuid 2d59d403-da4b-42ba-aa59-9e84bc27ca56))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR015") (unit 1)
         )
@@ -1711,7 +1651,7 @@
   (symbol (lib_id "Device:C_Small") (at 78.74 160.655 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 973fd3a3-6dea-4108-8076-36155ada545a)
-    (property "Reference" "C23" (at 81.28 158.75 0)
+    (property "Reference" "C51" (at 81.28 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 81.28 162.56 0)
@@ -1727,9 +1667,6 @@
     (pin "2" (uuid c4cfd344-fd4d-4b02-ada2-f46c129f5f7c))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C23") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C51") (unit 1)
         )
@@ -1740,7 +1677,7 @@
   (symbol (lib_id "power:VCC") (at 19.05 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b10c9f30-4c7a-4bc9-a3b9-4610afedb9b5)
-    (property "Reference" "#PWR0110" (at 19.05 104.14 0)
+    (property "Reference" "#PWR012" (at 19.05 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 19.05 96.52 0)
@@ -1755,9 +1692,6 @@
     (pin "1" (uuid 6525214b-b0fa-4cc7-9ff0-c5593658e822))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR0110") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR012") (unit 1)
         )
@@ -1768,7 +1702,7 @@
   (symbol (lib_id "Device:C_Small") (at 26.67 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b17e500f-8966-47bd-9664-62a97aef4ece)
-    (property "Reference" "C44" (at 29.21 113.665 0)
+    (property "Reference" "C27" (at 29.21 113.665 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10uF" (at 29.845 117.475 0)
@@ -1787,9 +1721,6 @@
     (pin "2" (uuid 62577dbc-5b48-4868-a132-ba3639d27d36))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C44") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C27") (unit 1)
         )
@@ -1800,7 +1731,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3027f81-65c2-4cbb-8389-0ab4340b0591)
-    (property "Reference" "C10" (at 36.83 113.665 0)
+    (property "Reference" "C46" (at 36.83 113.665 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 37.465 117.475 0)
@@ -1816,9 +1747,6 @@
     (pin "2" (uuid ba3c06d1-de8d-42c1-b81a-c1f8a5684c6d))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C10") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C46") (unit 1)
         )
@@ -1829,7 +1757,7 @@
   (symbol (lib_id "power:VCC") (at 19.05 155.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7d6fd88-c9bf-4612-bbc4-c0f01bf56e09)
-    (property "Reference" "#PWR09" (at 19.05 159.385 0)
+    (property "Reference" "#PWR013" (at 19.05 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 19.05 151.765 0)
@@ -1844,9 +1772,6 @@
     (pin "1" (uuid 2d82b740-ea0c-488c-858e-425220b70d13))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR013") (unit 1)
         )
@@ -1857,7 +1782,7 @@
   (symbol (lib_id "power:GND") (at 26.67 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba6d73ec-338e-49eb-862d-50b6357117c2)
-    (property "Reference" "#PWR0109" (at 26.67 140.97 0)
+    (property "Reference" "#PWR014" (at 26.67 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 138.43 0)
@@ -1872,9 +1797,6 @@
     (pin "1" (uuid b5203d67-fcf3-4153-822f-90cf9710126f))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "#PWR0109") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "#PWR014") (unit 1)
         )
@@ -1885,7 +1807,7 @@
   (symbol (lib_id "Device:R_Small") (at 100.33 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd89b3e7-bb2b-4266-be1c-9966fefb6428)
-    (property "Reference" "R13" (at 98.425 163.195 90)
+    (property "Reference" "R37" (at 98.425 163.195 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "88k7 1%" (at 102.235 163.195 90)
@@ -1901,9 +1823,6 @@
     (pin "1" (uuid 4d7e4778-d26a-40f5-b045-93e8d060fc32))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "R13") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "R37") (unit 1)
         )
@@ -1914,7 +1833,7 @@
   (symbol (lib_id "Device:C_Small") (at 34.29 170.815 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c32eca26-3c9c-406c-9d0c-139ea25ccef2)
-    (property "Reference" "C21" (at 36.83 168.91 0)
+    (property "Reference" "C47" (at 36.83 168.91 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 37.465 172.72 0)
@@ -1930,9 +1849,6 @@
     (pin "2" (uuid 564616b6-2687-4fbe-91f4-98a3ca8bc9f4))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C21") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C47") (unit 1)
         )
@@ -1943,7 +1859,7 @@
   (symbol (lib_id "Device:C_Small") (at 91.44 163.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c429673e-cfb5-4030-ac7f-c4612a640939)
-    (property "Reference" "C24" (at 93.345 161.29 0)
+    (property "Reference" "C53" (at 93.345 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18pF" (at 94.615 165.1 0)
@@ -1959,9 +1875,6 @@
     (pin "2" (uuid 3e50d312-fe8f-4530-9c12-4020fbeff2aa))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C24") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C53") (unit 1)
         )
@@ -1972,7 +1885,7 @@
   (symbol (lib_id "LMR23630ADDA:LMR23630ADDA") (at 41.91 156.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5bab499-c513-46ec-b2c8-a031934ae795)
-    (property "Reference" "IC6" (at 48.514 152.527 0)
+    (property "Reference" "IC10" (at 48.514 152.527 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR23630ADDA" (at 54.102 186.563 0)
@@ -2022,9 +1935,6 @@
     (pin "9" (uuid ff5b1260-6636-4fba-a23e-3c1a3b44426d))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "IC6") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "IC10") (unit 1)
         )
@@ -2035,7 +1945,7 @@
   (symbol (lib_id "Device:L_Small") (at 22.86 156.845 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c71150e8-b79c-4201-b8d5-fd1c633b9b63)
-    (property "Reference" "L3" (at 21.59 154.305 90)
+    (property "Reference" "L12" (at 21.59 154.305 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
     (property "Value" "470uH" (at 22.86 158.75 90)
@@ -2054,9 +1964,6 @@
     (pin "2" (uuid f7aa4f32-aff0-47f6-8583-dc07dcec7385))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "L3") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "L12") (unit 1)
         )
@@ -2067,7 +1974,7 @@
   (symbol (lib_id "Device:C_Small") (at 120.65 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid daf5d673-8fbe-46d3-a1fc-f4ad420a5b6d)
-    (property "Reference" "C28" (at 123.19 167.64 0)
+    (property "Reference" "C59" (at 123.19 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100nF" (at 124.46 171.45 0)
@@ -2083,9 +1990,6 @@
     (pin "2" (uuid 6c459e67-4e54-4a82-b8ae-001d7e985e69))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C28") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C59") (unit 1)
         )
@@ -2096,7 +2000,7 @@
   (symbol (lib_id "Device:C_Small") (at 113.03 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eedc6213-226d-4b38-b47f-99cd340432e2)
-    (property "Reference" "C26" (at 115.57 167.64 0)
+    (property "Reference" "C57" (at 115.57 167.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "33uF" (at 116.205 171.45 0)
@@ -2115,9 +2019,6 @@
     (pin "2" (uuid 5a1300ba-d2e5-4cb8-85bb-07ff9a0730bd))
     (instances
       (project "Driverboard"
-        (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/84583ace-7a9a-4156-b487-dfd6e4ddef0e"
-          (reference "C26") (unit 1)
-        )
         (path "/a1c58a4b-b60a-4b3b-9c3d-534325b98006/bbf27a54-0caa-4cac-bbd3-774570944538"
           (reference "C57") (unit 1)
         )
