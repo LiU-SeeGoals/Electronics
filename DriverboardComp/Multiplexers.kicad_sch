@@ -1093,7 +1093,7 @@
     (pin "8" (uuid 32f6b70a-67cb-410f-8ccd-e4c1f8edefc6))
     (pin "9" (uuid c240a78e-db26-4d45-84dd-94b664f3135e))
     (instances
-      (project "Powerboard"
+      (project "DriverboardComp"
         (path "/99c105bb-32a2-4c72-8069-227e584b9994/a7513bac-2104-4083-819c-53bf3a3faebc"
           (reference "U2") (unit 1)
         )
@@ -1164,7 +1164,7 @@
     (pin "8" (uuid 25349fb1-4ec8-4a09-9807-6159fa22c72d))
     (pin "9" (uuid 3ed315f3-c886-4193-a178-64580cbfbf62))
     (instances
-      (project "Powerboard"
+      (project "DriverboardComp"
         (path "/99c105bb-32a2-4c72-8069-227e584b9994/a7513bac-2104-4083-819c-53bf3a3faebc"
           (reference "U1") (unit 1)
         )
@@ -1235,7 +1235,7 @@
     (pin "8" (uuid 69a8dee3-a92c-4057-a19f-4cadff19d96a))
     (pin "9" (uuid ebf8b8cc-cf48-4519-be04-e090fdf2a608))
     (instances
-      (project "Powerboard"
+      (project "DriverboardComp"
         (path "/99c105bb-32a2-4c72-8069-227e584b9994/a7513bac-2104-4083-819c-53bf3a3faebc"
           (reference "U3") (unit 1)
         )

@@ -1,0 +1,3 @@
+Plotted to '/Users/markushandstedt/Projects/SeeGoals/Electronics/Powerboard/Powerboard-BMS.pdf'.
+
+Info: Done.
