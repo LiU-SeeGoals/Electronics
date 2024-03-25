@@ -1550,7 +1550,7 @@
     (property "Value" "KCM55TR71H226MH01L" (at 164.211 53.721 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 163.957 51.943 0)
+    (property "Footprint" "SamacSys_Parts:CAPC6153X500N" (at 163.957 51.943 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 163.957 51.943 0)
