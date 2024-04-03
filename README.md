@@ -1,11 +1,4 @@
 # Electronics
-Schematics etc.
-
-The electronics are currently divided into:
-1. Nucleo
-2. Powerboard
-3. Motor drivers
-
 
 The electronics are currently divided into:
 - [Nucleo - devboard with STM32](#item-one)
@@ -14,10 +7,11 @@ The electronics are currently divided into:
 - [Drive motors](#item-four)
 - [Dribbler motor](#item-five)
 - [Kicker board](#item-six)
-- [Kicker solenoid](#item-seven)
+- [Kicker solenoid(s)](#item-seven)
 - [IR beam and dribbler motor sensor](#item-eight)
 - [Tranciever board](#item-nine)
 - [Battery](#item-ten)
+- [Base station](#item-eleven)
   
 <!-- headings -->
 <a id="item-one"></a>
@@ -46,18 +40,26 @@ Second item content goes here
 ### Kicker board
 The kicker board is taken from [TIGERs 2020 version](https://github.com/TIGERs-Mannheim/electronics) (open source). Schematics and pictures can be found in this repository as well as various files. The design uses a LT3751FE High Voltage Capacitor Charger Controller and a DA2034-AL transformer to charge two 1800uF 250V connected in parallel. By discharging the capacitors through the kicker (or chiper) solenoid a powerfull impact is created. The board also contains a temperature sensor and charge voltage reader that is connected to an A/D converter which is accessed with SPI. The main power to the capasitors come from the Vcc pin, which is connected to battery voltage.
 
+Further reading can be found in the kicker repository.
+
 <a id="item-seven"></a>
 ### Kicker solenoid
-Currently a 12V "long travel" solenoid from Amazon is used as the kicker solenoid, this has worked well so far but the solenoid is heavy and too large to fit a second solenoid for chipping. Therefore custom made solenoids should eventually be made, TIGERs uses a flat design in order to maximize 
+Currently a [12V "long travel" solenoid from Amazon](https://www.amazon.com/Abletop-Solenoid-Electromagnetic-Electric-Automobiles/dp/B07G15X91N) is used as the kicker solenoid, this has worked well so far but the solenoid is heavy and too large to fit a second solenoid for chipping. Therefore custom made solenoids should eventually be made, TIGERs uses a flat design in order to maximize power but several other teams use two cylindrical solenoids stacked.
+
+Further reading can be found in the kicker repository.
 
 <a id="item-eight"></a>
 ### IR beam and dribbler motor sensor
-Second item content goes here
+Currently the IR beam design for ball sensing, from [TIGERs 2016 version](https://www.tigers-mannheim.de/index.php?id=65) is used. Note that TIGERs 2020 version also uses an array of IR LEDs and sensors from above the ball. The beam consists of one small transmitter pcb (VSMB2000X01 IR LED) and one reciever (TEMD1000) on either side of the dribbler assembly. A beam is continuously transmitted and is broken when a ball is at the dribbler. The dribbler motor temperature sensor is taken from TIGERs 2020 version but will preliminarilly be connected directly to the nucleo board via the powerboard. 
 
 <a id="item-nine"></a>
 ### Tranciever board
-Second item content goes here
+The tranciever board is connected to the nucleo board and enables wireless comunication via the robots and the base station.
 
 <a id="item-ten"></a>
 ### Battery
+Second item content goes here
+
+<a id="item-eleven"></a>
+### Base station
 Second item content goes here
