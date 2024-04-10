@@ -337,7 +337,7 @@
     ],
     [
       "6029910c-1532-435a-9714-1a2d5c619e7a",
-      "Connectors"
+      "Devboard"
     ],
     [
       "503c8db5-1eb0-4cdc-8fef-e72af53ec182",
@@ -360,12 +360,8 @@
       "MotorDrive5"
     ],
     [
-      "6b087e1b-f740-448b-97ea-25e99ee94575",
-      "Kicker"
-    ],
-    [
       "0eb74754-0f68-4752-9d16-94325fa7120b",
-      "IR-Sensor"
+      "IR&Kicker"
     ]
   ],
   "text_variables": {}
