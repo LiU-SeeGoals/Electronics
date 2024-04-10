@@ -1,1 +1,7 @@
 .DS_Store
+*fp-info-cache
+*fp-lib-table
+*job.gbrjob
+*.step
+production/
+*kicad_prl
