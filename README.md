@@ -50,7 +50,7 @@ Further reading can be found in the kicker repository.
 
 <a id="item-eight"></a>
 ### IR beam and dribbler motor sensor
-Currently the IR beam design for ball sensing, from [TIGERs 2016 version](https://www.tigers-mannheim.de/index.php?id=65) is used. Note that TIGERs 2020 version also uses an array of IR LEDs and sensors from above the ball. The beam consists of one small transmitter pcb (VSMB2000X01 IR LED) and one reciever (TEMD1000) on either side of the dribbler assembly. A beam is continuously transmitted and is broken when a ball is at the dribbler. The dribbler motor temperature sensor is taken from TIGERs 2020 version but will preliminarilly be connected directly to the nucleo board via the powerboard. 
+Currently the IR beam design for ball sensing, from [TIGERs 2016 version](https://www.tigers-mannheim.de/index.php?id=65) is used. Note that TIGERs 2020 version also uses an array of IR LEDs and sensors from above the ball. The beam consists of one small transmitter pcb (VSMB2000X01 IR LED) and one reciever (TEMD1000) on either side of the dribbler assembly. A beam is continuously pulsed and is broken when a ball is at the dribbler. The dribbler motor temperature sensor is taken from TIGERs 2020 version but will preliminarilly be connected directly to the nucleo board via the powerboard. 
 
 <a id="item-nine"></a>
 ### Tranciever board
