@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/pwr_v1-backups/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "MCT8316Z0TQRGFRQ1")(type "KiCad")(uri "F:/Robotics/PCB/ul_MCT8316Z0RQRGFRQ1/KiCADv6/MCT8316Z0TQRGFRQ1.kicad_sym")(options "")(descr ""))
+)
