@@ -2196,10 +2196,6 @@
 		(uuid "0710ba4d-a9ed-4666-8082-46b7818c0e67")
 	)
 	(no_connect
-		(at 124.46 104.14)
-		(uuid "07c279b6-79d8-4bbd-bd0a-aead3308cfd6")
-	)
-	(no_connect
 		(at 223.52 119.38)
 		(uuid "08003a59-50f4-4296-bce2-7c080a923fea")
 	)
@@ -3423,7 +3419,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 104.14) (xy 124.46 104.14)
+			(xy 111.76 104.14) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4190,6 +4186,17 @@
 			(type default)
 		)
 		(uuid "fc1c99e6-1657-4905-82c7-5dd2fb373d45")
+	)
+	(label "MOTOR4_BREAK"
+		(at 111.76 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e1ed8a-0a9b-4439-b7ba-8c01717857c8")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x36_Odd_Even")
