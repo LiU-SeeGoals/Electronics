@@ -731,6 +731,14 @@
     [
       "21707740-0477-4ca7-a08b-de3269a77e6b",
       "MotorDriver5"
+    ],
+    [
+      "bdda3b08-d1b4-44e6-b434-8be70e76ff5f",
+      "RF"
+    ],
+    [
+      "760bb1fb-d1c3-4f9b-b5d8-78bda19a4c92",
+      "IR"
     ]
   ],
   "text_variables": {}
