@@ -2103,28 +2103,10 @@
 		(uuid "9cc25e96-00ab-44e2-a8d2-4598f84101aa")
 	)
 	(junction
-		(at 138.684 46.609)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ef5e297-ec9c-4194-bfde-792a3f8172dc")
-	)
-	(junction
-		(at 125.984 46.609)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfecd386-4ee2-49d9-98ed-65ae697bbe18")
-	)
-	(junction
 		(at 204.724 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0965c43-3d4d-4640-a985-ecd8b47f155b")
-	)
-	(junction
-		(at 204.724 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d76886ae-a7d5-4afa-a7d4-f8b9bfd53d79")
 	)
 	(junction
 		(at 204.724 73.66)
@@ -2344,16 +2326,6 @@
 	)
 	(wire
 		(pts
-			(xy 197.104 88.9) (xy 197.104 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32fc7371-2442-429b-aad8-9311dc64c876")
-	)
-	(wire
-		(pts
 			(xy 132.334 46.609) (xy 132.334 53.34)
 		)
 		(stroke
@@ -2461,16 +2433,6 @@
 			(type default)
 		)
 		(uuid "4b818704-f2b1-4681-8e2c-384c63c8680f")
-	)
-	(wire
-		(pts
-			(xy 204.724 46.609) (xy 138.684 46.609)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb9e6cd-7a33-4a35-988e-fa396deeccc6")
 	)
 	(wire
 		(pts
@@ -2894,16 +2856,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 46.609) (xy 125.984 46.609)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6e5db4-92ee-4405-91ce-aa6837e798ce")
-	)
-	(wire
-		(pts
 			(xy 147.574 114.3) (xy 151.384 114.3)
 		)
 		(stroke
@@ -3054,16 +3006,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.724 46.609) (xy 204.724 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d05543-987e-4eaf-8c74-1430b1ec8d5c")
-	)
-	(wire
-		(pts
 			(xy 139.954 107.95) (xy 145.034 107.95)
 		)
 		(stroke
@@ -3136,7 +3078,7 @@
 	)
 	(text "AVDD 3.3V/30mA"
 		(exclude_from_sim no)
-		(at 182.753 46.355 0)
+		(at 205.486 66.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,7 +3330,7 @@
 		(uuid "b71581c7-c386-4fa9-97c0-57a886156f8c")
 	)
 	(label "AVDD"
-		(at 120.65 46.609 0)
+		(at 125.984 46.736 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5363,72 +5305,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "4C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 197.104 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f95eb935-4ef4-47ec-a07c-6c0b28f524d5")
-		(property "Reference" "#PWR041"
-			(at 197.104 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 197.104 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 197.104 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 197.104 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 197.104 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd49a82c-c8d5-4cd4-b7bc-11f205c09911")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)

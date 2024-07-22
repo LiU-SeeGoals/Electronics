@@ -2037,12 +2037,6 @@
 		(uuid "30338985-e4d9-4b4f-9d8c-1d10040ce92b")
 	)
 	(junction
-		(at 132.334 50.419)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32c9fb3a-31c4-4b8f-8ec1-d9ae87a97666")
-	)
-	(junction
 		(at 138.684 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,12 +2079,6 @@
 		(uuid "b5ebf1af-d4c5-4af7-aa03-a50f2a9d818a")
 	)
 	(junction
-		(at 119.634 50.419)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7ea6663-f4bd-4450-8687-f28ca7c662f2")
-	)
-	(junction
 		(at 190.754 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2101,12 +2089,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8d55b88-ff04-4f21-8a86-1aceb10466be")
-	)
-	(junction
-		(at 198.374 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2936649-5435-4fb6-b607-71f9bcded47f")
 	)
 	(junction
 		(at 190.754 92.71)
@@ -2241,26 +2223,6 @@
 			(type default)
 		)
 		(uuid "19b732a1-4588-43d7-87b4-33c1ac1839ba")
-	)
-	(wire
-		(pts
-			(xy 198.374 50.419) (xy 132.334 50.419)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21104160-65e8-46a8-b866-16c378cd2219")
-	)
-	(wire
-		(pts
-			(xy 190.754 92.71) (xy 190.754 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2155bc3d-dcea-43c7-af9a-11b16c308632")
 	)
 	(wire
 		(pts
@@ -2544,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 50.419) (xy 119.634 50.419)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794fd1fe-8d93-4fcf-aa60-e9a736e60536")
-	)
-	(wire
-		(pts
 			(xy 218.694 114.3) (xy 244.094 114.3)
 		)
 		(stroke
@@ -2661,6 +2613,16 @@
 			(type default)
 		)
 		(uuid "98b61479-c7fd-4894-8729-f3c5f85c9a26")
+	)
+	(wire
+		(pts
+			(xy 119.634 50.419) (xy 119.634 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ca5260-e7e8-4019-af9a-54d7cfec0076")
 	)
 	(wire
 		(pts
@@ -2964,16 +2926,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.374 50.419) (xy 198.374 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e293d174-a658-4de9-bb04-b1819c6e2903")
-	)
-	(wire
-		(pts
 			(xy 178.054 55.88) (xy 188.214 55.88)
 		)
 		(stroke
@@ -3072,16 +3024,6 @@
 		)
 		(uuid "f8d54e13-58d4-490b-8ca8-135b0b8f5c76")
 	)
-	(wire
-		(pts
-			(xy 119.634 50.419) (xy 119.634 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdae537f-dc45-4da2-8ce1-f55a709137de")
-	)
 	(text_box "Motor driver used to power and monitor the motor parameters.\nReference schematic: driver_seperate by Anton"
 		(exclude_from_sim no)
 		(at 207.01 170.18 0)
@@ -3158,7 +3100,7 @@
 	)
 	(text "AVDD 3.3V/30mA"
 		(exclude_from_sim no)
-		(at 176.403 50.165 0)
+		(at 199.136 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3454,7 +3396,7 @@
 		(uuid "a550425e-7aa2-4208-9f73-2bbd9b5885d4")
 	)
 	(label "AVDD"
-		(at 114.3 50.419 0)
+		(at 119.634 50.546 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5000,72 +4942,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/21707740-0477-4ca7-a08b-de3269a77e6b"
 					(reference "5C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 190.754 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf105d50-219b-4608-9c17-dd3d56fd531e")
-		(property "Reference" "#PWR047"
-			(at 190.754 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 190.754 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.754 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.754 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.754 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6618c267-2bc0-469d-8638-649a397484bb")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/21707740-0477-4ca7-a08b-de3269a77e6b"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)

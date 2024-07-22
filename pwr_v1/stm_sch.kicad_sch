@@ -3256,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x36_P2.54mm_Vertical_SMD"
 			(at 91.44 92.71 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x36_P2.54mm_Vertical_SMD"
 			(at 190.5 95.25 0)
 			(effects
 				(font

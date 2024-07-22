@@ -2031,22 +2031,10 @@
 		(uuid "216d2af9-9e33-4039-9539-da5ec9b96d52")
 	)
 	(junction
-		(at 200.914 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22e0591f-06e9-4ba6-b50c-9ee0cf6450e5")
-	)
-	(junction
 		(at 122.174 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3011b3f7-e24b-4064-b6ec-14c4447aaf04")
-	)
-	(junction
-		(at 122.174 49.149)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "381f3a18-1ed1-442c-bc5f-b39ced7a6af8")
 	)
 	(junction
 		(at 136.144 110.49)
@@ -2107,12 +2095,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a70cdc42-659c-4888-a617-5640ac78b2ad")
-	)
-	(junction
-		(at 134.874 49.149)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac2b9ee2-964c-4bbd-a95c-5190c55d0c55")
 	)
 	(junction
 		(at 193.294 91.44)
@@ -2314,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 122.174 49.149) (xy 122.174 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e434d-6d68-4dbb-bdff-8eab7b9db5d7")
+	)
+	(wire
+		(pts
 			(xy 155.194 54.61) (xy 155.194 55.88)
 		)
 		(stroke
@@ -2331,26 +2323,6 @@
 			(type default)
 		)
 		(uuid "2f6d7be4-f86c-455f-b8df-6e29952a3c15")
-	)
-	(wire
-		(pts
-			(xy 200.914 49.149) (xy 200.914 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa1bea9-7142-4245-a522-e2f7783bbdb3")
-	)
-	(wire
-		(pts
-			(xy 200.914 49.149) (xy 134.874 49.149)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34824562-af0b-41a7-a7d2-ee17c167e75d")
 	)
 	(wire
 		(pts
@@ -2494,16 +2466,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 49.149) (xy 122.174 49.149)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c59d93-98d8-444d-8cca-dae6cb2c3044")
-	)
-	(wire
-		(pts
 			(xy 143.764 68.58) (xy 147.574 68.58)
 		)
 		(stroke
@@ -2581,16 +2543,6 @@
 			(type default)
 		)
 		(uuid "67cf8971-e362-411d-95ec-78e78006a8b9")
-	)
-	(wire
-		(pts
-			(xy 193.294 91.44) (xy 193.294 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c0d9b47-ea93-4aa9-8400-13f4b1363783")
 	)
 	(wire
 		(pts
@@ -2701,16 +2653,6 @@
 			(type default)
 		)
 		(uuid "842247db-31c5-41fa-9d97-568e45244db0")
-	)
-	(wire
-		(pts
-			(xy 122.174 49.149) (xy 122.174 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a5fab8-ae87-4a97-9e51-15f97d633448")
 	)
 	(wire
 		(pts
@@ -3160,7 +3102,7 @@
 	)
 	(text "AVDD 3.3V/30mA"
 		(exclude_from_sim no)
-		(at 178.943 48.895 0)
+		(at 120.65 45.974 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3224,7 +3166,7 @@
 		)
 	)
 	(label "AVDD"
-		(at 116.84 49.149 0)
+		(at 122.174 49.276 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4950,72 +4892,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/6744c016-77b4-4082-95f8-c8b724f132d7"
 					(reference "2C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 193.294 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91ec512c-0e1b-462f-af06-1cef191e98fd")
-		(property "Reference" "#PWR029"
-			(at 193.294 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 193.294 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.294 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.294 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 193.294 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2664b2e9-a098-4d53-9fce-15f76ffabced")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/6744c016-77b4-4082-95f8-c8b724f132d7"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
