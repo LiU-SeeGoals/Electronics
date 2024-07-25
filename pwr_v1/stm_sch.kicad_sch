@@ -2320,10 +2320,6 @@
 		(uuid "5be5cdd1-aa6c-4024-9416-4053ffc444a5")
 	)
 	(no_connect
-		(at 99.06 54.61)
-		(uuid "5d2fedd1-4241-4968-830b-5453d4bd6317")
-	)
-	(no_connect
 		(at 99.06 123.19)
 		(uuid "5d6311d1-373b-490b-aed0-228bbaa84d57")
 	)
@@ -2372,10 +2368,6 @@
 		(uuid "6e230d2d-3f16-4260-882c-50ba3191151a")
 	)
 	(no_connect
-		(at 185.42 69.85)
-		(uuid "6e71a4e1-d168-4f50-b0de-ee234ea15a7c")
-	)
-	(no_connect
 		(at 86.36 69.85)
 		(uuid "6f693c66-1d5c-4fc0-9ab6-84c374e9f49c")
 	)
@@ -2414,10 +2406,6 @@
 	(no_connect
 		(at 99.06 74.93)
 		(uuid "7e71cd04-b2cf-4fae-8ab2-04cc0f76f941")
-	)
-	(no_connect
-		(at 99.06 72.39)
-		(uuid "7f730650-81dc-4ecb-838a-a6a0d3949d65")
 	)
 	(no_connect
 		(at 185.42 85.09)
@@ -2699,6 +2687,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 72.39) (xy 105.918 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1957c0f5-2b3f-48e1-aeab-e66fc3559161")
+	)
+	(wire
+		(pts
 			(xy 185.42 95.25) (xy 172.72 95.25)
 		)
 		(stroke
@@ -2736,6 +2734,16 @@
 			(type default)
 		)
 		(uuid "2a79fb8b-fb78-43c2-92a2-186a76d6cba3")
+	)
+	(wire
+		(pts
+			(xy 172.466 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419ca8d7-2495-4fae-a121-2563ff630130")
 	)
 	(wire
 		(pts
@@ -2816,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "6da81cce-dd32-4598-949b-c6db1efcc326")
+	)
+	(wire
+		(pts
+			(xy 99.06 54.61) (xy 105.918 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763cf558-d45e-40dd-8d43-f59c3d2d6555")
 	)
 	(wire
 		(pts
@@ -2930,6 +2948,18 @@
 		)
 		(uuid "022e90ae-a321-46cf-b4a9-4ff97c2732ae")
 	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 105.918 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c0530a0-6556-4847-a062-53f7e20362f3")
+	)
 	(hierarchical_label "MOTOR2_PWM"
 		(shape input)
 		(at 210.82 120.65 0)
@@ -2954,7 +2984,7 @@
 		)
 		(uuid "256690af-ee17-4152-b3f2-8ac3bf02578c")
 	)
-	(hierarchical_label "NRF_CSN"
+	(hierarchical_label "CS_NRF"
 		(shape input)
 		(at 172.72 54.61 180)
 		(fields_autoplaced yes)
@@ -3110,6 +3140,18 @@
 		)
 		(uuid "6b51a2c8-b21f-442d-b5cc-147429eac6a4")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 105.918 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78c5d3fa-2927-4223-bdc7-6bec9e7fcd2f")
+	)
 	(hierarchical_label "BTN_USER"
 		(shape input)
 		(at 73.66 77.47 180)
@@ -3170,7 +3212,7 @@
 		)
 		(uuid "b21f36bc-048a-4493-aa42-c44716c2156c")
 	)
-	(hierarchical_label "NRF_MISO"
+	(hierarchical_label "MISO"
 		(shape input)
 		(at 172.72 67.31 180)
 		(fields_autoplaced yes)
@@ -3194,7 +3236,7 @@
 		)
 		(uuid "c10883a6-0b62-465a-871d-5ea4687faa6f")
 	)
-	(hierarchical_label "NRF_SCK"
+	(hierarchical_label "SCK"
 		(shape input)
 		(at 172.72 64.77 180)
 		(fields_autoplaced yes)
@@ -3205,6 +3247,18 @@
 			(justify right)
 		)
 		(uuid "dd483f55-eeae-45ba-8c9f-3f99719fa367")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 172.466 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0b48ec7-5956-45ae-82b9-8546006552a3")
 	)
 	(hierarchical_label "MOTOR3_REVERSE"
 		(shape input)

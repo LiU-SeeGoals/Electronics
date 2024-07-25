@@ -3610,6 +3610,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 147.574 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b179cb5-5abc-4f51-9fd7-8db6213d2845")
+		(property "Reference" "4C1"
+			(at 150.114 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 149.606 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.574 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.574 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # CL05B104KO5NNNC JLCPCB Part # C1525"
+			(at 147.574 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59361f17-4ea3-4b57-a327-e6759097a5cb")
+		)
+		(pin "2"
+			(uuid "c1dae5f5-d5dc-481f-bbb0-17edea019f09")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
+					(reference "4C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 143.764 76.2 0)
 		(unit 1)
@@ -3676,16 +3745,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 162.814 52.07 90)
+		(lib_id "Device:R_Small_US")
+		(at 132.334 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "238b27fd-51f9-44fb-bb4f-6078f3a4c37b")
-		(property "Reference" "4C2"
-			(at 163.957 47.371 90)
+		(uuid "1fedd233-1022-45d8-9739-6fd3c67fc291")
+		(property "Reference" "4R2"
+			(at 133.604 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,8 +3762,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47nF"
-			(at 164.973 49.149 90)
+		(property "Value" "5k1"
+			(at 133.604 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,8 +3771,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 162.814 52.07 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.334 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.814 52.07 0)
+			(at 132.334 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,162 +3789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MFR.Part # CL05B473KB5VPNC JLCPCB Part # C307339"
-			(at 162.814 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ">=48V"
-			(at 162.687 54.483 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24fcbb54-683d-4a0c-ae69-2392f1024613")
-		)
-		(pin "2"
-			(uuid "f62b0bec-4511-4394-8ff0-77ae3d9fc70e")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 194.564 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25bcca10-aa45-450e-a6c8-61b66395f506")
-		(property "Reference" "4C5"
-			(at 198.501 56.007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 197.739 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 195.5292 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.564 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MFR.Part # FS55X226K500EHG JLCPCB Part # C784103"
-			(at 194.564 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ">=48v"
-			(at 196.977 59.563 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7159147f-e2aa-4d74-9fee-92c104759f3f")
-		)
-		(pin "2"
-			(uuid "ebb4ca6e-a78b-467f-8429-c76f8b5769f1")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 147.574 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "272c1531-a9a2-4d3a-82df-c75b797e1f6c")
-		(property "Reference" "4C1"
-			(at 150.114 70.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 149.606 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 147.574 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.574 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.574 71.12 0)
+		(property "Description" "MFR.Part # ERJ3GEYJ512V JLCPCB Part # C403509"
+			(at 132.334 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,15 +3799,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ece334bd-8123-4d1d-9142-077d71f5399c")
+			(uuid "31e43a89-a563-4a75-beb3-b11a190e5d22")
 		)
 		(pin "2"
-			(uuid "15f21eb4-ad74-4ec4-be62-4ead26eb674e")
+			(uuid "a0db5c44-7c09-496f-82ad-b73547679a7b")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4C1")
+					(reference "4R2")
 					(unit 1)
 				)
 			)
@@ -3960,6 +3875,75 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "4L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 197.104 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3948a76c-639e-4a77-8b6f-7399427e3eed")
+		(property "Reference" "4C6"
+			(at 199.898 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 199.644 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 197.104 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 197.104 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # CL05A226MQ5QUNC JLCPCB Part # C105226"
+			(at 197.104 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dc29b1c-5a94-471c-9b5c-059d134835df")
+		)
+		(pin "2"
+			(uuid "eb1fe313-efb0-4aa7-9cc3-7c23f3106bff")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
+					(reference "4C6")
 					(unit 1)
 				)
 			)
@@ -4101,75 +4085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 132.334 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4965f2e0-a97d-435b-85fd-71ab7c22e6ce")
-		(property "Reference" "4R2"
-			(at 133.604 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 133.604 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.334 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.334 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 132.334 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73b3aaaf-33ff-4600-bb07-f7d76b260071")
-		)
-		(pin "2"
-			(uuid "13f77fe5-8c55-4a0c-929b-2c2f6131bb56")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 169.164 133.35 0)
 		(unit 1)
@@ -4230,6 +4145,83 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.814 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50ff8896-2712-41f8-9282-376887e8a87d")
+		(property "Reference" "4C2"
+			(at 163.957 47.371 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47nF"
+			(at 164.973 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 162.814 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.814 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # CL05B473KB5VPNC JLCPCB Part # C307339"
+			(at 162.814 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ">=48V"
+			(at 162.687 54.483 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7770310-07ba-473f-8081-1d849ec16705")
+		)
+		(pin "2"
+			(uuid "b19f44e4-4b8d-4bc5-8fbe-14175624dcda")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
+					(reference "4C2")
 					(unit 1)
 				)
 			)
@@ -4320,9 +4312,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "63fffb52-6ca6-4146-a072-c23df0998925")
+		(uuid "7320925e-347c-40ce-89ef-cc61ce06ed5d")
 		(property "Reference" "4R1"
-			(at 120.904 54.61 0)
+			(at 127.254 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +4323,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 120.904 56.388 0)
+			(at 127.254 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.984 55.88 0)
 			(effects
 				(font
@@ -4357,7 +4349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ3GEYJ512V JLCPCB Part # C403509"
 			(at 125.984 55.88 0)
 			(effects
 				(font
@@ -4367,15 +4359,92 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5a7a65c-caaf-4e46-af82-59b416698865")
+			(uuid "72ea9097-cc9e-4276-8cfb-719fcb490a05")
 		)
 		(pin "2"
-			(uuid "1ffe3dbc-488a-431b-a7dc-56a806802b1c")
+			(uuid "97b5c8c2-12d4-439a-989d-c9d1971ec2f3")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "4R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.404 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e32c8b9-bf82-4b7e-8606-7d9e91dd22e7")
+		(property "Reference" "4C4"
+			(at 187.071 56.007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1F"
+			(at 186.563 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 184.404 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.404 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # CL05B104KB54PNC JLCPCB Part # C307331"
+			(at 184.404 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" ">=48V"
+			(at 186.817 59.309 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9427add-779e-4859-806d-d528a893a08a")
+		)
+		(pin "2"
+			(uuid "a5eaac7c-a7e4-4511-a0ff-b9398eda8921")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
+					(reference "4C4")
 					(unit 1)
 				)
 			)
@@ -4533,83 +4602,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "M4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 184.404 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "987cd3c5-453a-4baf-b8ae-b34615a187ca")
-		(property "Reference" "4C4"
-			(at 187.071 56.007 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0u1F"
-			(at 186.563 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 184.404 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.404 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MFR.Part # CL10B104KB8NNNC JLCPCB Part # C1591"
-			(at 184.404 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" ">=48V"
-			(at 186.817 59.309 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0434a873-819d-4e53-bb8c-5dc58bd3d039")
-		)
-		(pin "2"
-			(uuid "8b84aecf-0739-490a-b5d2-ab853c883088")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4C4")
 					(unit 1)
 				)
 			)
@@ -4889,16 +4881,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 197.104 85.09 0)
+		(lib_id "Device:C")
+		(at 194.564 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc232284-e176-4066-b14e-9b961d6f932f")
-		(property "Reference" "4C6"
-			(at 199.898 84.074 0)
+		(uuid "c802d3fa-d8ed-4ead-b2f9-5cb48b2c6db0")
+		(property "Reference" "4C5"
+			(at 198.501 56.007 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4899,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 199.644 85.852 0)
+			(at 197.739 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,8 +4907,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 197.104 85.09 0)
+		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
+			(at 195.5292 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 197.104 85.09 0)
+			(at 194.564 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,25 +4925,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MFR.Part # CL10A226MP8NUNE JLCPCB Part # C86295"
-			(at 197.104 85.09 0)
+		(property "Description" "MFR.Part # FS55X226K500EHG JLCPCB Part # C784103"
+			(at 194.564 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage" ">=48v"
+			(at 196.977 59.563 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
 			)
 		)
 		(pin "1"
-			(uuid "f83337b9-79d3-42a1-bb6c-71217924a73c")
+			(uuid "4f675048-c2a0-42a0-a0c7-9e8fb5012bb2")
 		)
 		(pin "2"
-			(uuid "b685a6c7-f9df-4e62-856c-bea5be520164")
+			(uuid "15a61cc2-94e4-4fae-8e25-68da28eca194")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "4C6")
+					(reference "4C5")
 					(unit 1)
 				)
 			)
