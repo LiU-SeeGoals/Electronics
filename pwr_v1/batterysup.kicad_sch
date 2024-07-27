@@ -5,169 +5,6 @@
 	(uuid "04070bea-032b-421d-96f4-de2caafbf35c")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -380,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 74.93) (xy 66.04 74.93)
+			(xy 63.5 74.93) (xy 71.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +227,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 64.77 33.02)
+			(xy 62.23 33.02) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -430,16 +267,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2da5de04-f7a4-4db6-a6c2-eb02f77a5342")
-	)
-	(wire
-		(pts
 			(xy 114.3 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -460,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 134.62 73.66)
+			(xy 132.08 73.66) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -497,16 +324,6 @@
 			(type default)
 		)
 		(uuid "5d4fe2af-c9ee-4f3d-94ed-75dacba24cdd")
-	)
-	(wire
-		(pts
-			(xy 73.66 74.93) (xy 78.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f6f3ee-bf85-40a5-b830-d1f3afc32131")
 	)
 	(wire
 		(pts
@@ -570,16 +387,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 52.07) (xy 147.32 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9aa1db-c569-4f4e-9465-138b69c5e182")
-	)
-	(wire
-		(pts
 			(xy 62.23 33.02) (xy 62.23 40.64)
 		)
 		(stroke
@@ -587,16 +394,6 @@
 			(type default)
 		)
 		(uuid "8e2c44d2-9726-47c2-88f0-812939ef18d5")
-	)
-	(wire
-		(pts
-			(xy 72.39 33.02) (xy 77.47 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9507e4c1-0f8e-4134-a8d6-b8694dd6cb18")
 	)
 	(wire
 		(pts
@@ -610,7 +407,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 53.34) (xy 66.04 53.34)
+			(xy 63.5 53.34) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
@@ -620,23 +417,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 31.75) (xy 133.35 31.75)
+			(xy 130.81 31.75) (xy 138.43 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bb5cb5e-bcaf-49cb-abc3-c6ea9b851583")
-	)
-	(wire
-		(pts
-			(xy 140.97 31.75) (xy 146.05 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d6d0ac0-8108-4da7-8ea5-0a9a4497bf50")
 	)
 	(wire
 		(pts
@@ -680,7 +467,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 52.07) (xy 134.62 52.07)
+			(xy 132.08 52.07) (xy 139.7 52.07)
 		)
 		(stroke
 			(width 0)
@@ -707,16 +494,6 @@
 			(type default)
 		)
 		(uuid "d0d564b3-ba30-4cba-8866-2ebf1fa4c2c7")
-	)
-	(wire
-		(pts
-			(xy 73.66 53.34) (xy 78.74 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99cbe1e-cdcd-4a38-aa66-e84482ffb921")
 	)
 	(wire
 		(pts
@@ -826,7 +603,7 @@
 	)
 	(hierarchical_label "O4"
 		(shape input)
-		(at 146.05 31.75 0)
+		(at 138.43 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -850,7 +627,7 @@
 	)
 	(hierarchical_label "O6"
 		(shape input)
-		(at 147.32 73.66 0)
+		(at 139.7 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -874,7 +651,7 @@
 	)
 	(hierarchical_label "O3"
 		(shape input)
-		(at 78.74 74.93 0)
+		(at 71.12 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -898,7 +675,7 @@
 	)
 	(hierarchical_label "O1"
 		(shape input)
-		(at 77.47 33.02 0)
+		(at 69.85 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -922,7 +699,7 @@
 	)
 	(hierarchical_label "O2"
 		(shape input)
-		(at 78.74 53.34 0)
+		(at 71.12 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -970,7 +747,7 @@
 	)
 	(hierarchical_label "O5"
 		(shape input)
-		(at 147.32 52.07 0)
+		(at 139.7 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -979,92 +756,6 @@
 			(justify left)
 		)
 		(uuid "f8acf4b9-c801-41a3-817b-01405d6e31c8")
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 138.43 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07187418-dc32-4706-ba42-50cb10790737")
-		(property "Reference" "D7"
-			(at 138.43 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 138.43 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f244bd2d-47a6-417f-b84c-2b30c0e9000f")
-		)
-		(pin "1"
-			(uuid "ea0e2c36-bbfe-48f7-ad95-f74cdcfe49b8")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -1076,22 +767,22 @@
 		(dnp no)
 		(uuid "07483e68-8e0f-4ac0-8123-c57816a61323")
 		(property "Reference" "R4"
-			(at 53.34 35.306 90)
+			(at 53.34 36.576 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 53.34 36.83 90)
+		(property "Value" "11k"
+			(at 53.34 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -1109,7 +800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -1134,178 +825,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 69.85 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "084d4fa0-47f7-48dd-934a-ec6a13329929")
-		(property "Reference" "D5"
-			(at 69.85 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1d5869c-93eb-468d-b7c6-d1e9858bdc86")
-		)
-		(pin "1"
-			(uuid "29922e04-0ffe-494e-afaa-edab0cb1ec7e")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 69.85 53.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1307cd71-c54d-4e74-8095-5c7478be9ff5")
-		(property "Reference" "D4"
-			(at 69.85 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd31f809-9df3-4c70-8b2d-50a430ad4a65")
-		)
-		(pin "1"
-			(uuid "95b667dd-4a68-4b79-9b41-5df18dad5cb4")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 53.34 33.02 90)
 		(unit 1)
@@ -1313,25 +832,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "237bd5c3-c448-450c-b969-67a7fd21b2b5")
 		(property "Reference" "R1"
-			(at 53.34 26.67 90)
+			(at 53.34 28.575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 53.34 29.21 90)
+		(property "Value" "3k"
+			(at 53.34 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -1349,7 +867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
 			(at 53.34 33.02 0)
 			(effects
 				(font
@@ -1374,160 +892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 137.16 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44bfd78d-1db4-4378-8842-9bfeeb6cd1e8")
-		(property "Reference" "D6"
-			(at 137.16 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 137.16 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 137.16 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 137.16 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 137.16 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34d1d0f2-71d4-4fe7-9b02-e8b77d9b8100")
-		)
-		(pin "1"
-			(uuid "c880b7c7-c146-44c3-9488-390107afd310")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 121.92 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a9dd6bd-d81f-452e-b395-efdd330346b1")
-		(property "Reference" "R9"
-			(at 121.92 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Small_US"
-			(at 121.92 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 121.92 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17df1a52-1177-4dde-91b9-005908a30f83")
-		)
-		(pin "1"
-			(uuid "705fc191-5357-40af-ac58-bb3bb8dfd462")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 121.92 39.37 90)
 		(unit 1)
@@ -1535,24 +899,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57717191-0cb8-4085-9dd3-1d53716a0276")
+		(uuid "2bd742c2-11b5-4718-8897-46734b3046d4")
 		(property "Reference" "R10"
-			(at 121.92 34.036 90)
+			(at 121.92 35.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 121.92 35.56 90)
+		(property "Value" "11k"
+			(at 121.92 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -1570,7 +934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -1580,10 +944,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "29cbadea-4f9c-48b3-a447-9e454596dbfa")
+			(uuid "3f91253b-b333-45b4-89d0-0f53a8c3cad3")
 		)
 		(pin "1"
-			(uuid "7f3e59b2-1412-40bc-bf76-70988e9de9ee")
+			(uuid "71e5c47b-6e6d-4dd4-9eec-4f90805f73e8")
 		)
 		(instances
 			(project "pwr_v1"
@@ -1602,25 +966,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87d39c63-69d7-4d12-80ab-bcc83348199e")
+		(uuid "4b3475d7-2e1e-42b6-8944-b9092bb626d0")
 		(property "Reference" "R11"
-			(at 123.19 45.72 90)
+			(at 123.19 47.625 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 123.19 48.26 90)
+		(property "Value" "3k"
+			(at 123.19 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -1638,7 +1001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
 			(at 123.19 52.07 0)
 			(effects
 				(font
@@ -1648,169 +1011,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "08eb5026-399d-4093-9083-c59050586245")
+			(uuid "969a1462-79d1-40c0-be98-690c77064bfd")
 		)
 		(pin "1"
-			(uuid "9176f59f-6cc1-4878-a3e8-61ebcac03675")
+			(uuid "0f981d26-a416-4c0f-b3e6-e04bd5259c3c")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 123.19 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b8065e9-8f41-417a-85ef-28f0f72c1df7")
-		(property "Reference" "R13"
-			(at 123.19 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Small_US"
-			(at 123.19 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5eae433-1d12-4be3-ad5d-a563d7b3e16f")
-		)
-		(pin "1"
-			(uuid "b44411bf-f8ee-4908-ab06-47e33222f8f8")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 138.43 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f6c569d-47ce-4908-adcf-c9a1741a1bcb")
-		(property "Reference" "D8"
-			(at 138.43 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 138.43 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "191f8213-f8ef-411a-abf0-236001d25134")
-		)
-		(pin "1"
-			(uuid "d0144c06-d6f9-4f5f-838e-d413e06a1faa")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -1824,24 +1033,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aa5bfc80-9698-4af3-a6e0-42194e915f0a")
+		(uuid "5cabcb04-56a5-4735-a4b8-e1c3b8875e05")
 		(property "Reference" "R6"
-			(at 54.61 55.626 90)
+			(at 54.61 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 54.61 57.15 90)
+		(property "Value" "11k"
+			(at 54.61 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 60.96 0)
 			(effects
 				(font
@@ -1859,7 +1068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
 			(at 54.61 60.96 0)
 			(effects
 				(font
@@ -1869,10 +1078,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9977f17d-91ec-4fea-8eac-1c0758c5a091")
+			(uuid "30f6e575-fb49-4c77-80d9-36bd529bf65c")
 		)
 		(pin "1"
-			(uuid "da493d32-1013-4674-95c0-3c515a45a024")
+			(uuid "0954ad83-6766-4071-ad77-9f385c329646")
 		)
 		(instances
 			(project "pwr_v1"
@@ -1884,118 +1093,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 68.58 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa79580f-e881-4dbf-af7d-9e4ca649b87b")
-		(property "Reference" "D3"
-			(at 68.58 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 68.58 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6110127-503b-4827-8bb2-80101a727332")
-		)
-		(pin "1"
-			(uuid "8d084910-c2fb-4731-b280-47fb44520dc3")
-		)
-		(instances
-			(project ""
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 123.19 59.69 90)
+		(at 121.92 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b47ed819-9656-4f10-88ed-98d6e93a102d")
-		(property "Reference" "R12"
-			(at 123.19 54.356 90)
+		(uuid "8438f957-a2aa-47cf-ac5e-1e2613e13a37")
+		(property "Reference" "R9"
+			(at 121.92 27.305 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 123.19 55.88 90)
+		(property "Value" "3k"
+			(at 121.92 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 59.69 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +1127,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 59.69 0)
+			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,8 +1135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 123.19 59.69 0)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 121.92 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,15 +1145,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3e9b5071-ddc7-45e7-8ff6-bba9deaeb7ef")
+			(uuid "e3de457f-d801-4c8c-b792-ce5c45a4f448")
 		)
 		(pin "1"
-			(uuid "b6d19a9b-ae96-4de0-b398-1217c3f4bc4d")
+			(uuid "4952eec1-0e4e-44f2-a605-355ca182e024")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2044,25 +1167,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5cfc36e-4d6e-43b5-8537-e097e4e46408")
+		(uuid "90532e70-98e2-4c5d-99d0-d1f0cfe36dd7")
 		(property "Reference" "R5"
-			(at 54.61 46.99 90)
+			(at 54.61 48.895 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 54.61 49.53 90)
+		(property "Value" "3k"
+			(at 54.61 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -2080,7 +1202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
 			(at 54.61 53.34 0)
 			(effects
 				(font
@@ -2090,15 +1212,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "1572caf6-ebf1-45e2-9fdc-eab58614de0b")
+			(uuid "84fc0f20-5dc4-4a86-8e76-593745a8ab74")
 		)
 		(pin "1"
-			(uuid "51e765ac-ddfd-4b20-aeac-13b0f25c189b")
+			(uuid "f667d47b-519f-4e13-a68e-b73afce98b73")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "931543a4-052e-4882-b279-ee76026b5035")
+		(property "Reference" "R13"
+			(at 123.19 69.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 123.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd2ee5a6-f0d0-4fe3-a3ca-27f020e8bc8f")
+		)
+		(pin "1"
+			(uuid "1229a862-55cb-4c9a-8603-66faaab6339f")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2112,24 +1301,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c7e0dc7c-961c-40e4-88f4-c05d548e8be2")
+		(uuid "aa43c587-ca88-47f7-886a-54c5e073811a")
 		(property "Reference" "R14"
-			(at 123.19 75.946 90)
+			(at 123.19 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 123.19 77.47 90)
+		(property "Value" "11k"
+			(at 123.19 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -2147,7 +1336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -2157,15 +1346,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "b167878d-abaf-439c-b1e3-a39a40e6c92a")
+			(uuid "9f79f39b-0782-4064-a12a-90b0e30f3e5d")
 		)
 		(pin "1"
-			(uuid "ed431b52-e535-4d36-b876-420643c2ced2")
+			(uuid "d450d5c1-32a2-46f4-9f62-b2a0b0cf0dae")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a01f33-dacd-4009-8805-00d7e3a33c34")
+		(property "Reference" "R12"
+			(at 123.19 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 123.19 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c886276d-34af-4ee0-997e-3bb32dd05f75")
+		)
+		(pin "1"
+			(uuid "ddb071b8-bc04-420f-8c2b-e52291ae85ad")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2179,24 +1435,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de421aec-0ad4-49af-bf8c-f9463edd1052")
+		(uuid "dfb64ec3-8b1d-49bf-9347-380a3105311c")
 		(property "Reference" "R8"
-			(at 54.61 77.216 90)
+			(at 54.61 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 54.61 78.74 90)
+		(property "Value" "11k"
+			(at 54.61 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -2214,7 +1470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
 			(at 54.61 82.55 0)
 			(effects
 				(font
@@ -2224,10 +1480,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "60854dbc-b7b4-4cbc-ae93-ab593ac97213")
+			(uuid "d6cc6c5a-3c7e-44df-aa1c-ae4d7c0600a3")
 		)
 		(pin "1"
-			(uuid "07724767-b943-4a36-9a4d-8ae505793440")
+			(uuid "aaa025cd-bf59-4ce5-a935-bfe23d3d7bc2")
 		)
 		(instances
 			(project "pwr_v1"
@@ -2246,25 +1502,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3404d9c-a447-4fd6-93d5-4a8bc0871c33")
+		(uuid "fab6201e-5577-4d37-8114-0bb4dc4d9c35")
 		(property "Reference" "R7"
-			(at 54.61 68.58 90)
+			(at 54.61 70.485 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Small_US"
-			(at 54.61 71.12 90)
+		(property "Value" "3k"
+			(at 54.61 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 74.93 0)
 			(effects
 				(font
@@ -2282,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
 			(at 54.61 74.93 0)
 			(effects
 				(font
@@ -2292,10 +1547,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "36854dd3-c4cb-4ada-ab94-a465920b035e")
+			(uuid "3031bc48-e20d-4895-b1e1-9c77415b3199")
 		)
 		(pin "1"
-			(uuid "87b0ecfa-9166-4ba6-96f1-a12360730cf4")
+			(uuid "8dddab36-0c13-4ec8-9cc6-ae0b3dc09d9f")
 		)
 		(instances
 			(project "pwr_v1"

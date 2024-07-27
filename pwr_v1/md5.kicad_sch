@@ -3100,7 +3100,7 @@
 	)
 	(text "AVDD 3.3V/30mA"
 		(exclude_from_sim no)
-		(at 199.136 71.12 0)
+		(at 201.295 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +4895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 249.174 111.76 0)
 			(effects
 				(font
