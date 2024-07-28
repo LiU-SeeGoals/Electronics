@@ -2216,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 119.38) (xy 244.094 119.38)
+			(xy 219.71 119.38) (xy 245.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 109.22) (xy 244.094 109.22)
+			(xy 219.71 109.22) (xy 245.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 111.76) (xy 244.094 111.76)
+			(xy 219.71 111.76) (xy 245.11 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 106.68) (xy 244.094 106.68)
+			(xy 219.71 106.68) (xy 245.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 114.3) (xy 244.094 114.3)
+			(xy 219.71 114.3) (xy 245.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 121.92) (xy 244.094 121.92)
+			(xy 219.71 121.92) (xy 245.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 116.84) (xy 244.094 116.84)
+			(xy 219.71 116.84) (xy 245.11 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.694 104.14) (xy 244.094 104.14)
+			(xy 219.71 104.14) (xy 245.11 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3177,7 +3177,7 @@
 		)
 	)
 	(label "H1"
-		(at 218.694 116.84 0)
+		(at 219.71 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3188,7 +3188,7 @@
 		(uuid "2026b468-d061-42ef-a9ff-be668b73089d")
 	)
 	(label "H3"
-		(at 218.694 119.38 0)
+		(at 219.71 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3231,7 +3231,7 @@
 		)
 	)
 	(label "U"
-		(at 218.694 104.14 0)
+		(at 219.71 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3242,7 +3242,7 @@
 		(uuid "41c37b41-7b15-4bb6-b4a3-904146e5c9b5")
 	)
 	(label "SW_BK"
-		(at 218.694 121.92 0)
+		(at 219.71 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3286,7 +3286,7 @@
 		(uuid "596b4827-6f48-4622-b2c3-3df2ab8eb5c5")
 	)
 	(label "W"
-		(at 218.694 109.22 0)
+		(at 219.71 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3308,7 +3308,7 @@
 		(uuid "688911d6-d386-4757-80f0-8b761e963a6b")
 	)
 	(label "GND_BK"
-		(at 218.694 111.76 0)
+		(at 219.71 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3319,7 +3319,7 @@
 		(uuid "771dcc8c-64c6-419f-b3f2-2bf11a964849")
 	)
 	(label "V"
-		(at 218.694 106.68 0)
+		(at 219.71 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3363,7 +3363,7 @@
 		(uuid "8a22fa93-20b3-45a1-9c90-546b4c6a3523")
 	)
 	(label "H2"
-		(at 218.694 114.3 0)
+		(at 219.71 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4869,16 +4869,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 249.174 111.76 0)
+		(at 250.19 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd82b3b6-fdd1-49bd-bcfd-d43987a8ce65")
+		(uuid "b3c26460-50f4-4bda-84e6-dc76172d4395")
 		(property "Reference" "M5"
-			(at 250.19 111.7599 0)
+			(at 251.46 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,16 +4887,17 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Socket"
-			(at 250.19 114.2999 0)
+			(at 251.46 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 249.174 111.76 0)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
+			(at 250.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 249.174 111.76 0)
+			(at 250.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,8 +4914,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MFR.Part # X6511WVS-08H-C60D48R2 JLCPCB Part # C2883765"
-			(at 249.174 111.76 0)
+		(property "Description" ""
+			(at 250.19 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,28 +4924,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "b67cc12e-adf9-4232-8555-3825ed0eced5")
+			(uuid "fa031957-9ab2-4ba6-9a57-e51eb0d5b454")
 		)
 		(pin "7"
-			(uuid "4d934af5-bd84-4b81-8a2f-57bb1fa8752c")
+			(uuid "7e842326-d136-4844-8d73-29cf0899079a")
 		)
 		(pin "3"
-			(uuid "59aa3df6-a535-4078-a010-b85213e0fc2e")
+			(uuid "61e656bb-2025-47f5-ace6-cd1089424e78")
 		)
 		(pin "1"
-			(uuid "725f63e1-d505-4c14-b78c-17140f21ca4a")
+			(uuid "a148b9e2-5215-4e4d-a493-f2f00503f840")
 		)
 		(pin "8"
-			(uuid "2fc84fd5-ec7d-4cf1-bdd8-24828f68f313")
+			(uuid "3ad2b5e0-7caa-4b0a-bb7e-d24539893095")
 		)
 		(pin "5"
-			(uuid "af844e07-27c4-41f6-b50b-38e86b2e527b")
+			(uuid "40bb68e7-26f5-4bea-b869-a69827c9b577")
 		)
 		(pin "4"
-			(uuid "8a4a34fa-6d83-465f-aaa9-52412fb296c0")
+			(uuid "7a3fcbc3-95e8-4d29-9245-43784ae02505")
 		)
 		(pin "6"
-			(uuid "6e49f9b4-5f60-4b25-90f5-f24e83f07207")
+			(uuid "1a2e1a1f-9018-464e-a5c1-37d4ba822de7")
 		)
 		(instances
 			(project "pwr_v1"

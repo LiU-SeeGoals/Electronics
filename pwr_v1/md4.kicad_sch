@@ -2466,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 100.33) (xy 250.444 100.33)
+			(xy 225.425 100.33) (xy 250.825 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 118.11) (xy 250.444 118.11)
+			(xy 225.425 118.11) (xy 250.825 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 102.87) (xy 250.444 102.87)
+			(xy 225.425 102.87) (xy 250.825 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 105.41) (xy 250.444 105.41)
+			(xy 225.425 105.41) (xy 250.825 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 107.95) (xy 250.444 107.95)
+			(xy 225.425 107.95) (xy 250.825 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 115.57) (xy 250.444 115.57)
+			(xy 225.425 115.57) (xy 250.825 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 110.49) (xy 250.444 110.49)
+			(xy 225.425 110.49) (xy 250.825 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.044 113.03) (xy 250.444 113.03)
+			(xy 225.425 113.03) (xy 250.825 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3178,7 +3178,7 @@
 		(uuid "185d7fff-0279-4b5c-8a4d-2b654556e4f9")
 	)
 	(label "H2"
-		(at 225.044 110.49 0)
+		(at 225.425 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3189,7 +3189,7 @@
 		(uuid "212a229c-adcd-49c3-846a-d2e25cf737c7")
 	)
 	(label "SW_BK"
-		(at 225.044 118.11 0)
+		(at 225.425 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3253,7 +3253,7 @@
 		)
 	)
 	(label "H3"
-		(at 225.044 115.57 0)
+		(at 225.425 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3308,7 +3308,7 @@
 		(uuid "9bce59eb-1bd1-47bb-9738-fc71e9a19348")
 	)
 	(label "V"
-		(at 225.044 102.87 0)
+		(at 225.425 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3341,7 +3341,7 @@
 		(uuid "bb01ef55-cfd8-4d3d-b3ea-85f568b20ed6")
 	)
 	(label "H1"
-		(at 225.044 113.03 0)
+		(at 225.425 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3384,7 +3384,7 @@
 		(uuid "bec2bf28-05bf-4b52-aaa2-ce182fc0be80")
 	)
 	(label "GND_BK"
-		(at 225.044 107.95 0)
+		(at 225.425 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3395,7 +3395,7 @@
 		(uuid "d79343d8-9c6a-4d85-a95e-1731d8c2016a")
 	)
 	(label "W"
-		(at 225.044 105.41 0)
+		(at 225.425 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3417,7 +3417,7 @@
 		(uuid "f0a62502-9325-4cdc-8521-2ccfaab6e7ae")
 	)
 	(label "U"
-		(at 225.044 100.33 0)
+		(at 225.425 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3875,6 +3875,95 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "4L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 255.905 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da9bd1b-7500-4275-b172-7ad5ce820dd7")
+		(property "Reference" "M4"
+			(at 257.175 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 257.175 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
+			(at 255.905 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.905 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "256dc5e2-30b5-4d08-8407-5febf5bf3166")
+		)
+		(pin "7"
+			(uuid "4f81c5fb-6821-4516-9f48-d8e54e336f82")
+		)
+		(pin "3"
+			(uuid "93c564a6-9aa0-4a35-957f-cf3186db0889")
+		)
+		(pin "1"
+			(uuid "f4733300-50b3-41f1-91c9-30c4c7514563")
+		)
+		(pin "8"
+			(uuid "00d73da2-675b-40c8-a85e-b9c20b0c4c90")
+		)
+		(pin "5"
+			(uuid "f24816a9-404b-4885-9640-4eee8cd44207")
+		)
+		(pin "4"
+			(uuid "f47713dc-a7dd-45ba-b7a7-c5b4c5b8f6c4")
+		)
+		(pin "6"
+			(uuid "2bad0f2c-e3ea-4c69-86d3-690c9229731e")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -4514,94 +4603,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
 					(reference "4R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 255.524 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "952ce9e8-4917-45bc-b3b5-8d8b407149b4")
-		(property "Reference" "M4"
-			(at 256.54 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 256.54 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 255.524 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.524 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MFR.Part # X6511WVS-08H-C60D48R2 JLCPCB Part # C2883765"
-			(at 255.524 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d1e6fa8-29c3-4760-b75a-e7c39fbaee7c")
-		)
-		(pin "7"
-			(uuid "07c1f268-3bde-4eec-a66e-3ae1e5030e0f")
-		)
-		(pin "3"
-			(uuid "4cbe24df-3c63-4f3f-85f1-90f594daec75")
-		)
-		(pin "1"
-			(uuid "7add8c21-c8e0-456d-b870-737796a95968")
-		)
-		(pin "8"
-			(uuid "38e9bf87-4a9b-4cd8-be32-dcf9565aa745")
-		)
-		(pin "5"
-			(uuid "16335b52-4cc8-4462-bedb-459fdc25831e")
-		)
-		(pin "4"
-			(uuid "d4ba3191-bf0e-4f73-8f7b-2048bc2a870e")
-		)
-		(pin "6"
-			(uuid "61c37c41-a220-4f33-ac4d-8ded2803d7ed")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/685a8965-c929-484c-bc22-0221d7d480eb"
-					(reference "M4")
 					(unit 1)
 				)
 			)
