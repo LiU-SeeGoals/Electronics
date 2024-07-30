@@ -294,7 +294,7 @@
 		)
 		(uuid "2e0d3fc8-6b37-495f-a866-f3368b2e44f7")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "IR_IN"
 		(shape input)
 		(at 88.9 55.88 180)
 		(fields_autoplaced yes)
@@ -318,7 +318,7 @@
 		)
 		(uuid "7107b64f-965b-4359-a0a1-0c6925ac706b")
 	)
-	(hierarchical_label "3V3"
+	(hierarchical_label "GND"
 		(shape input)
 		(at 88.9 58.42 180)
 		(fields_autoplaced yes)
@@ -330,7 +330,7 @@
 		)
 		(uuid "95efdada-9e6d-48b5-9227-ee8f1a4a290a")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 88.9 60.96 180)
 		(fields_autoplaced yes)

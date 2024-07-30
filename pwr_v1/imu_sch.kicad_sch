@@ -842,12 +842,6 @@
 		(uuid "3d20de8f-856c-400e-a369-2e006fe761f2")
 	)
 	(junction
-		(at 128.27 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71c2f749-c273-49e0-9aac-b9bc8d2987f8")
-	)
-	(junction
 		(at 123.19 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1191,6 +1185,16 @@
 			(justify left top)
 		)
 		(uuid "dc48e15b-4f1f-463a-a96a-c5572d3fba9b")
+	)
+	(text "CS-0 : SPI mode\nCS-1 : I2C mode"
+		(exclude_from_sim no)
+		(at 156.21 59.055 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d23deab2-9947-4fee-88b8-7b217ab26ef0")
 	)
 	(label "3V3"
 		(at 118.11 68.58 0)
@@ -1831,73 +1835,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/b4721251-ca72-44ff-8b38-c2b8be0e5ec8"
 					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 128.27 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9401d4cd-5035-437d-8b4d-3a8a65a57f12")
-		(property "Reference" "#FLG05"
-			(at 130.175 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 132.08 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "846b4da9-233c-4bd5-befd-074a8aa48bf8")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/b4721251-ca72-44ff-8b38-c2b8be0e5ec8"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
