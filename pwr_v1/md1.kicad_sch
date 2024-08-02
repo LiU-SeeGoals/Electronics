@@ -2110,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 109.22) (xy 240.284 109.22)
+			(xy 214.884 109.22) (xy 241.935 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2260,7 +2260,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 116.84) (xy 240.284 116.84)
+			(xy 214.884 116.84) (xy 241.935 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 99.06) (xy 240.284 99.06)
+			(xy 214.884 99.06) (xy 241.935 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2540,7 +2540,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 111.76) (xy 240.284 111.76)
+			(xy 214.884 111.76) (xy 241.935 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2560,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 114.3) (xy 240.284 114.3)
+			(xy 214.884 114.3) (xy 241.935 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 106.68) (xy 240.284 106.68)
+			(xy 214.884 106.68) (xy 241.935 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +2930,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 104.14) (xy 240.284 104.14)
+			(xy 214.884 104.14) (xy 241.935 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +2990,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.884 101.6) (xy 240.284 101.6)
+			(xy 214.884 101.6) (xy 241.935 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3654,95 +3654,6 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/f5214ba6-8304-44b3-b1c8-230e23716682"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 245.364 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1640c8c5-f784-4ea8-8955-53db59b39e61")
-		(property "Reference" "M1"
-			(at 246.634 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 246.634 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
-			(at 245.364 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.364 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 245.364 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bb66ad8-34f3-432e-8b51-0251c60d87a4")
-		)
-		(pin "7"
-			(uuid "c0d8a5f9-a038-4168-8d5c-c8dd3c2c7805")
-		)
-		(pin "3"
-			(uuid "726a3713-360e-490a-b557-c6c188dc0b2e")
-		)
-		(pin "1"
-			(uuid "d262e756-ccdb-4ec6-9580-851fbb5f63a7")
-		)
-		(pin "8"
-			(uuid "ebce4327-32b1-4e21-a15f-bf68475648e8")
-		)
-		(pin "5"
-			(uuid "77918a12-fb88-4cb0-a0f8-c49568111b24")
-		)
-		(pin "4"
-			(uuid "0378f8a2-e584-42b4-a0bc-51ea49e8360a")
-		)
-		(pin "6"
-			(uuid "125095e3-771d-4353-a35f-33868030d486")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/f5214ba6-8304-44b3-b1c8-230e23716682"
-					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -4999,6 +4910,95 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/f5214ba6-8304-44b3-b1c8-230e23716682"
 					(reference "1C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 247.015 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1190b6e-5a4b-40f4-bb56-e4aef4737eac")
+		(property "Reference" "M1"
+			(at 248.285 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 248.285 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.015 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7f3b830-8c3d-4151-bd4f-1e584edd726e")
+		)
+		(pin "7"
+			(uuid "f1a77f06-2fee-4214-9f3f-cd27c4c07298")
+		)
+		(pin "3"
+			(uuid "c9b36dc6-de30-4894-bc01-d54a9bc4a41e")
+		)
+		(pin "1"
+			(uuid "80f4a2e9-ffbe-4a8c-b082-c5edd5860653")
+		)
+		(pin "8"
+			(uuid "27531e4f-a370-4c9c-9175-fde96f45f88a")
+		)
+		(pin "5"
+			(uuid "cf7184e3-d1c0-4bb5-811b-de9ffa3f31b4")
+		)
+		(pin "4"
+			(uuid "089c13a6-2710-4d91-a24e-6930ec47f84f")
+		)
+		(pin "6"
+			(uuid "bd70f8c3-86e8-4221-882d-b4ea6d839c53")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/f5214ba6-8304-44b3-b1c8-230e23716682"
+					(reference "M1")
 					(unit 1)
 				)
 			)

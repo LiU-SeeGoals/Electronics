@@ -433,6 +433,139 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -885,28 +1018,10 @@
 		(uuid "7bcdf2af-baa3-46bd-b909-f5b4b5b84c02")
 	)
 	(junction
-		(at 85.09 167.005)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de1177b6-bab0-4824-b970-9295fce38652")
-	)
-	(junction
 		(at 85.09 173.355)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb85f3d8-91d8-4859-bdfd-db7037c25f51")
-	)
-	(no_connect
-		(at 179.07 248.92)
-		(uuid "46e82a76-9693-458b-b0c2-5d0af84bdef3")
-	)
-	(no_connect
-		(at 179.07 242.57)
-		(uuid "a0c5a4d6-ed50-4a99-a792-1764eeb0ac75")
-	)
-	(no_connect
-		(at 179.07 236.22)
-		(uuid "f238dfdb-6726-44d7-9ab3-14273770b1b3")
 	)
 	(wire
 		(pts
@@ -1000,6 +1115,26 @@
 	)
 	(wire
 		(pts
+			(xy 169.5487 106.68) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08eb5db9-a0fd-48f2-91d9-4dcc6dc66a05")
+	)
+	(wire
+		(pts
+			(xy 233.045 139.7) (xy 314.325 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a24c7c1-f5eb-4316-aac4-ed7c76237955")
+	)
+	(wire
+		(pts
 			(xy 140.335 137.795) (xy 146.05 137.795)
 		)
 		(stroke
@@ -1010,7 +1145,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 139.7) (xy 314.325 139.7)
+			(xy 222.25 139.7) (xy 227.965 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1020,7 +1155,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 116.84) (xy 222.25 116.84)
+			(xy 270.51 116.84) (xy 233.045 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 314.325 137.16)
+			(xy 222.25 137.16) (xy 227.965 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1067,6 +1202,16 @@
 			(type default)
 		)
 		(uuid "127443bf-2257-4471-b070-cb4823a23148")
+	)
+	(wire
+		(pts
+			(xy 233.045 152.4) (xy 274.955 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13304aa7-b4bf-4d0f-ac27-6897ad0233e3")
 	)
 	(wire
 		(pts
@@ -1090,6 +1235,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 140.335) (xy 146.05 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1617a666-e21a-49fa-b685-ad216595e46b")
+	)
+	(wire
+		(pts
 			(xy 147.955 88.265) (xy 147.955 93.345)
 		)
 		(stroke
@@ -1107,6 +1262,16 @@
 			(type default)
 		)
 		(uuid "194eac96-c49c-47a7-901d-40f7ecf0c275")
+	)
+	(wire
+		(pts
+			(xy 233.68 191.135) (xy 267.335 191.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198bd2f5-1f03-4d78-a9ab-8aa090c17510")
 	)
 	(wire
 		(pts
@@ -1150,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 186.055) (xy 269.875 186.055)
+			(xy 222.25 186.055) (xy 228.6 186.055)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 134.62) (xy 314.325 134.62)
+			(xy 222.25 134.62) (xy 227.965 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +1355,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 101.6) (xy 173.99 101.6)
+			(xy 167.64 198.755) (xy 160.02 198.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26aa4e5f-17f2-4c4b-81d8-9ebb41bc2d66")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 164.465) (xy 173.99 164.465)
+			(xy 160.655 164.465) (xy 167.005 164.465)
 		)
 		(stroke
 			(width 0)
@@ -1250,13 +1425,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 188.595) (xy 268.605 188.595)
+			(xy 222.25 188.595) (xy 228.6 188.595)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f38b6d8-b2b3-403b-a979-c6d1b5e5259f")
+	)
+	(wire
+		(pts
+			(xy 165.735 227.33) (xy 181.61 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3f8022-066d-40bc-8232-9b726090781f")
 	)
 	(wire
 		(pts
@@ -1280,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 124.46) (xy 222.25 124.46)
+			(xy 274.32 124.46) (xy 233.045 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1310,17 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 165.735) (xy 85.09 167.005)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3676f69a-c7c3-4c33-b101-8f2654ed4e68")
-	)
-	(wire
-		(pts
-			(xy 160.02 106.68) (xy 173.99 106.68)
+			(xy 160.02 106.68) (xy 164.4687 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 173.99 99.06)
+			(xy 160.02 99.06) (xy 165.0473 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 242.57) (xy 220.98 242.57)
+			(xy 208.28 233.68) (xy 215.9 233.68)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.255 101.6) (xy 222.25 101.6)
+			(xy 262.255 101.6) (xy 233.4386 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1400,13 +1575,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 184.15) (xy 173.99 184.15)
+			(xy 163.83 184.15) (xy 166.37 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42269f2b-c77b-4175-8941-ef26db6ee825")
+	)
+	(wire
+		(pts
+			(xy 172.085 164.465) (xy 173.99 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44173189-1f9c-4b7c-91f8-c7e4194e6850")
+	)
+	(wire
+		(pts
+			(xy 162.56 201.295) (xy 162.56 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bc26fb-8cb6-4797-be75-e54eeada9da9")
 	)
 	(wire
 		(pts
@@ -1450,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 104.14) (xy 222.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bc93b1-77ef-4fc6-aae5-e3202bc47f8f")
+	)
+	(wire
+		(pts
 			(xy 37.465 165.1) (xy 40.005 165.1)
 		)
 		(stroke
@@ -1470,7 +1675,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 142.24) (xy 314.325 142.24)
+			(xy 228.6 96.52) (xy 222.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ebae1e-bfea-4a48-9a7b-724cac6ddf5f")
+	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 227.965 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 173.99 109.22)
+			(xy 160.02 109.22) (xy 164.4161 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 152.4) (xy 274.955 152.4)
+			(xy 222.25 152.4) (xy 227.965 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1765,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 236.855) (xy 220.98 236.855)
+			(xy 154.94 143.51) (xy 154.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a96d55-ce63-4d79-9ccd-2b896a6f8ae7")
+	)
+	(wire
+		(pts
+			(xy 208.28 227.965) (xy 215.9 227.965)
 		)
 		(stroke
 			(width 0)
@@ -1560,13 +1785,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 228.6) (xy 200.025 231.14)
+			(xy 194.945 219.71) (xy 194.945 222.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "657bdbe0-1c17-4ef0-842d-0d8af1fef691")
+	)
+	(wire
+		(pts
+			(xy 233.68 193.675) (xy 266.065 193.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ff44a1-02d7-4563-9346-9cfd6dc575d0")
 	)
 	(wire
 		(pts
@@ -1580,7 +1815,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 154.94) (xy 273.685 154.94)
+			(xy 233.045 157.48) (xy 272.415 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e6e456-9fec-4f3b-a1ab-1a46a17ae40f")
+	)
+	(wire
+		(pts
+			(xy 222.25 154.94) (xy 227.965 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1600,13 +1845,43 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 254) (xy 199.39 258.445)
+			(xy 194.31 245.11) (xy 194.31 249.555)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6a6d521c-9919-4190-ae13-89d3c78d12d2")
+	)
+	(wire
+		(pts
+			(xy 170.815 158.115) (xy 173.99 158.115)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a91fb43-e151-440a-bc12-69d462241cff")
+	)
+	(wire
+		(pts
+			(xy 170.815 188.595) (xy 173.99 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6a59bc-57c9-4bfc-899c-2a874a50b777")
+	)
+	(wire
+		(pts
+			(xy 171.45 179.705) (xy 173.99 179.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6bd765-c440-48c1-abce-4dbfd74ea040")
 	)
 	(wire
 		(pts
@@ -1620,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 173.99 104.14)
+			(xy 160.02 104.14) (xy 164.5739 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1660,13 +1935,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 179.705) (xy 173.99 179.705)
+			(xy 167.64 201.295) (xy 162.56 201.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79934855-3340-4815-99a5-e604bd0bc1a8")
+	)
+	(wire
+		(pts
+			(xy 163.83 179.705) (xy 166.37 179.705)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79ae0bbc-d818-4999-9cbd-8a36f4872e3c")
+	)
+	(wire
+		(pts
+			(xy 172.085 167.005) (xy 173.99 167.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a72500d-914b-49ff-9749-1d26bcea11db")
 	)
 	(wire
 		(pts
@@ -1687,6 +1982,16 @@
 			(type default)
 		)
 		(uuid "7b20cf12-3ce1-425b-8cf8-0eb2243d60cd")
+	)
+	(wire
+		(pts
+			(xy 227.965 119.38) (xy 222.25 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d02d838-96c4-4a19-a7ab-20277a80f2e5")
 	)
 	(wire
 		(pts
@@ -1730,6 +2035,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 99.06) (xy 222.25 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877027c5-917b-491d-96eb-c155e6bb3ede")
+	)
+	(wire
+		(pts
 			(xy 270.51 88.9) (xy 314.325 88.9)
 		)
 		(stroke
@@ -1740,23 +2055,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 99.06) (xy 222.25 99.06)
+			(xy 261.62 99.06) (xy 233.68 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "877c5e39-ecff-4b57-87d9-3f5bf29e526b")
-	)
-	(wire
-		(pts
-			(xy 179.07 248.92) (xy 186.69 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c55812-43ee-43fa-9d86-9869e1df4c93")
 	)
 	(wire
 		(pts
@@ -1830,7 +2135,27 @@
 	)
 	(wire
 		(pts
-			(xy 263.525 104.14) (xy 222.25 104.14)
+			(xy 165.735 203.835) (xy 165.735 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8e3792-9c37-4ab1-8aa5-4e8b8f391eb8")
+	)
+	(wire
+		(pts
+			(xy 162.56 233.68) (xy 181.61 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8fabb9-bf52-4a9d-947e-4bec961bef8e")
+	)
+	(wire
+		(pts
+			(xy 263.525 104.14) (xy 233.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1850,7 +2175,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 188.595) (xy 173.99 188.595)
+			(xy 227.965 116.84) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935417c2-ec4b-497d-b2d9-91e419f340c8")
+	)
+	(wire
+		(pts
+			(xy 163.83 188.595) (xy 165.735 188.595)
 		)
 		(stroke
 			(width 0)
@@ -1870,23 +2205,43 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 242.57) (xy 186.69 242.57)
+			(xy 233.045 137.16) (xy 314.325 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98fd5171-4b14-415d-99f1-6e359fd74303")
+		(uuid "9ae7605f-c5e0-4f68-b16a-e5adabbdbe98")
 	)
 	(wire
 		(pts
-			(xy 222.25 157.48) (xy 272.415 157.48)
+			(xy 173.99 201.295) (xy 172.72 201.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef4443-9e06-45be-95fb-d4a8c7d56038")
+	)
+	(wire
+		(pts
+			(xy 222.25 157.48) (xy 227.965 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9d45e76c-3d1f-4766-b35a-5986858716a0")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 173.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0b9379-1bbd-4a11-8c83-6e56a6f46257")
 	)
 	(wire
 		(pts
@@ -1900,7 +2255,27 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 191.135) (xy 267.335 191.135)
+			(xy 171.45 184.15) (xy 173.99 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47d2992-5276-4d92-91a7-1ee2efc9b6cb")
+	)
+	(wire
+		(pts
+			(xy 227.965 124.46) (xy 222.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7563cf3-f2b2-49ae-a93e-3312723bb3a4")
+	)
+	(wire
+		(pts
+			(xy 222.25 191.135) (xy 228.6 191.135)
 		)
 		(stroke
 			(width 0)
@@ -1910,7 +2285,37 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 153.67) (xy 173.99 153.67)
+			(xy 233.68 188.595) (xy 268.605 188.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af00ac72-46d7-45db-b14a-17d12a9a85ee")
+	)
+	(wire
+		(pts
+			(xy 170.1273 99.06) (xy 173.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16f85e8-c18c-4786-93a9-1d75ec1a5f39")
+	)
+	(wire
+		(pts
+			(xy 167.64 203.835) (xy 165.735 203.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a314b4-c844-4cc6-bf57-09dbe611130b")
+	)
+	(wire
+		(pts
+			(xy 161.925 153.67) (xy 165.735 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1920,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 167.005) (xy 173.99 167.005)
+			(xy 160.655 167.005) (xy 167.005 167.005)
 		)
 		(stroke
 			(width 0)
@@ -1960,6 +2365,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 198.755) (xy 172.72 198.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc79b172-e965-4c06-b814-6beca926385f")
+	)
+	(wire
+		(pts
 			(xy 272.415 182.88) (xy 314.325 182.88)
 		)
 		(stroke
@@ -1990,7 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 121.92) (xy 222.25 121.92)
+			(xy 273.05 121.92) (xy 233.045 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2010,13 +2425,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 236.22) (xy 186.69 236.22)
+			(xy 233.045 134.62) (xy 314.325 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5be8cf4-ed8e-43e7-b1c7-8f14f1f3d179")
+		(uuid "c465ef9f-4921-4990-8f73-f9bbd5964480")
 	)
 	(wire
 		(pts
@@ -2050,6 +2465,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.045 154.94) (xy 273.685 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ede5f3-0b92-4153-9e67-e5def7f28a98")
+	)
+	(wire
+		(pts
+			(xy 233.045 142.24) (xy 314.325 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caec64ce-706a-445e-a308-0d4e22542ee9")
+	)
+	(wire
+		(pts
 			(xy 272.415 157.48) (xy 272.415 182.88)
 		)
 		(stroke
@@ -2060,7 +2495,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 119.38) (xy 222.25 119.38)
+			(xy 160.02 240.03) (xy 181.61 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3aded4-17e6-4100-adae-c66505da19a3")
+	)
+	(wire
+		(pts
+			(xy 271.78 119.38) (xy 233.045 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2515,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 193.675) (xy 266.065 193.675)
+			(xy 172.085 169.545) (xy 173.99 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd450126-de78-4950-93a3-fcf910421aab")
+	)
+	(wire
+		(pts
+			(xy 222.25 193.675) (xy 228.6 193.675)
 		)
 		(stroke
 			(width 0)
@@ -2080,7 +2535,27 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 96.52) (xy 222.25 96.52)
+			(xy 227.965 121.92) (xy 222.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c0e244-d698-4a3e-88c0-12cef6180f7a")
+	)
+	(wire
+		(pts
+			(xy 169.6539 104.14) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16a0299-5e9b-4ff8-be1f-329d8860482a")
+	)
+	(wire
+		(pts
+			(xy 259.715 96.52) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2110,7 +2585,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 249.555) (xy 220.98 249.555)
+			(xy 208.28 240.665) (xy 215.9 240.665)
 		)
 		(stroke
 			(width 0)
@@ -2130,13 +2605,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.005 169.545) (xy 173.99 169.545)
+			(xy 160.655 169.545) (xy 167.005 169.545)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d8f3dc3b-7af7-401b-a749-c73e0d9d9999")
+	)
+	(wire
+		(pts
+			(xy 160.02 198.755) (xy 160.02 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e576cb-b793-43ac-978e-abe66716be29")
 	)
 	(wire
 		(pts
@@ -2147,6 +2632,16 @@
 			(type default)
 		)
 		(uuid "dad5c8d2-3819-40f2-956b-fe3e5a122028")
+	)
+	(wire
+		(pts
+			(xy 228.3586 101.6) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7228c7-49db-49f0-b943-fddc2ebea781")
 	)
 	(wire
 		(pts
@@ -2170,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.925 158.115) (xy 173.99 158.115)
+			(xy 161.925 158.115) (xy 165.735 158.115)
 		)
 		(stroke
 			(width 0)
@@ -2197,6 +2692,46 @@
 			(type default)
 		)
 		(uuid "df71558e-2d38-47b2-ae7e-763bf020558b")
+	)
+	(wire
+		(pts
+			(xy 170.815 153.67) (xy 173.99 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0794fe9-eda8-4102-9d23-33ad4ef7526c")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4bcb5c7-ac0a-431b-8fa4-b338487c78ca")
+	)
+	(wire
+		(pts
+			(xy 173.99 203.835) (xy 172.72 203.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d4db48-a3ce-41c7-9b18-0c654c12ee68")
+	)
+	(wire
+		(pts
+			(xy 169.4961 109.22) (xy 173.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60397d3-2412-4710-9010-14c9777c3b72")
 	)
 	(wire
 		(pts
@@ -2240,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.045 160.02) (xy 271.145 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea96bba4-eb02-44b2-8e84-e03138e43113")
+	)
+	(wire
+		(pts
 			(xy 40.005 167.64) (xy 40.005 175.26)
 		)
 		(stroke
@@ -2260,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 160.02) (xy 271.145 160.02)
+			(xy 222.25 160.02) (xy 227.965 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2298,6 +2843,16 @@
 		)
 		(uuid "f8103180-acbb-4070-9fc4-ed2372a42727")
 	)
+	(wire
+		(pts
+			(xy 233.68 186.055) (xy 269.875 186.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9b05db-35b4-4c70-bf74-6c64491834f2")
+	)
 	(label "MOSI"
 		(at 145.415 88.265 270)
 		(fields_autoplaced yes)
@@ -2310,7 +2865,7 @@
 		(uuid "0a5545c4-e1af-4dc7-8ad4-9b64ff270553")
 	)
 	(label "MISO"
-		(at 167.005 164.465 0)
+		(at 160.655 164.465 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2319,6 +2874,17 @@
 			(justify left bottom)
 		)
 		(uuid "0d26b67b-be6f-46df-a8e2-703c74be91ca")
+	)
+	(label "VBAT"
+		(at 139.7 140.335 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d51a66f-b2ec-4919-a999-d798d5fa9e86")
 	)
 	(label "5V"
 		(at 82.55 160.02 0)
@@ -2332,7 +2898,7 @@
 		(uuid "288dff73-7b22-4e1c-8b99-0ec34955b263")
 	)
 	(label "SCK"
-		(at 220.98 249.555 0)
+		(at 215.9 240.665 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2364,17 +2930,6 @@
 		)
 		(uuid "5237b8ad-a499-4c31-b145-075d6cba5638")
 	)
-	(label "GND"
-		(at 40.005 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "66420417-30b5-4f52-89f7-429d2efbfc8f")
-	)
 	(label "12V"
 		(at 81.28 173.355 0)
 		(fields_autoplaced yes)
@@ -2386,8 +2941,19 @@
 		)
 		(uuid "76a33481-8f18-40e9-a968-e1edc7d57c2d")
 	)
+	(label "3V3"
+		(at 194.945 220.345 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96463602-b3b2-4a28-8df1-cfc7ee354b5a")
+	)
 	(label "MOSI"
-		(at 167.005 169.545 0)
+		(at 160.655 169.545 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2398,7 +2964,7 @@
 		(uuid "9ae9538d-94c1-4607-b37f-bbfd2adafcfa")
 	)
 	(label "SCK"
-		(at 167.005 167.005 0)
+		(at 160.655 167.005 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2420,7 +2986,7 @@
 		(uuid "a75604d0-af14-49d0-808c-3e3d264f605b")
 	)
 	(label "MOSI"
-		(at 220.98 236.855 0)
+		(at 215.9 227.965 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2463,8 +3029,30 @@
 		)
 		(uuid "bb66a13b-ca9a-4724-9108-038a4a7e63d7")
 	)
+	(label "3V3"
+		(at 153.67 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d06b487f-b009-45fa-b269-a359cc9a226d")
+	)
+	(label "3V3"
+		(at 153.035 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7b9ed70-5573-4699-88d2-c34c7ababc0a")
+	)
 	(label "MISO"
-		(at 220.98 242.57 0)
+		(at 215.9 233.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2486,16 +3074,32 @@
 		(uuid "fd45ed7d-2e8f-4001-8cd6-781632341523")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 85.09 165.735 0)
+		(lib_id "Device:R_Small_US")
+		(at 169.545 167.005 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0e212a18-0d0f-4b54-ba17-0e9d38f18b11")
-		(property "Reference" "#PWR058"
-			(at 85.09 169.545 0)
+		(uuid "08862b06-20dc-470a-a88a-ec17adac6b25")
+		(property "Reference" "0R22"
+			(at 166.37 165.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.085 165.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.545 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,16 +3107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 88.392 163.957 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 165.735 0)
+		(property "Datasheet" "~"
+			(at 169.545 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,8 +3116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 85.09 165.735 0)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 169.545 167.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,22 +3125,83 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 85.09 165.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "b478b385-6ca4-4dcd-80a7-a81cd3e18bad")
 		)
 		(pin "1"
-			(uuid "f5154aef-4d3e-4d79-919b-14e4e91b2863")
+			(uuid "3d5b5df5-1649-4d11-a982-a07af6241274")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
-					(reference "#PWR058")
+					(reference "0R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1255a913-8bd9-41a9-9141-0386f520811e")
+		(property "Reference" "0R15"
+			(at 227.33 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d9f4200-edf2-4801-92f1-e2ff6187baac")
+		)
+		(pin "1"
+			(uuid "a8de9ae8-8e9d-4d99-87cf-2d3ee17f43b9")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R15")
 					(unit 1)
 				)
 			)
@@ -2675,6 +3332,73 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.8986 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17d40651-7a3b-41bc-af47-6f7460aacc74")
+		(property "Reference" "0R3"
+			(at 227.7236 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.4386 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.8986 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.8986 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.8986 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "209f86ee-fdff-46a6-bc30-086c7cb6bd6f")
+		)
+		(pin "1"
+			(uuid "21b99056-0010-4ec0-8f28-d7fb8ee91beb")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R3")
 					(unit 1)
 				)
 			)
@@ -2817,8 +3541,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "232b2f17-95bd-4fb2-a8df-e653c89c9b94")
+		(property "Reference" "0R1"
+			(at 227.965 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78f3b790-b792-4274-a432-bfd73aa378b8")
+		)
+		(pin "1"
+			(uuid "6864e51c-33de-4327-a877-5178ffd6d82a")
+		)
+		(instances
+			(project ""
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 199.39 258.445 0)
+		(at 194.31 249.555 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2826,7 +3617,7 @@
 		(dnp no)
 		(uuid "290a9fdb-840f-4c51-ad51-321694635f02")
 		(property "Reference" "#PWR052"
-			(at 199.39 264.795 0)
+			(at 194.31 255.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +3626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 260.223 0)
+			(at 198.12 251.333 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +3634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 258.445 0)
+			(at 194.31 249.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 258.445 0)
+			(at 194.31 249.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,7 +3652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 258.445 0)
+			(at 194.31 249.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,6 +3667,207 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2af47e58-bbd3-44ea-ae94-e33ba11ff1c7")
+		(property "Reference" "0R13"
+			(at 227.33 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "778688e7-faf0-42a0-a4d1-a41ccf3ec3ba")
+		)
+		(pin "1"
+			(uuid "9b864149-e142-4993-80c0-30362c7a5dbb")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bd46285-0071-4a95-97ed-12de4457ef50")
+		(property "Reference" "0R2"
+			(at 227.965 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dcbc7c5-e123-4f57-a98b-ce478a220e9f")
+		)
+		(pin "1"
+			(uuid "75550445-771e-4b90-88bb-a10bcf747c6c")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ebec4fc-355b-45a8-954b-0390e913d1dc")
+		(property "Reference" "0R9"
+			(at 227.33 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da3f0531-16a8-4d5a-a20a-e9c9275bffe3")
+		)
+		(pin "1"
+			(uuid "56f820a9-bb63-4c54-96be-69b42cbbd533")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R9")
 					(unit 1)
 				)
 			)
@@ -2942,6 +3934,341 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.1139 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36155976-331d-49ab-9d02-e642ccd8e40e")
+		(property "Reference" "0R34"
+			(at 163.9389 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 169.6539 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.1139 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.1139 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 167.1139 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09e2db05-c0b8-47a2-8674-a1adfde54767")
+		)
+		(pin "1"
+			(uuid "aabbad81-ac53-4284-a613-973b8d3dafd4")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 193.675 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36b86919-eeff-41c2-bde1-19474d8dd972")
+		(property "Reference" "0R20"
+			(at 227.965 192.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 192.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ecbe0b3-da7a-4933-88e9-33e56842f96e")
+		)
+		(pin "1"
+			(uuid "9bb4f9d5-eebc-4cd2-81dd-8d935aabf0fc")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.5873 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3be4d08c-a197-421a-8407-ab7fab115a11")
+		(property "Reference" "0R32"
+			(at 164.4123 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 170.1273 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.5873 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.5873 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 167.5873 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3aef748c-57f2-46a4-bbbb-3bbe5604a43f")
+		)
+		(pin "1"
+			(uuid "0e5e712a-f7f5-497e-8fbe-626f9d52e444")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.0087 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d5ddbd7-2105-4904-9f9d-db6a9c59d2cf")
+		(property "Reference" "0R35"
+			(at 163.8337 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 169.5487 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.0087 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.0087 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 167.0087 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8c93a5fb-7502-41bb-83d3-e134167090ac")
+		)
+		(pin "1"
+			(uuid "7e4d7ffb-093e-4b7c-b47f-3f0f5f6629c2")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44620e29-9de8-4fb0-8f39-6e6a29437f76")
+		(property "Reference" "0R6"
+			(at 227.33 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bebde6a-09b6-4ef1-b3e1-e3ad9d917f08")
+		)
+		(pin "1"
+			(uuid "183e3c13-dddb-4fda-892a-05b564c943cf")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R6")
 					(unit 1)
 				)
 			)
@@ -3171,7 +4498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "B7B_XH_A:JST_B7B-XH-A"
 			(at 135.255 130.175 0)
 			(effects
 				(font
@@ -3189,7 +4516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "MFR.Part # B7B-XH-A(LF)(SN) JLCPCB Part # C144398"
 			(at 135.255 130.175 0)
 			(effects
 				(font
@@ -3223,6 +4550,274 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "Bat2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.275 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f36be5f-506f-41a2-bbdb-bbeb3f77be8e")
+		(property "Reference" "0R27"
+			(at 165.1 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 170.815 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.275 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 168.275 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca32cfb5-a075-482c-9b42-4b540d2b3d63")
+		)
+		(pin "1"
+			(uuid "a4605717-4ac2-40c5-ae3c-18000ae898ce")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.275 188.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "544d059d-5bdb-440e-942b-5b2fd1aa12b8")
+		(property "Reference" "0R26"
+			(at 165.1 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 170.815 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.275 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 168.275 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "056a0013-2eb9-4e75-9e09-2148fdc5f322")
+		)
+		(pin "1"
+			(uuid "181e4ab3-1f52-44b9-8b99-f30a614c2ced")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 170.18 203.835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e96126-b647-47ee-a050-a92fdf83ac43")
+		(property "Reference" "0R31"
+			(at 167.005 202.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.72 202.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 170.18 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83d85739-4d48-4616-9085-81609c73b28e")
+		)
+		(pin "1"
+			(uuid "204d59d0-4b98-42d3-b411-d4018083c7b8")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55aa6b7e-3f1e-4421-925d-1018ff1fc5b0")
+		(property "Reference" "0R4"
+			(at 227.965 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "91b09f7f-b7ee-434c-986a-24d8edc12b2a")
+		)
+		(pin "1"
+			(uuid "c261fc03-3ee7-4c2a-8c1a-b112c79a4410")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R4")
 					(unit 1)
 				)
 			)
@@ -3294,6 +4889,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a9705f9-08bc-4e12-9eae-f382ec1050f4")
+		(property "Reference" "0R11"
+			(at 227.33 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4351943-6cc1-476a-8127-79487171977c")
+		)
+		(pin "1"
+			(uuid "2187dcf9-3215-45ee-9b4b-c17dc991b0cc")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 32.385 167.64 180)
 		(unit 1)
@@ -3356,6 +5018,73 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62ba2ba4-3982-4014-a20d-7b84a043d87d")
+		(property "Reference" "0R12"
+			(at 227.33 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "573a1e6e-2457-40df-b7f9-1693f393e3e5")
+		)
+		(pin "1"
+			(uuid "75b2ca5b-0b02-4c48-9101-d32184f805db")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R12")
 					(unit 1)
 				)
 			)
@@ -3493,6 +5222,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 167.64 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67f0a774-16c6-40a8-9673-959d9ec3c460")
+		(property "Reference" "0R33"
+			(at 164.465 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 170.18 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eefd650-be10-44a1-8bb7-532a4a814e11")
+		)
+		(pin "1"
+			(uuid "3fe72be6-a711-489c-b05c-75c686dd1234")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.035 165.1 0)
 		(unit 1)
@@ -3558,6 +5354,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ae70f6-5651-4fa5-a9a7-d5e4cdef50e0")
+		(property "Reference" "0R7"
+			(at 227.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bee7018-06c3-4e9d-a29f-121018dd1529")
+		)
+		(pin "1"
+			(uuid "5e0449a2-59be-496c-846f-0de0b4ebb9fd")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 170.18 198.755 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75d96378-c781-4c24-8e62-8ca6087af257")
+		(property "Reference" "0R29"
+			(at 167.005 197.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.72 197.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 170.18 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c37f4d2e-8b15-48d6-bcd2-5e94708cb3e6")
+		)
+		(pin "1"
+			(uuid "40dd2f3a-9c5b-41b7-8157-463670edb8d3")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 191.135 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76b857d9-79bb-4c19-bdab-41c312d95c85")
+		(property "Reference" "0R19"
+			(at 227.965 189.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 189.865 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf86ccf1-709e-49a9-97f9-ba89541051ea")
+		)
+		(pin "1"
+			(uuid "a015e38b-1ecd-491c-9b59-3c7e4e7b1bc4")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 307.34 189.23 0)
 		(unit 1)
@@ -3617,6 +5614,140 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85e32197-16a0-40e6-9902-0a12f2bfa61f")
+		(property "Reference" "0R14"
+			(at 227.33 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa6e1032-799a-45b8-93d4-09f0750dbc19")
+		)
+		(pin "1"
+			(uuid "4874f0d0-a124-4002-8825-45d0b691520b")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 188.595 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "897a5d6c-b393-43f2-ba05-29392f49b062")
+		(property "Reference" "0R18"
+			(at 227.965 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a46d8cf7-5107-4637-bdff-0bd37b7507f3")
+		)
+		(pin "1"
+			(uuid "4b869344-cd20-417f-be7d-db5e997f63e8")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R18")
 					(unit 1)
 				)
 			)
@@ -3756,16 +5887,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 153.035 148.59 0)
+		(lib_id "Device:R_Small_US")
+		(at 230.505 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9684a8e8-3545-4b72-b2bf-7c466185b95a")
-		(property "Reference" "#PWR063"
-			(at 153.035 152.4 0)
+		(uuid "9154bace-246a-4ea6-8f01-43f1983a5b45")
+		(property "Reference" "0R8"
+			(at 227.33 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,16 +5920,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 150.495 146.685 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.035 148.59 0)
+		(property "Datasheet" "~"
+			(at 230.505 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,8 +5929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.035 148.59 0)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,22 +5938,83 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.035 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "72633aab-833d-4aa6-837c-ce66b117caf3")
 		)
 		(pin "1"
-			(uuid "d664ce7f-c641-4ffc-9a49-04f69a64c06c")
+			(uuid "11b24793-77e4-4783-a02b-f91079ef691e")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
-					(reference "#PWR063")
+					(reference "0R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 170.18 201.295 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9269f961-2906-497f-83a2-7f5db727772d")
+		(property "Reference" "0R30"
+			(at 167.005 200.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.72 200.025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 170.18 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ff27b58-3867-4474-98eb-5978d45fd58b")
+		)
+		(pin "1"
+			(uuid "17792f95-8ccd-4a61-897f-a3915513a199")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R30")
 					(unit 1)
 				)
 			)
@@ -4345,6 +6545,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 231.14 186.055 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0432a8a-28a7-43aa-b215-0ef93a97f3bb")
+		(property "Reference" "0R17"
+			(at 227.965 184.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.68 184.785 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 231.14 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 231.14 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d51d309e-c267-4e03-910d-7fc1ac225577")
+		)
+		(pin "1"
+			(uuid "3d3d15a8-2178-4d03-b295-b316288ae413")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1f1a4d1-32ba-4674-81d6-e6d56790abe0")
+		(property "Reference" "0R10"
+			(at 227.33 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "007924c5-2d0f-4e17-92a9-bd33837a4a4d")
+		)
+		(pin "1"
+			(uuid "17e259db-b429-4110-997e-a1e1ceb8badd")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 330.2 67.31 0)
 		(unit 1)
@@ -4404,6 +6738,140 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6a95993-932a-4eca-85d7-f71f56f8b405")
+		(property "Reference" "0R16"
+			(at 227.33 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7258fde-ca2e-42cd-9b90-7eee63734514")
+		)
+		(pin "1"
+			(uuid "73084a12-4884-4af2-bd11-f15a706b46da")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.275 158.115 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9cc0c67-55b3-4975-8d2a-89de5ffee4d2")
+		(property "Reference" "0R28"
+			(at 165.1 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 170.815 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.275 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 168.275 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "975e4be7-1471-4a9f-851a-5d94602f681c")
+		)
+		(pin "1"
+			(uuid "03116531-d828-4da5-93dc-dcc944385ea3")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R28")
 					(unit 1)
 				)
 			)
@@ -4540,6 +7008,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 230.505 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65f2d8b-ab28-43da-b6f4-e01c932bb439")
+		(property "Reference" "0R5"
+			(at 227.33 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 233.045 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.505 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 230.505 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 230.505 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6da49290-9334-4042-8a6e-a7c3d521e933")
+		)
+		(pin "1"
+			(uuid "766de7bd-8102-4a2a-bf7c-3ce6a3e6de93")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d0207b-7b98-44db-84c9-27fa3fa21d0a")
+		(property "Reference" "0R25"
+			(at 165.735 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 171.45 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 168.91 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3697dd4d-1e15-4de2-b513-e81c5bcf7873")
+		)
+		(pin "1"
+			(uuid "6b7dd9a8-ba69-44f4-acf6-b5428a0405e5")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 129.54 104.775 0)
 		(unit 1)
@@ -4599,6 +7201,73 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 166.9561 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de02675d-c982-42a0-ae94-6f2249d1f828")
+		(property "Reference" "0R36"
+			(at 163.7811 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 169.4961 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.9561 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.9561 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 166.9561 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50254d1e-1569-49e5-a9d2-6d808b21be70")
+		)
+		(pin "1"
+			(uuid "36e4086e-8ace-474c-9bd3-122ee7774d89")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R36")
 					(unit 1)
 				)
 			)
@@ -4670,6 +7339,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed59bfb8-1de9-422d-8e1b-d80abf43f94c")
+		(property "Reference" "#PWR058"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf287a5-898b-44e0-ae5a-50237b1198d1")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 85.09 172.085 0)
 		(unit 1)
@@ -4735,16 +7469,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 200.025 228.6 0)
+		(lib_id "Device:R_Small_US")
+		(at 169.545 169.545 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f1aa2358-84ee-4e68-b115-104555017d6a")
-		(property "Reference" "#PWR065"
-			(at 200.025 232.41 0)
+		(uuid "f4a7970e-60a1-48f8-837c-d86a44ad1fe1")
+		(property "Reference" "0R23"
+			(at 166.37 168.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.085 168.275 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.545 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,16 +7502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 197.485 226.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.025 228.6 0)
+		(property "Datasheet" "~"
+			(at 169.545 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,8 +7511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.025 228.6 0)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 169.545 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,22 +7520,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.025 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "9b29375f-b122-43d1-b1fe-9457964f0166")
 		)
 		(pin "1"
-			(uuid "513280c0-c1a5-4e18-bd0c-3d5a2828098f")
+			(uuid "c43ddeac-1572-43f1-b72e-3e641d4cf72e")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
-					(reference "#PWR065")
+					(reference "0R23")
 					(unit 1)
 				)
 			)
@@ -4866,6 +7602,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 179.705 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6e09aef-cb04-4c2b-bce5-129ef16cd4b0")
+		(property "Reference" "0R24"
+			(at 165.735 178.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 171.45 178.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 168.91 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7765abac-2165-47ac-966f-cdbed61099cf")
+		)
+		(pin "1"
+			(uuid "d61b0a7b-fdec-427f-a78f-e09061699657")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "0R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 129.54 100.965 0)
 		(unit 1)
@@ -4931,16 +7734,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 173.99 0)
+		(lib_id "Device:R_Small_US")
+		(at 169.545 164.465 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f94620ed-a293-4d3d-9950-93383a8785e8")
-		(property "Reference" "#PWR064"
-			(at 153.67 177.8 0)
+		(uuid "fb4a5da9-7ab1-4295-bff1-04320076e6d7")
+		(property "Reference" "0R21"
+			(at 166.37 163.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.085 163.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 169.545 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,16 +7767,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3"
-			(at 151.13 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 173.99 0)
+		(property "Datasheet" "~"
+			(at 169.545 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,8 +7776,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 153.67 173.99 0)
+		(property "Description" "MFR.Part # 0603WAF0000T5E JLCPCB Part # C21189"
+			(at 169.545 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,22 +7785,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "68cc443d-ba36-4e1e-a63b-6ba1f54aefc6")
 		)
 		(pin "1"
-			(uuid "b049c18b-3e58-41eb-811f-35b086d057d0")
+			(uuid "5767f6d0-3850-4c47-95f8-e17802a98cfb")
 		)
 		(instances
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
-					(reference "#PWR064")
+					(reference "0R21")
 					(unit 1)
 				)
 			)
@@ -5171,7 +7976,7 @@
 	)
 	(sheet
 		(at 146.05 121.285)
-		(size 17.78 19.05)
+		(size 17.78 20.955)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5191,7 +7996,7 @@
 			)
 		)
 		(property "Sheetfile" "batterysup.kicad_sch"
-			(at 146.05 140.9196 0)
+			(at 146.05 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,16 +8105,6 @@
 			)
 			(uuid "0bb9ac0a-3e98-4585-a72f-624358d87238")
 		)
-		(pin "G" input
-			(at 146.05 137.795 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5f808451-e56a-4bfe-b902-7f2f702fc43f")
-		)
 		(pin "O1" output
 			(at 163.83 123.825 0)
 			(effects
@@ -5329,6 +8124,46 @@
 				(justify left)
 			)
 			(uuid "5cda2222-2b28-4a98-9b75-980e8958a0f2")
+		)
+		(pin "P" input
+			(at 146.05 137.795 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dab44a3c-3a9c-4530-9cb0-e279a7cc8916")
+		)
+		(pin "M" input
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "39d757de-8ef9-4ee4-ba1d-5369f16aa448")
+		)
+		(pin "VB" input
+			(at 146.05 140.335 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a729fb0-c8ac-4651-aa92-e3f9cfc7b1c2")
+		)
+		(pin "GND" input
+			(at 154.94 142.24 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0929c06-ce43-426f-a618-4bc1a701e1a5")
 		)
 		(instances
 			(project "pwr_v1"
@@ -5831,7 +8666,7 @@
 		)
 	)
 	(sheet
-		(at 186.69 231.14)
+		(at 181.61 222.25)
 		(size 26.67 22.86)
 		(stroke
 			(width 0.1524)
@@ -5842,7 +8677,7 @@
 		)
 		(uuid "b4721251-ca72-44ff-8b38-c2b8be0e5ec8")
 		(property "Sheetname" "IMU"
-			(at 183.515 261.366 0)
+			(at 178.435 252.476 0)
 			(effects
 				(font
 					(size 5.08 5.08)
@@ -5851,7 +8686,7 @@
 			)
 		)
 		(property "Sheetfile" "imu_sch.kicad_sch"
-			(at 191.516 261.874 0)
+			(at 186.436 252.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +8696,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 199.39 254 270)
+			(at 194.31 245.11 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +8706,7 @@
 			(uuid "5ef1975d-9051-407a-83a9-45929a7b576d")
 		)
 		(pin "CS" input
-			(at 186.69 248.92 180)
+			(at 181.61 240.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +8716,7 @@
 			(uuid "a8737aa0-823c-43c8-89db-5e16366f3b12")
 		)
 		(pin "INT2" input
-			(at 186.69 242.57 180)
+			(at 181.61 233.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +8726,7 @@
 			(uuid "a21c5f9a-0f51-457b-b6c9-c56f85bbb2c9")
 		)
 		(pin "SCL" input
-			(at 213.36 249.555 0)
+			(at 208.28 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +8736,7 @@
 			(uuid "6cc1f1ec-b61f-4b09-8137-8bd335cdd985")
 		)
 		(pin "3V3" input
-			(at 200.025 231.14 90)
+			(at 194.945 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +8746,7 @@
 			(uuid "fb21f1df-17d2-4693-85e1-6e589fe9ec95")
 		)
 		(pin "SDA" input
-			(at 213.36 236.855 0)
+			(at 208.28 227.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +8756,7 @@
 			(uuid "df07e3ff-ffc4-4de8-82bf-04574647b3e1")
 		)
 		(pin "SDO_SAO" output
-			(at 213.36 242.57 0)
+			(at 208.28 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +8766,7 @@
 			(uuid "530eafdb-261c-4708-be06-c8f9c4aa2670")
 		)
 		(pin "INT1" input
-			(at 186.69 236.22 180)
+			(at 181.61 227.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,6 +9341,46 @@
 				(justify left)
 			)
 			(uuid "f68015ca-7a2a-4a83-926a-6ae8363cf48d")
+		)
+		(pin "IR_INT2" input
+			(at 173.99 201.295 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf7509aa-9876-4fce-8341-16084c12fc29")
+		)
+		(pin "IR_INT1" input
+			(at 173.99 203.835 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b67f18df-fe1f-438a-b508-3fd5e101e3b9")
+		)
+		(pin "IR_CS" input
+			(at 173.99 198.755 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd1540b1-76e4-4753-8526-b5f4390ab731")
+		)
+		(pin "BATT_M" input
+			(at 173.99 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4f00d2c-b61f-4d26-b11b-88d4673d2b59")
 		)
 		(instances
 			(project "pwr_v1"

@@ -4868,95 +4868,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 250.19 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3c26460-50f4-4bda-84e6-dc76172d4395")
-		(property "Reference" "M5"
-			(at 251.46 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 251.46 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-08A_1x08_P2.54mm_Vertical"
-			(at 250.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa031957-9ab2-4ba6-9a57-e51eb0d5b454")
-		)
-		(pin "7"
-			(uuid "7e842326-d136-4844-8d73-29cf0899079a")
-		)
-		(pin "3"
-			(uuid "61e656bb-2025-47f5-ace6-cd1089424e78")
-		)
-		(pin "1"
-			(uuid "a148b9e2-5215-4e4d-a493-f2f00503f840")
-		)
-		(pin "8"
-			(uuid "3ad2b5e0-7caa-4b0a-bb7e-d24539893095")
-		)
-		(pin "5"
-			(uuid "40bb68e7-26f5-4bea-b869-a69827c9b577")
-		)
-		(pin "4"
-			(uuid "7a3fcbc3-95e8-4d29-9245-43784ae02505")
-		)
-		(pin "6"
-			(uuid "1a2e1a1f-9018-464e-a5c1-37d4ba822de7")
-		)
-		(instances
-			(project "pwr_v1"
-				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/21707740-0477-4ca7-a08b-de3269a77e6b"
-					(reference "M5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 141.224 115.57 180)
 		(unit 1)
@@ -5229,6 +5140,95 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/21707740-0477-4ca7-a08b-de3269a77e6b"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x08_Socket")
+		(at 250.19 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51b714f-ee09-4b0c-a653-62eb20aa0a19")
+		(property "Reference" "M5"
+			(at 251.46 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_Socket"
+			(at 251.46 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55b59129-5080-4c17-8744-192d22ea7809")
+		)
+		(pin "7"
+			(uuid "34abeb5a-f7f7-4025-9d0e-4a09e2548b78")
+		)
+		(pin "3"
+			(uuid "4a6c7c92-0e12-4774-9cef-c2cc432b3e47")
+		)
+		(pin "1"
+			(uuid "6d80e0c4-8b8c-4384-a5bf-91c345b96792")
+		)
+		(pin "8"
+			(uuid "d1022e34-d4ee-435c-8b78-c270fd3f0457")
+		)
+		(pin "5"
+			(uuid "f1bd9871-72e3-4ddf-a5e8-0d113672275d")
+		)
+		(pin "4"
+			(uuid "9c7fdba2-2af6-41d5-a07d-da69aaa1482e")
+		)
+		(pin "6"
+			(uuid "f7ffc382-7153-4874-9923-f6f632c59a28")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/21707740-0477-4ca7-a08b-de3269a77e6b"
+					(reference "M5")
 					(unit 1)
 				)
 			)

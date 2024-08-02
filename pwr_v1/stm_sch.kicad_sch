@@ -2180,10 +2180,6 @@
 		(uuid "02d1880c-11ac-4600-85cf-0891a9dc71ee")
 	)
 	(no_connect
-		(at 185.42 133.35)
-		(uuid "0332663e-97a3-49e3-8556-63427f0108a0")
-	)
-	(no_connect
 		(at 86.36 130.81)
 		(uuid "040325e4-4138-4370-804b-8f9a7077d933")
 	)
@@ -2348,10 +2344,6 @@
 		(uuid "754e6164-ada0-4bff-b25a-d33eb7896cd9")
 	)
 	(no_connect
-		(at 185.42 95.25)
-		(uuid "75cb0336-538e-46ba-b346-4bad1c120ee3")
-	)
-	(no_connect
 		(at 198.12 52.07)
 		(uuid "7949fc5c-849b-4626-8c42-eedd07c22de5")
 	)
@@ -2370,10 +2362,6 @@
 	(no_connect
 		(at 185.42 85.09)
 		(uuid "819a89ca-a0f8-48ab-8a5e-e6ded704a912")
-	)
-	(no_connect
-		(at 99.06 85.09)
-		(uuid "86458c2d-ddf8-4449-baef-dd2f02cb86f6")
 	)
 	(no_connect
 		(at 185.42 77.47)
@@ -2532,10 +2520,6 @@
 		(uuid "f196497b-b77f-4a8d-b66f-bb4359a8b690")
 	)
 	(no_connect
-		(at 185.42 97.79)
-		(uuid "f19d73e4-a4d0-4a78-b7cc-bbd6d22bf8ef")
-	)
-	(no_connect
 		(at 86.36 115.57)
 		(uuid "f2d740df-385c-4706-bb94-8117965da394")
 	)
@@ -2576,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "15f72770-ceaf-47f7-bb1b-f640ec046476")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6c2d88-70e2-47f4-8f16-0737ac4ff210")
 	)
 	(wire
 		(pts
@@ -2799,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6953f376-aa84-4108-82e9-370a517f3a5c")
+	)
+	(wire
+		(pts
 			(xy 203.2 120.65) (xy 198.12 120.65)
 		)
 		(stroke
@@ -2879,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.975 133.35) (xy 185.42 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a8e357-d8e3-4807-aba0-5a3a5d9936e2")
+	)
+	(wire
+		(pts
 			(xy 107.95 82.55) (xy 99.06 82.55)
 		)
 		(stroke
@@ -2916,6 +2930,16 @@
 			(type default)
 		)
 		(uuid "b172ffde-8f80-4bbe-8a0a-88bcf44e0895")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6799597-d886-479f-96bd-b4c4fc4874bc")
 	)
 	(wire
 		(pts
@@ -3322,6 +3346,18 @@
 		)
 		(uuid "46d33be0-3243-416a-8cf0-b04bec7c81f7")
 	)
+	(hierarchical_label "IR_INT1"
+		(shape input)
+		(at 176.53 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47548403-daf2-48f7-a791-ffef30aac025")
+	)
 	(hierarchical_label "MOTOR5_REVERSE"
 		(shape input)
 		(at 107.95 107.95 0)
@@ -3478,6 +3514,18 @@
 		)
 		(uuid "86fbaea0-3b1e-4665-b85f-2402b52985d1")
 	)
+	(hierarchical_label "IR_CS"
+		(shape input)
+		(at 107.95 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bae0322-23ff-4635-9391-52797906cb0b")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
 		(at 177.8 64.77 180)
@@ -3513,6 +3561,30 @@
 			(justify right)
 		)
 		(uuid "9fd6f660-a39c-4cc5-a331-15eb416c3481")
+	)
+	(hierarchical_label "IR_INT2"
+		(shape input)
+		(at 176.53 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0a020c0-f544-4857-b843-3d5ae0015ae0")
+	)
+	(hierarchical_label "BATT_M"
+		(shape input)
+		(at 180.975 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a255bfb0-4612-42b5-9c1d-011166f25d90")
 	)
 	(hierarchical_label "MOTOR2_PWM"
 		(shape input)

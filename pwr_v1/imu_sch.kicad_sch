@@ -899,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 53.34) (xy 69.85 53.34)
+			(xy 50.165 53.34) (xy 69.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1321,7 +1321,7 @@
 	)
 	(hierarchical_label "SDO_SAO"
 		(shape input)
-		(at 49.53 53.34 180)
+		(at 50.165 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
