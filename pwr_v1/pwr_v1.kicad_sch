@@ -3802,7 +3802,7 @@
 	)
 	(rectangle
 		(start 24.13 237.49)
-		(end 71.12 267.97)
+		(end 97.79 267.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -3821,6 +3821,17 @@
 			)
 		)
 		(uuid "023bf033-76d4-47be-a884-3d9d8a4995b4")
+	)
+	(text "Schematic designed by Aditya Dharamshi"
+		(exclude_from_sim no)
+		(at 345.44 259.715 0)
+		(effects
+			(font
+				(face "Gidole")
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "07f81192-e128-4a86-8de6-a52dd125ae58")
 	)
 	(label "MOSI"
 		(at 145.415 80.645 270)
@@ -4436,6 +4447,70 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 73.66 254.635 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1ff36dcf-00ea-418a-93a3-f56330263daa")
+		(property "Reference" "FID7"
+			(at 76.2 253.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 76.2 255.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 73.66 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 73.66 254.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "FID7")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5321,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "36aed503-4017-410e-b157-7bab9442e339")
 		(property "Reference" "FID4"
@@ -5267,7 +5342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 57.785 261.62 0)
 			(effects
 				(font
@@ -5908,7 +5983,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47fe4c10-193a-4040-aa10-19c0cf2caa67")
 		(property "Reference" "FID3"
@@ -5929,7 +6004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 57.785 255.27 0)
 			(effects
 				(font
@@ -6457,7 +6532,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5bb7a442-1a5c-440c-9a7b-63a1c7793e3d")
 		(property "Reference" "S3"
@@ -6524,7 +6599,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c4007c5-d275-4dc3-b0d7-fc3a8fdb43c7")
 		(property "Reference" "FID1"
@@ -6545,7 +6620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 57.785 242.57 0)
 			(effects
 				(font
@@ -6576,6 +6651,70 @@
 			(project ""
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 73.66 248.285 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5c6f42f3-7b2c-49e9-9901-7a53cc9b3619")
+		(property "Reference" "FID6"
+			(at 76.2 247.0149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 76.2 249.5549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 73.66 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 73.66 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -7175,6 +7314,70 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "0R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 73.66 260.985 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "76f5133e-ea9a-4bf3-933c-52fb1710f8a0")
+		(property "Reference" "FID8"
+			(at 76.2 259.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 76.2 262.2549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 73.66 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 73.66 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "FID8")
 					(unit 1)
 				)
 			)
@@ -7847,7 +8050,7 @@
 	)
 	(symbol
 		(lib_id "Logo:LOGO")
-		(at 39.37 38.1 0)
+		(at 41.91 42.545 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7856,7 +8059,7 @@
 		(fields_autoplaced yes)
 		(uuid "95a602f8-246d-429c-bc35-93de9f6b1974")
 		(property "Reference" "#G1"
-			(at 39.37 -141.927 0)
+			(at 41.91 -137.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +8068,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 39.37 218.127 0)
+			(at 41.91 222.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +8077,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 38.1 0)
+			(at 41.91 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,7 +8086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 38.1 0)
+			(at 41.91 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 38.1 0)
+			(at 41.91 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8186,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9822e3cb-28a9-49f4-baf9-0ae9176db898")
 		(property "Reference" "S2"
@@ -8180,7 +8383,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a5db0ccd-d469-4d70-9c97-4f6e54b26f09")
 		(property "Reference" "S1"
@@ -8578,7 +8781,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac3036b9-1453-42ed-b50b-17e148a0f52f")
 		(property "Reference" "S4"
@@ -9173,7 +9376,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cfe427b8-e7b4-4048-98c1-fb35cba0df17")
 		(property "Reference" "FID2"
@@ -9194,7 +9397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
 			(at 57.785 248.92 0)
 			(effects
 				(font
@@ -9422,6 +9625,70 @@
 			(project "pwr_v1"
 				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 73.66 241.935 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d556a35e-33f1-4bbe-bf8e-ff7f6953df0e")
+		(property "Reference" "FID5"
+			(at 76.2 240.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 76.2 243.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 73.66 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 73.66 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009"
+					(reference "FID5")
 					(unit 1)
 				)
 			)

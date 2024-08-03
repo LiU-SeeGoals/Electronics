@@ -539,7 +539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MFR.Part # 2.54-2*4 JLCPCB Part # C2977588"
 			(at 100.33 63.5 0)
 			(effects
 				(font

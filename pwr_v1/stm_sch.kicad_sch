@@ -3747,9 +3747,9 @@
 		(at 91.44 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bcc2734-1657-4055-bdb4-7d95e3d85f89")
 		(property "Reference" "CN11"
@@ -4025,9 +4025,9 @@
 		(at 190.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d30a3a35-9524-4783-beee-53c35251e744")
 		(property "Reference" "CN12"

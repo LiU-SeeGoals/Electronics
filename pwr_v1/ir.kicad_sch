@@ -347,9 +347,9 @@
 		(at 97.79 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ec103db2-9974-4bab-a268-52093a710525")
 		(property "Reference" "J_IR1"
 			(at 98.806 68.834 0)

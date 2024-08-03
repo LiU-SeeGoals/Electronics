@@ -3769,7 +3769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # 0402WGF4702TCE JLCPCB Part # C25792"
 			(at 129.794 113.03 0)
 			(effects
 				(font
@@ -4087,7 +4087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCT8316Z0TQRGFRQ1"
+		(property "Value" "MCT8316Z0TRGFR"
 			(at 162.814 130.302 0)
 			(effects
 				(font
@@ -4114,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MFR.Part # MCT8316Z0TRGFR JLCPCB Part # C3681342"
 			(at 141.224 69.85 0)
 			(effects
 				(font
@@ -4457,7 +4457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # 0603WAF2002T5E JLCPCB Part # C4184"
 			(at 128.905 68.58 0)
 			(effects
 				(font
@@ -4757,7 +4757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # 0402WGJ0223TCE JLCPCB Part # C25547"
 			(at 137.414 110.49 0)
 			(effects
 				(font
@@ -4962,7 +4962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MFR.Part # HB-PH3-25418PB2GOP JLCPCB Part # C6332201"
 			(at 247.015 106.68 0)
 			(effects
 				(font
@@ -5187,7 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # 0603WAF2702T5E JLCPCB Part # C22967"
 			(at 128.905 54.61 0)
 			(effects
 				(font
@@ -5256,7 +5256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "MFR.Part # RC0805FR-071ML JLCPCB Part # C107700"
 			(at 123.444 113.03 0)
 			(effects
 				(font

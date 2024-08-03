@@ -2046,9 +2046,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d414037-38ae-45aa-9990-ffec34df1af8")
 		(property "Reference" "J1"
 			(at 73.66 60.9599 0)

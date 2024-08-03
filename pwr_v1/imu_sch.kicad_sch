@@ -1647,7 +1647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MFR.Part # LSM6DSLTR JLCPCB Part # C126672"
 			(at 69.85 53.34 0)
 			(effects
 				(font
