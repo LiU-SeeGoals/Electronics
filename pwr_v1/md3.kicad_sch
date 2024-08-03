@@ -4081,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MTR:RGF0040E-IPC_B"
+		(property "Footprint" "motorDriver:RGF0040E-IPC_B"
 			(at 225.044 59.69 0)
 			(effects
 				(font
