@@ -3822,13 +3822,13 @@
 		)
 		(uuid "023bf033-76d4-47be-a884-3d9d8a4995b4")
 	)
-	(text "Schematic designed by Aditya Dharamshi"
+	(text "Schematic designed by Aditya Dharamshi for LiU FIA SeeGoals"
 		(exclude_from_sim no)
-		(at 345.44 259.715 0)
+		(at 343.535 258.445 0)
 		(effects
 			(font
 				(face "Gidole")
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "07f81192-e128-4a86-8de6-a52dd125ae58")

@@ -2230,6 +2230,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.404 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2466d7ae-0e66-461a-a03d-a8dfe82fb9ef")
+	)
+	(wire
+		(pts
 			(xy 129.794 115.57) (xy 129.794 118.11)
 		)
 		(stroke
@@ -2437,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "5a84867a-80d4-43af-92ac-c1d20a75a2ea")
-	)
-	(wire
-		(pts
-			(xy 184.404 59.69) (xy 204.724 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2bdb3c-0b5e-4497-a0d6-43c82d5035a8")
 	)
 	(wire
 		(pts
@@ -3422,29 +3422,6 @@
 		)
 		(uuid "f3817cae-3566-4139-88d5-daa92a58b0b4")
 	)
-	(label "VM"
-		(at 171.704 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fb8fc4a4-fac0-4173-a827-e6c2f91a2595")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 204.724 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "414dfbdb-db17-424c-aef4-faaaf113b2ed")
-	)
 	(hierarchical_label "FGOUT"
 		(shape input)
 		(at 100.584 77.47 180)
@@ -3504,6 +3481,18 @@
 			(justify right)
 		)
 		(uuid "a5a63d42-e4fe-4ede-99a5-bddf1b073859")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 204.47 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bce75713-0bc4-46f4-9f3e-cbac2a24b24c")
 	)
 	(hierarchical_label "nFault"
 		(shape input)
