@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",CAP_GRM155_MUR,2,100nF,
+D1,0805,1,LED,
+J1,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02,
+J2,PinHeader_1x06_P2.54mm_Vertical,1,Conn_01x06,
+R-led1,0603,1,470,
+"R_scl1, R_sda1",1206_PAN,2,1k,
+U1,QFN_6DSLTR_STM,1,LSM6DSLTR,
