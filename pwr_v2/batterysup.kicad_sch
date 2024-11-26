@@ -1,0 +1,1816 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "04070bea-032b-421d-96f4-de2caafbf35c")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 130.81 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00aea47b-a675-46c5-b557-55f6e0d62ac5")
+	)
+	(junction
+		(at 63.5 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1883145e-6efc-45a0-8065-ed1e1ef6e6c0")
+	)
+	(junction
+		(at 132.08 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ffafdd6-7af1-4314-bf57-878de84b9239")
+	)
+	(junction
+		(at 132.08 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89713157-caf3-43af-8e76-eed98ec5c45c")
+	)
+	(junction
+		(at 62.23 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0d46f7-9642-4115-bf42-2a1461cf4c07")
+	)
+	(junction
+		(at 63.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3d8641-7125-45e5-a3a7-968060832499")
+	)
+	(junction
+		(at 68.58 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fccb4032-c140-47d5-b521-4de5b310768a")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081ae3c0-9854-47a0-8b39-33fbdfeb3405")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edd8dda-d035-40ac-81c8-c5789d068a1b")
+	)
+	(wire
+		(pts
+			(xy 57.15 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e740fd-b501-49cf-b0ac-8fe0f2ca52c2")
+	)
+	(wire
+		(pts
+			(xy 57.15 53.34) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1742778b-0785-40f8-ad0a-f63394c81622")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19de9a4d-da7d-4a30-9535-153d2fa713c2")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 69.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b199815-6dc6-43c5-9888-75dc53e67c80")
+	)
+	(wire
+		(pts
+			(xy 125.73 81.28) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f190ed-8ff2-40e4-86ce-26ab22f0894f")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca0ca8c-d530-4b8e-96ca-335fe79f6a0b")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 130.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d78a3aa-5e3d-46ce-b13a-07a10edb5699")
+	)
+	(wire
+		(pts
+			(xy 114.3 59.69) (xy 120.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e443e3f-bde5-4592-8bcb-7a6fcc7dc80f")
+	)
+	(wire
+		(pts
+			(xy 115.57 73.66) (xy 120.65 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fffbd-b978-443d-9c04-bd866d1bb381")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c24a2f4-48d8-47a9-93d9-e8aee7f68019")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9640ff-9ace-4b36-a3b4-34225fc7dd97")
+	)
+	(wire
+		(pts
+			(xy 55.88 40.64) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3014f0-9753-4425-b698-9d8048b66bff")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4fe2af-c9ee-4f3d-94ed-75dacba24cdd")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.155) (xy 76.2 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8c3486-8275-4b65-ac41-cf310d335c4a")
+	)
+	(wire
+		(pts
+			(xy 52.07 97.155) (xy 57.15 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638a2248-4f7e-4721-99a4-8d6e9f437d29")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "659f6148-6279-418d-9486-62df931d2959")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6699d533-a60c-4036-9b42-4bfe90ad8f25")
+	)
+	(wire
+		(pts
+			(xy 57.15 74.93) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b5133b-4c26-4ce1-bfa5-de63f1ba561c")
+	)
+	(wire
+		(pts
+			(xy 130.81 31.75) (xy 130.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a78e556-508b-4396-8a55-603ec2fe95a0")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 52.07 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76db95a0-cd74-4b16-b6d4-77a2e5f9a286")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 120.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b85a630-78ec-4114-8602-94e8c044b22a")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2c44d2-9726-47c2-88f0-812939ef18d5")
+	)
+	(wire
+		(pts
+			(xy 62.23 97.155) (xy 68.58 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9514c47c-faab-4877-bf30-adbb0c501db1")
+	)
+	(wire
+		(pts
+			(xy 124.46 31.75) (xy 130.81 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9697d886-9479-4473-bb24-d53aa9556b74")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996fd2ac-1dab-46bf-bd1b-7217745dd283")
+	)
+	(wire
+		(pts
+			(xy 130.81 31.75) (xy 138.43 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb5cb5e-bcaf-49cb-abc3-c6ea9b851583")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0826b9-4db1-4054-ad24-0e251be89c30")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7109336-cb55-4c47-ba57-38bd4f1f3100")
+	)
+	(wire
+		(pts
+			(xy 44.45 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fa3801-ff10-44a9-becc-85a9ebea3879")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.775) (xy 57.15 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b5d27e-1c30-4d35-9564-3850d3682e1b")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2a276d7-120e-4c98-ae37-a3a6a3924e07")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 139.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67bc666-42db-44a4-a795-1e5130c8abc6")
+	)
+	(wire
+		(pts
+			(xy 63.5 74.93) (xy 63.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e5d68d-31d0-4560-a09d-2ea573132d79")
+	)
+	(wire
+		(pts
+			(xy 114.3 31.75) (xy 119.38 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d564b3-ba30-4cba-8866-2ebf1fa4c2c7")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e052257b-33ee-457d-aa5e-502be3364ab1")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 132.08 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95acaa1-293b-4b1c-b48b-76d0b6b5c9e2")
+	)
+	(wire
+		(pts
+			(xy 113.03 39.37) (xy 119.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4896dc-c781-40cb-af77-71bd7a730cda")
+	)
+	(wire
+		(pts
+			(xy 68.58 97.155) (xy 68.58 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe5a086-d269-4e69-a1c9-d1de98d99bc6")
+	)
+	(wire
+		(pts
+			(xy 62.23 104.775) (xy 68.58 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f758df11-9850-471f-ab44-7a0706498f48")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe730e05-097e-47b0-8b41-d364eb72a41e")
+	)
+	(text "Battery management to step down the voltage levels \nto monitor the voltages of individual cells."
+		(exclude_from_sim no)
+		(at 138.43 111.76 0)
+		(effects
+			(font
+				(face "Gidole")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "229c26ec-92ee-4fd7-a283-00c3f5ab58ab")
+	)
+	(label "P"
+		(at 47.625 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f82be66-4eea-4da0-805c-bc7f6417b475")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 50.8 104.775 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02bddb33-aaaa-4726-b0c5-6eaa973253d9")
+	)
+	(hierarchical_label "B5"
+		(shape input)
+		(at 115.57 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07afee92-242d-4eca-bd33-91aa6f10f10f")
+	)
+	(hierarchical_label "B4"
+		(shape input)
+		(at 113.03 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07bf58a4-bfc9-4d25-96b9-2de88c91ab19")
+	)
+	(hierarchical_label "O4"
+		(shape input)
+		(at 138.43 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c3096c5-9f2a-455d-bb36-07a505bbc544")
+	)
+	(hierarchical_label "M"
+		(shape input)
+		(at 76.2 97.155 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2020d69c-44e4-4945-9ae3-ad2aa2d58fe0")
+	)
+	(hierarchical_label "O6"
+		(shape input)
+		(at 139.7 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36ef556f-4cb5-4eec-881d-6476a65184c3")
+	)
+	(hierarchical_label "O3"
+		(shape input)
+		(at 71.12 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43b38384-632a-40ea-b6ba-b970b61578b1")
+	)
+	(hierarchical_label "O1"
+		(shape input)
+		(at 69.85 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b12cfbd-efef-47a2-997c-51b7c31bda67")
+	)
+	(hierarchical_label "B2"
+		(shape input)
+		(at 46.99 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50ceca5e-6f20-4200-9430-41693cf8ad67")
+	)
+	(hierarchical_label "B1"
+		(shape input)
+		(at 46.99 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64b07ee7-3fbc-4f62-b99c-e38a012f8db6")
+	)
+	(hierarchical_label "B5"
+		(shape input)
+		(at 114.3 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b3839d2-761e-4586-8129-7595af747cf3")
+	)
+	(hierarchical_label "B6"
+		(shape input)
+		(at 114.3 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "797e63b6-b675-4039-8b30-c2fecbafbdab")
+	)
+	(hierarchical_label "O2"
+		(shape input)
+		(at 71.12 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e96a071-c363-4b5f-9aa0-6e8f5e6df44e")
+	)
+	(hierarchical_label "B3"
+		(shape input)
+		(at 114.3 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83e313bc-3dec-4165-871e-fdcf0ef4e81f")
+	)
+	(hierarchical_label "P"
+		(shape input)
+		(at 45.72 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98e2e1b4-f9af-4154-bd6c-3518bfdf6ca3")
+	)
+	(hierarchical_label "B1"
+		(shape input)
+		(at 44.45 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a58267d5-1f84-403f-98a8-1021c280b591")
+	)
+	(hierarchical_label "B2"
+		(shape input)
+		(at 45.72 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a82126b6-29cd-4fac-a41f-1382f958cf1b")
+	)
+	(hierarchical_label "B3"
+		(shape input)
+		(at 45.72 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7043e96-888d-4a7f-a7c5-cf1caafc37c6")
+	)
+	(hierarchical_label "VB"
+		(shape input)
+		(at 52.07 97.155 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f116f58a-2a79-4889-a6ea-813b2cc51f1e")
+	)
+	(hierarchical_label "O5"
+		(shape input)
+		(at 139.7 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8acf4b9-c801-41a3-817b-01405d6e31c8")
+	)
+	(hierarchical_label "B4"
+		(shape input)
+		(at 115.57 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff453bf8-5992-4292-8e7c-69a32c0c3739")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 53.34 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07483e68-8e0f-4ac0-8123-c57816a61323")
+		(property "Reference" "R4"
+			(at 53.34 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 53.34 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d97278fc-7ba5-4f44-8b8d-af72e1c32dbb")
+		)
+		(pin "1"
+			(uuid "cbb1d708-8ab7-47db-a17a-942492504995")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 53.34 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237bd5c3-c448-450c-b969-67a7fd21b2b5")
+		(property "Reference" "R1"
+			(at 53.34 28.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 53.34 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f233725-5a78-4a64-8522-62f32bc22200")
+		)
+		(pin "1"
+			(uuid "7c400c2f-f07d-407e-a307-b23c1bba3aa0")
+		)
+		(instances
+			(project ""
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 121.92 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bd742c2-11b5-4718-8897-46734b3046d4")
+		(property "Reference" "R10"
+			(at 121.92 35.306 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 121.92 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 121.92 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f91253b-b333-45b4-89d0-0f53a8c3cad3")
+		)
+		(pin "1"
+			(uuid "71e5c47b-6e6d-4dd4-9eec-4f90805f73e8")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 59.69 104.775 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35fbcc6b-0f47-4115-9407-28bd6d8b4973")
+		(property "Reference" "R16"
+			(at 59.69 100.711 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 59.69 102.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # 0603WAF1003T5E JLCPCB Part # C25803"
+			(at 59.69 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fe28a50-35b9-4f31-bc3b-fb472728d25d")
+		)
+		(pin "1"
+			(uuid "cdc1d0ef-9254-4a64-9704-64c8bd0afce6")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3475d7-2e1e-42b6-8944-b9092bb626d0")
+		(property "Reference" "R11"
+			(at 123.19 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 123.19 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "969a1462-79d1-40c0-be98-690c77064bfd")
+		)
+		(pin "1"
+			(uuid "0f981d26-a416-4c0f-b3e6-e04bd5259c3c")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cabcb04-56a5-4735-a4b8-e1c3b8875e05")
+		(property "Reference" "R6"
+			(at 54.61 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 54.61 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 54.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30f6e575-fb49-4c77-80d9-36bd529bf65c")
+		)
+		(pin "1"
+			(uuid "0954ad83-6766-4071-ad77-9f385c329646")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 121.92 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8438f957-a2aa-47cf-ac5e-1e2613e13a37")
+		(property "Reference" "R9"
+			(at 121.92 27.305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 121.92 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 121.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 121.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3de457f-d801-4c8c-b792-ce5c45a4f448")
+		)
+		(pin "1"
+			(uuid "4952eec1-0e4e-44f2-a605-355ca182e024")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90532e70-98e2-4c5d-99d0-d1f0cfe36dd7")
+		(property "Reference" "R5"
+			(at 54.61 48.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 54.61 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84fc0f20-5dc4-4a86-8e76-593745a8ab74")
+		)
+		(pin "1"
+			(uuid "f667d47b-519f-4e13-a68e-b73afce98b73")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "931543a4-052e-4882-b279-ee76026b5035")
+		(property "Reference" "R13"
+			(at 123.19 69.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 123.19 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd2ee5a6-f0d0-4fe3-a3ca-27f020e8bc8f")
+		)
+		(pin "1"
+			(uuid "1229a862-55cb-4c9a-8603-66faaab6339f")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa43c587-ca88-47f7-886a-54c5e073811a")
+		(property "Reference" "R14"
+			(at 123.19 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 123.19 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f79f39b-0782-4064-a12a-90b0e30f3e5d")
+		)
+		(pin "1"
+			(uuid "d450d5c1-32a2-46f4-9f62-b2a0b0cf0dae")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 123.19 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a01f33-dacd-4009-8805-00d7e3a33c34")
+		(property "Reference" "R12"
+			(at 123.19 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 123.19 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c886276d-34af-4ee0-997e-3bb32dd05f75")
+		)
+		(pin "1"
+			(uuid "ddb071b8-bc04-420f-8c2b-e52291ae85ad")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb64ec3-8b1d-49bf-9347-380a3105311c")
+		(property "Reference" "R8"
+			(at 54.61 78.486 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "11k"
+			(at 54.61 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2GEJ113X JLCPCB Part # C413005"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6cc6c5a-3c7e-44df-aa1c-ae4d7c0600a3")
+		)
+		(pin "1"
+			(uuid "aaa025cd-bf59-4ce5-a935-bfe23d3d7bc2")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 54.61 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fab6201e-5577-4d37-8114-0bb4dc4d9c35")
+		(property "Reference" "R7"
+			(at 54.61 70.485 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 54.61 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # ERJ2RKF3001X JLCPCB Part # C278590"
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3031bc48-e20d-4895-b1e1-9c77415b3199")
+		)
+		(pin "1"
+			(uuid "8dddab36-0c13-4ec8-9cc6-ae0b3dc09d9f")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 59.69 97.155 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff74cfd2-9a9a-489b-a63b-c944cb047dc0")
+		(property "Reference" "R15"
+			(at 59.69 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 59.69 94.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MFR.Part # RC0603FR-071ML JLCPCB Part # C105578"
+			(at 59.69 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02472369-88c7-4bc9-b725-b7cdf3fb55a4")
+		)
+		(pin "1"
+			(uuid "d33d92f2-1ecb-4c0b-bc2f-c6245a9346ef")
+		)
+		(instances
+			(project "pwr_v1"
+				(path "/42eee4f9-ea65-4e89-8296-df9554a24009/481e06de-d1e5-4e2d-a370-3500d9cbad9b"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
