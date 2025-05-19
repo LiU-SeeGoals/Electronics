@@ -1,0 +1,18 @@
+### Missing 3D models - created on 2024-11-27 01:08
+### Printed by checking_3D_models plugin
+Board file: F:\Robotics\PCB\git\Electronics\pwr_v2\pwr_v2.kicad_pcb
+3D missing models written to:
+F:\Robotics\PCB\git\Electronics\pwr_v2\pwr_v2_missing3Dmodels.txt
+-------
+('L2', 'F:\\KiCAD\\share\\kicad\\3dmodels\\Inductor_SMD.3dshapes\\L_TaiTech_TMPC1265_13.5x12.5mm.wrl')
+('S3', 'F:\\KiCAD\\share\\kicad\\3dmodels\\TerminalBlock_MetzConnect.3dshapes\\TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed.wrl')
+('S2', 'F:\\KiCAD\\share\\kicad\\3dmodels\\TerminalBlock_MetzConnect.3dshapes\\TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed.wrl')
+('S1', 'F:\\KiCAD\\share\\kicad\\3dmodels\\TerminalBlock_MetzConnect.3dshapes\\TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed.wrl')
+('S4', 'F:\\KiCAD\\share\\kicad\\3dmodels\\TerminalBlock_MetzConnect.3dshapes\\TerminalBlock_MetzConnect_360271_1x01_Horizontal_ScrewM3.0_Boxed.wrl')
+('3C5', 'F:\\KiCAD\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('1C5', 'F:\\KiCAD\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('2C5', 'F:\\KiCAD\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+('4C5', 'F:\\KiCAD\\share\\kicad\\3dmodels\\Capacitor_SMD.3dshapes\\C_2220_5750Metric.wrl')
+-------
+NUM of 3D missing models:9
+checked extensions ['.stp', '.step', '.stpZ']
