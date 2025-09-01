@@ -1,0 +1,20 @@
+Reference,Value,Footprint,Description
+C1,100nF,Capacitor_SMD:C_0402_1005Metric,C1525
+C2,47nF,Capacitor_SMD:C_0402_1005Metric,C117757
+C3,1uF,Capacitor_SMD:C_0402_1005Metric,C14445
+C4,0u1F,Capacitor_SMD:C_0402_1005Metric,C307331
+C5,22uF,Capacitor_SMD:C_2220_5750Metric,C784103
+C6,22uF,Capacitor_SMD:C_0402_1005Metric,C105226
+C7,1uF,Capacitor_SMD:C_0402_1005Metric,C76999
+J1,Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C49257
+J2,Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C49257
+L1,47uH,Inductor_SMD:L_0805_2012Metric,C105499
+POWER1,Conn_02x03_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,C7430399
+R1,5k1,Resistor_SMD:R_0603_1608Metric,C23186
+R2,5k1,Resistor_SMD:R_0603_1608Metric,C23186
+R3,27k,Resistor_SMD:R_0603_1608Metric,C22967
+R4,20k,Resistor_SMD:R_0603_1608Metric,C4184
+R5,1M,Resistor_SMD:R_0805_2012Metric,C107700
+R6,47k,Resistor_SMD:R_0402_1005Metric, C25792
+R7,22k,Resistor_SMD:R_0402_1005Metric,C25547
+U1,MCT8316Z0TRGFR,MotorDriver:RGF0040E-IPC_A,C3681342
