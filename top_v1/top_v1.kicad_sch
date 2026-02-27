@@ -1,14 +1,23 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "966522a1-0f34-4495-b9d1-6b01e7c9f14e")
 	(paper "A4")
+	(title_block
+		(title "Top board - nRF and IMU to Nucleo H755ZI")
+		(date "16-12-2024")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -76,10 +85,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -100,7 +121,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -112,22 +133,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -173,11 +182,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -247,7 +261,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -259,7 +273,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -306,11 +320,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -408,12 +427,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -504,7 +528,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "This board interfaces the nRF board and the IMU chip with the Nucleo H755ZI"
+		(exclude_from_sim no)
+		(at 236.22 170.815 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "1844ce48-19dc-477c-a33f-99a438525d83")
 	)
 	(junction
 		(at 159.385 41.91)
@@ -846,7 +881,6 @@
 	)
 	(label "3V3"
 		(at 215.265 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +891,6 @@
 	)
 	(label "3V3"
 		(at 44.45 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -868,7 +901,6 @@
 	)
 	(label "GND"
 		(at 215.265 117.475 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +911,6 @@
 	)
 	(label "GND"
 		(at 94.615 109.855 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,7 +921,6 @@
 	)
 	(label "GND"
 		(at 161.29 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -901,7 +931,6 @@
 	)
 	(label "3V3"
 		(at 149.86 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -912,7 +941,6 @@
 	)
 	(label "3V3"
 		(at 95.25 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -923,7 +951,6 @@
 	)
 	(label "GND"
 		(at 154.305 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1625,6 +1652,10 @@
 	(sheet
 		(at 76.835 75.565)
 		(size 34.925 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1654,83 +1685,83 @@
 		)
 		(pin "CE" input
 			(at 111.76 83.185 0)
+			(uuid "8324eda5-6a4e-4e04-974b-274bc0c9afb6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8324eda5-6a4e-4e04-974b-274bc0c9afb6")
 		)
 		(pin "GND" input
 			(at 94.615 107.315 270)
+			(uuid "181f8916-94df-4168-89b1-ef122100f783")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "181f8916-94df-4168-89b1-ef122100f783")
 		)
 		(pin "SCK" input
 			(at 111.76 86.36 0)
+			(uuid "fac832cc-a610-4338-8749-d5db564fa1e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fac832cc-a610-4338-8749-d5db564fa1e2")
 		)
 		(pin "MISO" input
 			(at 111.76 88.9 0)
+			(uuid "eb978efe-4f3b-48f7-b47d-9e464213477e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "eb978efe-4f3b-48f7-b47d-9e464213477e")
 		)
 		(pin "CSN" input
 			(at 111.76 95.25 0)
+			(uuid "348fbc28-4dd0-46bb-9384-0c61d06a0abf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "348fbc28-4dd0-46bb-9384-0c61d06a0abf")
 		)
 		(pin "3V3" input
 			(at 95.25 75.565 90)
+			(uuid "037e1f14-a597-4b0d-986c-759155589306")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "037e1f14-a597-4b0d-986c-759155589306")
 		)
 		(pin "MOSI" input
 			(at 111.76 98.425 0)
+			(uuid "be2004bb-ae2b-4d29-82c2-6b79540d5d1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "be2004bb-ae2b-4d29-82c2-6b79540d5d1e")
 		)
 		(pin "IRQ" input
 			(at 111.76 92.075 0)
+			(uuid "63934d00-d50a-4782-9cbe-5681f88adebf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "63934d00-d50a-4782-9cbe-5681f88adebf")
 		)
 		(instances
 			(project "top_v1"
@@ -1743,6 +1774,10 @@
 	(sheet
 		(at 195.58 83.185)
 		(size 39.37 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1772,83 +1807,83 @@
 		)
 		(pin "SDO_SAO" input
 			(at 195.58 88.9 180)
+			(uuid "c5b76c4d-6070-4795-89c7-06ad8bcb4914")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5b76c4d-6070-4795-89c7-06ad8bcb4914")
 		)
 		(pin "INT1" input
 			(at 195.58 92.71 180)
+			(uuid "82824bcb-f287-4359-9a03-72fe16de1c17")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82824bcb-f287-4359-9a03-72fe16de1c17")
 		)
 		(pin "SCL" input
 			(at 195.58 97.155 180)
+			(uuid "6272708c-181a-41f4-aff6-43f8a9171116")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6272708c-181a-41f4-aff6-43f8a9171116")
 		)
 		(pin "SDA" input
 			(at 195.58 101.6 180)
+			(uuid "6293a70b-8c25-4ba7-9f4e-9f2ae56e4dde")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6293a70b-8c25-4ba7-9f4e-9f2ae56e4dde")
 		)
 		(pin "CS" input
 			(at 195.58 104.775 180)
+			(uuid "67804694-ea95-411e-a5c0-e308f6b617cf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "67804694-ea95-411e-a5c0-e308f6b617cf")
 		)
 		(pin "GND" input
 			(at 215.265 114.935 270)
+			(uuid "a9e51e21-d8c2-479e-90da-5cab5d1aa225")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a9e51e21-d8c2-479e-90da-5cab5d1aa225")
 		)
 		(pin "INT2" input
 			(at 195.58 107.95 180)
+			(uuid "d4ef8053-117f-4a79-a3ff-da8e73710e9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d4ef8053-117f-4a79-a3ff-da8e73710e9c")
 		)
 		(pin "3V3" input
 			(at 215.265 83.185 90)
+			(uuid "1f12eb24-53fa-4702-8bdc-e1988d914395")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1f12eb24-53fa-4702-8bdc-e1988d914395")
 		)
 		(instances
 			(project "top_v1"
@@ -1861,6 +1896,10 @@
 	(sheet
 		(at 126.365 63.5)
 		(size 55.245 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1890,143 +1929,143 @@
 		)
 		(pin "IMU_SDA" input
 			(at 181.61 101.6 0)
+			(uuid "ec3d046c-f224-4216-814b-7ce8183f9b48")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ec3d046c-f224-4216-814b-7ce8183f9b48")
 		)
 		(pin "GND" input
 			(at 154.305 130.81 270)
+			(uuid "40a6d24e-7dbc-48ba-8e43-ab0fe1a2be22")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "40a6d24e-7dbc-48ba-8e43-ab0fe1a2be22")
 		)
 		(pin "IMU_SCL" input
 			(at 181.61 97.155 0)
+			(uuid "0b3f2b5e-d9bd-41c7-b815-5b4936256cd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b3f2b5e-d9bd-41c7-b815-5b4936256cd5")
 		)
 		(pin "RF_SCK" input
 			(at 126.365 86.36 180)
+			(uuid "99afe5e9-01c2-4003-89a2-11953f87d53c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "99afe5e9-01c2-4003-89a2-11953f87d53c")
 		)
 		(pin "RF_MISO" input
 			(at 126.365 88.9 180)
+			(uuid "65ffbfb2-b49d-43e8-87a0-57c03b565ccc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "65ffbfb2-b49d-43e8-87a0-57c03b565ccc")
 		)
 		(pin "RF_CSN" input
 			(at 126.365 95.25 180)
+			(uuid "b7012ded-d1e5-4cab-9c00-baa72db4674b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b7012ded-d1e5-4cab-9c00-baa72db4674b")
 		)
 		(pin "RF_MOSI" input
 			(at 126.365 98.425 180)
+			(uuid "ba4e8c1c-25ca-43e9-9719-373772f376f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba4e8c1c-25ca-43e9-9719-373772f376f1")
 		)
 		(pin "RF_CE" input
 			(at 126.365 83.185 180)
+			(uuid "8ba65e8f-e6d4-475f-92f7-89fecfbf8cdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ba65e8f-e6d4-475f-92f7-89fecfbf8cdd")
 		)
 		(pin "RF_IRQ" input
 			(at 126.365 92.075 180)
+			(uuid "580d2b7b-abce-47c6-89a9-3a6bb70d223c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "580d2b7b-abce-47c6-89a9-3a6bb70d223c")
 		)
 		(pin "LED1" input
 			(at 146.685 63.5 90)
+			(uuid "1a1706da-b039-4b81-b56c-bcf84abe04d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1a1706da-b039-4b81-b56c-bcf84abe04d9")
 		)
 		(pin "LED3" input
 			(at 153.035 63.5 90)
+			(uuid "ac77d698-6073-48cd-9867-c412a19c48fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ac77d698-6073-48cd-9867-c412a19c48fa")
 		)
 		(pin "LED2" input
 			(at 159.385 63.5 90)
+			(uuid "761f82eb-cf68-41be-ab6b-2262b5fc88d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "761f82eb-cf68-41be-ab6b-2262b5fc88d4")
 		)
 		(pin "LED4" input
 			(at 165.735 63.5 90)
+			(uuid "966d77dd-1198-488d-aa8e-a066aba7bf1c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "966d77dd-1198-488d-aa8e-a066aba7bf1c")
 		)
 		(pin "3V3_Int" input
 			(at 149.86 130.81 270)
+			(uuid "ff5f31c6-2621-4551-8a0d-94cc54126a4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ff5f31c6-2621-4551-8a0d-94cc54126a4e")
 		)
 		(instances
 			(project "top_v1"
@@ -2039,6 +2078,28 @@
 	(sheet_instances
 		(path "/"
 			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SeeGoals.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBWCEUVAKZhaSDwGD3QEeyM1Nkm1gfAFENB192U/Uu5smaFjYXFwbleVGAAXQBiAJ3fHl7X
+				Y9LV3cOctHvfXWn3EChzOV9nEL8kT/9g0GBnlB/qX0ZhnUGDjfPxKoc9hXsBAAgISqaOQxm3y3Pl
+				D3vA0vV898uxxiCDNuesVNLXO4ccnwqAgCAcoTzf9fKoENH+NmmcG61b1B6zWMxqi9MsGh5uk8lE
+				WIRX4H4bnHMVx11j71Wf3EOTyNKfCxW1L7uuk7MWAF3vz3xLP9yla17fU7h33cpq6UurSnFPZ/r9
+				4hJ++Z/GHGu+vQ7KD5SjLCrcJOLIDi+Dt+c30KfUblic9K1mo9wmmogG7Fnz5e8YhzK0alGbn2ED
+				RGvwRT5wd09nzWKdNcLhMCeMuf67XpZc3zUmkbaXYVqsP7OKJZLBcBxPY8GISFgEm8lIqUzYAYFh
+				5G2w+/441P/Tps3vY7NWardYp+6EXu6725hfRBx/CMG7Hxhfr9K3RNqMLRHrJyxGE1rUvkqaQyHp
+				8htq/FX1/C1eoer+wxqUQ9ygWcQgmsVFw3GQjJQxMbMsizNqoPE4ZRwaqlGQNhnGUISIGbtuzyGn
+				lKLOBfFKGKkDMleBRYmd+5lzd8a/EMWXlwELeZPPxs5h2q26xzeF3cWJrdCkNHThwclSRVgc7Dxs
+				MDMBL5YFRtvnhSGIHvsw9DvTX0LDM7kiJLLMgQAug8cycePhfwgg9p0jKCmmgSwuO10DIfREMvJw
+				LLj/XY/Uc30G6agTD3QoENPIaa/cRm4toMWW/gBBiO5x6hcVBV46gAt257j3s/hpM5Qllp35xv/E
+				NrWcdAgCmKGamAagRtgP3ENBfATG+0F8zQAN0JLmhSfpliXkbEcKm+yAvU9vmyZDF97SNzwfcQcZ
+				bgE1BqEK|
+			)
+			(checksum "714487A7A475B68BB3B3E7DC8D393DDF")
 		)
 	)
 )

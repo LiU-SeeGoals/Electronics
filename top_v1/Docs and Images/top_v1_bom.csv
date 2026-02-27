@@ -1,0 +1,16 @@
+Comment,Designator,Footprint,JLCPCB Part #
+Conn_01x02_Pin,J2,Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical,C27985187
+Conn_02x30_Odd_Even,J9,Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical,C25503138
+8.2p,C3,Capacitor_SMD:C_1206_3216Metric,C3037650
+Conn_02x04_Counter_Clockwise,J_RF1,Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical,C2977588
+100nF,"C1,C2",Capacitor_SMD:C_0402_1005Metric,C307331
+1k,"R1,R2",Resistor_SMD:R_0603_1608Metric,C161809
+LSM6DSLTR,U1,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,C126672
+Conn_02x16_Odd_Even,"J7,J8",Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,C71397
+62,R3,Resistor_SMD:R_0603_1608Metric,C23222
+16.2,"R4,R6",Resistor_SMD:R_0603_1608Metric,C22811
+15.4,R5,Resistor_SMD:R_0603_1608Metric,C22805
+WHITE LED,L3,LED_SMD:LED_0603_1608Metric,C2290
+BLUE LED,"L2,L4",LED_SMD:LED_0603_1608Metric,C2288
+RED LED,L1,LED_SMD:LED_0603_1608Metric,C2286
+10uF,C4,Capacitor_SMD:C_1206_3216Metric,C1849

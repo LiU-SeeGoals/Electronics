@@ -1,13 +1,20 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dda0d773-e7d6-4608-8c0c-29d842f78870")
-	(paper "A5")
+	(paper "A4")
+	(title_block
+		(title "Power board")
+		(date "06-08-2024")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,19 +81,19 @@
 			)
 			(symbol "Conn_02x04_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -107,8 +114,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -118,19 +125,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -140,8 +136,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -162,8 +158,19 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -245,34 +252,16 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
-					(name "Pin_5"
+					(name "Pin_8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,16 +288,34 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
-					(name "Pin_8"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -317,11 +324,23 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "RF Module socket"
+		(exclude_from_sim no)
+		(at 237.49 169.545 0)
+		(effects
+			(font
+				(face "Gidole")
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c0ae9cbb-f7ca-4c60-b6e1-92335f9b3282")
 	)
 	(wire
 		(pts
-			(xy 107.95 68.58) (xy 114.3 68.58)
+			(xy 152.4 107.315) (xy 156.21 107.315)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +350,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 60.96) (xy 95.25 60.96)
+			(xy 135.255 99.695) (xy 139.7 99.695)
 		)
 		(stroke
 			(width 0)
@@ -341,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 114.3 66.04)
+			(xy 152.4 104.775) (xy 156.21 104.775)
 		)
 		(stroke
 			(width 0)
@@ -351,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 114.3 63.5)
+			(xy 152.4 102.235) (xy 156.21 102.235)
 		)
 		(stroke
 			(width 0)
@@ -361,7 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 95.25 68.58)
+			(xy 135.89 107.315) (xy 139.7 107.315)
 		)
 		(stroke
 			(width 0)
@@ -371,7 +390,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 63.5) (xy 95.25 63.5)
+			(xy 135.255 102.235) (xy 139.7 102.235)
 		)
 		(stroke
 			(width 0)
@@ -381,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 60.96) (xy 114.3 60.96)
+			(xy 152.4 99.695) (xy 156.21 99.695)
 		)
 		(stroke
 			(width 0)
@@ -391,7 +410,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 66.04) (xy 95.25 66.04)
+			(xy 135.255 104.775) (xy 139.7 104.775)
 		)
 		(stroke
 			(width 0)
@@ -401,8 +420,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 114.3 66.04 0)
-		(fields_autoplaced yes)
+		(at 156.21 104.775 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -413,8 +431,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 80.01 68.58 180)
-		(fields_autoplaced yes)
+		(at 135.89 107.315 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -425,8 +442,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 114.3 60.96 0)
-		(fields_autoplaced yes)
+		(at 156.21 99.695 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -437,8 +453,7 @@
 	)
 	(hierarchical_label "CE"
 		(shape input)
-		(at 79.375 63.5 180)
-		(fields_autoplaced yes)
+		(at 135.255 102.235 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -449,8 +464,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 79.375 66.04 180)
-		(fields_autoplaced yes)
+		(at 135.255 104.775 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -461,8 +475,7 @@
 	)
 	(hierarchical_label "CSN"
 		(shape input)
-		(at 114.3 63.5 0)
-		(fields_autoplaced yes)
+		(at 156.21 102.235 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -473,8 +486,7 @@
 	)
 	(hierarchical_label "IRQ"
 		(shape input)
-		(at 114.3 68.58 0)
-		(fields_autoplaced yes)
+		(at 156.21 107.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -485,8 +497,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 79.375 60.96 180)
-		(fields_autoplaced yes)
+		(at 135.255 99.695 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -497,7 +508,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 100.33 63.5 0)
+		(at 144.78 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -505,7 +516,7 @@
 		(dnp no)
 		(uuid "38baf6ba-d2f8-46de-9f48-67c59dbc8071")
 		(property "Reference" "J_RF1"
-			(at 101.346 71.374 0)
+			(at 145.796 110.109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,7 +524,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 101.6 57.15 0)
+			(at 146.05 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +533,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
-			(at 100.33 63.5 0)
+			(at 144.78 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,7 +542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 63.5 0)
+			(at 144.78 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +551,7 @@
 			)
 		)
 		(property "Description" "MFR.Part # 2.54-2*4 JLCPCB Part # C2977588"
-			(at 100.33 63.5 0)
+			(at 144.78 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
