@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Motordriver evaluation board")
+		(date "24-07-2025")
+		(rev "1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -127,7 +132,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -199,6 +203,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "85b89c6a-5afd-4ee0-b73b-db8cd7a86718")
 			(effects
 				(font
@@ -454,6 +459,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c46abe68-7236-40db-b3d8-e441386a2f2b")
 			(effects
 				(font
@@ -698,6 +704,7 @@
 		(property "Value" "5k1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d1ef6d2a-71cd-4658-b3b2-b3a0b3025d59")
 			(effects
 				(font
@@ -899,6 +906,7 @@
 		(property "Value" "22uF"
 			(at 0 3.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6c54a182-8ca1-4814-a568-312e09867353")
 			(effects
 				(font
@@ -1113,6 +1121,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2b761b44-d012-4177-b0ec-a0681cda14e0")
 			(effects
 				(font
@@ -1368,6 +1377,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5763181e-ef88-4421-a043-edea05c67739")
 			(effects
 				(font
@@ -1612,6 +1622,7 @@
 		(property "Value" "1uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a74e94e1-f017-46b1-8216-0225047f7e9d")
 			(effects
 				(font
@@ -1826,6 +1837,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "dc7b4bb6-30aa-4c63-82a8-7fcb1cc5485e")
 			(effects
 				(font
@@ -2071,6 +2083,7 @@
 		(property "Value" "Conn_01x08"
 			(at 0 20.109999 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "533d78d7-f970-4042-937c-99cba19e2f74")
 			(effects
 				(font
@@ -2361,14 +2374,26 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/libraries/WR-WTB 2.54 mm Male Locking Header.stp"
+			(offset
+				(xyz -0.32 -8.9 5.75)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -2392,6 +2417,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "db0d1547-7f1d-4338-9388-140585e76c37")
 			(effects
 				(font
@@ -2711,6 +2737,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6eade5c7-6ddf-496b-8247-eed8ad6f9912")
 			(effects
 				(font
@@ -2966,6 +2993,7 @@
 		(property "Value" "1M"
 			(at 0 1.65 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bf212c7b-97db-49de-b403-7bd0baa00509")
 			(effects
 				(font
@@ -3167,6 +3195,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "547c12c3-a974-4d61-ad13-49c993309281")
 			(effects
 				(font
@@ -3422,6 +3451,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4e4b7343-adf6-40ce-8ac4-9a1a24dc50d0")
 			(effects
 				(font
@@ -3677,6 +3707,7 @@
 		(property "Value" "20k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9ac44960-f155-4135-b3bd-9b7def1b27cd")
 			(effects
 				(font
@@ -3942,6 +3973,7 @@
 		(property "Value" "1uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fd5d7851-af3a-46fb-8f8f-30f0a3a9ec36")
 			(effects
 				(font
@@ -4852,6 +4884,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "952f337b-15fc-4e28-b437-24eb5df1514c")
 			(effects
 				(font
@@ -5096,6 +5129,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2d5eb280-e70c-4d42-84de-503108287bfa")
 			(effects
 				(font
@@ -5340,6 +5374,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ba1a3f5c-7bfa-4f05-ae6e-31d999685557")
 			(effects
 				(font
@@ -5584,6 +5619,7 @@
 		(property "Value" "200"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7fa692a5-3eb8-461e-9847-32384b9e92cf")
 			(effects
 				(font
@@ -5916,6 +5952,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "352f1945-e811-4c36-b2c9-18db01adc300")
 			(effects
 				(font
@@ -6606,6 +6643,17 @@
 			(uuid "a6e59f1c-4382-448f-80f9-b69dd7d4106e")
 		)
 		(embedded_fonts no)
+		(model "F:/Robotics/MotorDrivers/md_v1/libraries/motorDriver/MCT8316Z0TQRGFRQ1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -6627,6 +6675,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9c740089-99fd-4a69-8422-9799ecfa629f")
 			(effects
 				(font
@@ -6871,6 +6920,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "db57f65f-f95a-4cb3-991a-40ab9697e80e")
 			(effects
 				(font
@@ -7126,6 +7176,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bd70e1b8-2370-4775-b1ee-23cdd14c2c96")
 			(effects
 				(font
@@ -7381,6 +7432,7 @@
 		(property "Value" "22k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "275f8a2b-4b85-4fc5-9a05-01ba101c06b0")
 			(effects
 				(font
@@ -7582,6 +7634,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f7e05d3a-f157-4163-a484-e34889193469")
 			(effects
 				(font
@@ -7837,6 +7890,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d2fd7d0e-de28-462f-a577-8a0b59fe5f46")
 			(effects
 				(font
@@ -8092,6 +8146,7 @@
 		(property "Value" "47nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f61efa18-7173-4587-bb0c-d7efc25dceda")
 			(effects
 				(font
@@ -8306,6 +8361,7 @@
 		(property "Value" "5k1"
 			(at 0 1.43 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b012b75d-de2d-4d15-a565-4dcbd3c60ee0")
 			(effects
 				(font
@@ -8571,6 +8627,7 @@
 		(property "Value" "Conn_01x03"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1ed0de0c-6187-43b1-957e-0a98441a3272")
 			(effects
 				(font
@@ -8837,6 +8894,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "56f2e455-941b-4775-a0bd-2f38172e5b2f")
 			(effects
 				(font
@@ -9081,6 +9139,7 @@
 		(property "Value" "0u1F"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "03cd3852-e241-43b3-9987-d594044676d6")
 			(effects
 				(font
@@ -9295,6 +9354,7 @@
 		(property "Value" "Conn_01x01"
 			(at 0 2.33 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7654f0bc-c694-47cf-b39e-b0fbc91e76e7")
 			(effects
 				(font
@@ -9539,6 +9599,7 @@
 		(property "Value" "47k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "df42d21d-543a-48a8-81d8-92a6b11eaa85")
 			(effects
 				(font
@@ -9740,6 +9801,7 @@
 		(property "Value" "22uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1609beca-7dab-4afa-81ff-a4230f07de4d")
 			(effects
 				(font
@@ -9941,6 +10003,7 @@
 		(property "Value" "100nF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "09db9ae3-e90d-4477-9ff6-4e7a0321e6a8")
 			(effects
 				(font
@@ -10142,6 +10205,7 @@
 		(property "Value" "47uH"
 			(at 0 1.550001 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6ca8fc29-c196-43d4-8cee-864bd7d881cc")
 			(effects
 				(font
@@ -10407,6 +10471,7 @@
 		(property "Value" "RED LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4be0a8f0-4345-4ff5-982e-0babe89260eb")
 			(effects
 				(font
@@ -10630,6 +10695,7 @@
 		(property "Value" "27k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0d4f8e67-ce14-4c37-95ce-c56a1fd6456e")
 			(effects
 				(font
@@ -16038,4 +16104,23 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SeeGoals_layout.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBsB/0SAIbeXiEAtR4mHRfTj5Nz1m2StbcFnUoZr0ZoYAlj6L//fzdQMAFVAFEAWADb3Z7+
+				19qnn7PBW07PeLOtl73mdoU6o3TOczh0M+4KNU6/Iwy+6D4BAAgIvs9fUMZryibM3az7Jt/67b75
+				bgrWnJOiknrWGNwXRAAEBKAnlHF2wx5CWeNSqWCkgSfuW8beO9z389081OAHP51KfSpCWl1qmiYn
+				RQB81prplTqov2lO/qL72ldJVeqyhqK9ZUz97f2uS+fy3TdvvX0n/bd9cJr8ejZ/2AvUKa1XFSf1
+				atUor4gFs3SPLVynNafVmn5NCsM0KKBLmZyzG4ZM/vl6nt4OlRUpnwfJBKtQGpiMoVhgENKgHmSk
+				VCJqrH5NGudFqStaXtUqHqhSw6JgBAFBwbPpTvP3y3nn8kdv69WkKPrb3VekZs6AG36taYorMIcb
+				wM7qx70VD7P9PL24EJFyRK0owoqWU5JiDujZbTkMt+FjTuGJUHPu5g0Gr5QRMTfc2Q9doPE4hCQS
+				IpEgbVLoYETEzJUdz0HkBYXOCW6PkFwNAO4D0WpzYto3r0V7586ghS/yMf08vB1U8SKKsuu3jJ5L
+				Nubc2s1NCiycD0VfK/m62NMbDwOTAbbmeQLIMyVkOd/FhRCFTyQvCfMCS7/rOXtSwwgNNeGJakVh
+				Qvl2y10E1wNaa+kbIAjRntKfKKzoxRk84DdvcF62PkmeWcFCB733fL5dDT59YoHnqkhOD1AP7AVk
+				QAAfwfH8E7J9gBRoKfOig3RrJWRiRISf7MTYpq5NnaYPa/0Ng0vcWNY6SMcAVwE=|
+			)
+			(checksum "69261A743414A2F86B288D1B301FCB06")
+		)
+	)
 )

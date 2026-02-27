@@ -93,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -594,7 +594,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://SeeGoals_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -909,8 +909,8 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Aditya Dharamshi/Desktop/",
+    "page_layout_descr_file": "kicad-embed://SeeGoals.kicad_wks",
+    "plot_directory": "Docs and Images/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
