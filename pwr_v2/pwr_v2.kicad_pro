@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
+          "drill": 1.6,
           "height": 3.2,
           "width": 3.2
         },
@@ -84,12 +84,16 @@
           "Minimum is 0.15mm, so okay"
         ],
         [
-          "lib_footprint_mismatch|182300000|153400000|d755830f-73f3-4ba9-9607-4769b3218181|00000000-0000-0000-0000-000000000000",
-          ""
+          "hole_clearance|138274999|159700001|f523c5b9-4e81-446c-bbe6-53a76f7df67a|0f8132e8-e27b-451f-8f69-f7916981571f",
+          "Excluded on purpose"
         ],
         [
-          "silk_overlap|161240800|137616100|1cee9232-8bb0-4fec-a22d-61bbeedc72b8|96061b68-7a13-48f4-b6ca-32f558ebc971",
-          "Intentional"
+          "hole_clearance|208149999|96690001|051167b8-02bc-480f-b4bd-0353b594afcc|a73d49f4-e481-4ae5-9aa4-b125d38f2523",
+          "Excluded on purpose"
+        ],
+        [
+          "hole_clearance|90870000|101400000|e2b7fc98-1ac0-4fce-8521-c4b7d99e7b0f|443e0186-d67f-4677-b8b7-f4423b8fcfb2",
+          "Excluded on purpose"
         ]
       ],
       "meta": {
@@ -141,6 +145,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -284,6 +289,7 @@
     "layer_presets": [
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -318,6 +324,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           2,
           11,
@@ -348,6 +355,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -378,6 +386,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -409,6 +418,7 @@
       },
       {
         "activeLayer": -2,
+        "flipBoard": false,
         "layers": [
           2,
           7,
@@ -682,6 +692,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -735,7 +746,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://SeeGoals_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1050,8 +1061,8 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Aditya Dharamshi/Desktop/",
+    "page_layout_descr_file": "kicad-embed://SeeGoals.kicad_wks",
+    "plot_directory": "Docs and Images/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

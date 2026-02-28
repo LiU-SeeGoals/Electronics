@@ -6933,9 +6933,9 @@
 		)
 		(uuid "767d2995-3802-48f1-9019-ea0273e463ec")
 	)
-	(text "Design: A. Ryll"
+	(text "Designer: A. Ryll (TIGERs)"
 		(exclude_from_sim no)
-		(at 382.905 267.335 0)
+		(at 303.53 260.35 0)
 		(effects
 			(font
 				(size 2.54 2.159)

@@ -3,11 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "cc846d00-3ba1-43a3-84ac-c3e8e8128be6")
-	(paper "A5")
+	(paper "A4")
 	(title_block
 		(title "pwr_v2")
 		(date "2025-05-11")
 		(rev "V2")
+		(company "Buck regulator circuits to generate 12V, 5V and 3.3V supplies.")
 		(comment 1 "nRF module connector")
 	)
 	(lib_symbols
@@ -468,27 +469,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "nRF connector"
+		(exclude_from_sim no)
+		(at 196.215 170.18 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "f96b80dd-e0ed-46b7-8b7d-1bde12826211")
+	)
 	(junction
-		(at 90.805 53.975)
+		(at 136.525 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0968bf4c-9316-418c-8cc0-912ac421275a")
 	)
 	(junction
-		(at 90.805 59.055)
+		(at 136.525 92.075)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92cf6eac-ba92-48e8-a169-283e57460945")
 	)
 	(junction
-		(at 85.09 53.975)
+		(at 130.81 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bab9ff43-f064-4bd1-8512-470ba2b5defa")
 	)
 	(wire
 		(pts
-			(xy 53.34 67.31) (xy 60.96 67.31)
+			(xy 99.06 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -498,7 +510,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 62.23) (xy 80.01 62.23)
+			(xy 119.38 95.25) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -508,7 +520,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 59.055) (xy 90.805 61.595)
+			(xy 136.525 92.075) (xy 136.525 94.615)
 		)
 		(stroke
 			(width 0)
@@ -518,7 +530,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 76.2 53.975)
+			(xy 121.92 92.71) (xy 121.92 86.995)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +540,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 64.77) (xy 60.96 64.77)
+			(xy 98.425 97.79) (xy 106.68 97.79)
 		)
 		(stroke
 			(width 0)
@@ -538,7 +550,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.055) (xy 90.805 59.055)
+			(xy 130.81 92.075) (xy 136.525 92.075)
 		)
 		(stroke
 			(width 0)
@@ -548,7 +560,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.975) (xy 90.805 53.975)
+			(xy 130.81 86.995) (xy 136.525 86.995)
 		)
 		(stroke
 			(width 0)
@@ -558,7 +570,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 80.01 67.31)
+			(xy 119.38 100.33) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +580,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.805 53.975) (xy 99.695 53.975)
+			(xy 136.525 86.995) (xy 145.415 86.995)
 		)
 		(stroke
 			(width 0)
@@ -578,7 +590,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 64.77) (xy 80.01 64.77)
+			(xy 119.38 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -588,7 +600,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 59.69) (xy 60.96 59.69)
+			(xy 98.425 92.71) (xy 106.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -598,7 +610,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 62.23) (xy 60.96 62.23)
+			(xy 98.425 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -608,7 +620,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.975) (xy 85.09 53.975)
+			(xy 121.92 86.995) (xy 130.81 86.995)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +630,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 59.69) (xy 73.66 59.69)
+			(xy 121.92 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -627,7 +639,7 @@
 		(uuid "ff7c3df2-4e3e-4ea4-bd8d-b5c8f037a32a")
 	)
 	(image
-		(at 132.715 83.82)
+		(at 178.435 116.84)
 		(scale 0.126716)
 		(uuid "0b540259-ec1f-405e-ad40-08ac5940e3d8")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAjcAAAF5CAIAAADs8Jx4AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -1273,11 +1285,29 @@
 			"AAAAAAAAAABg4xYAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYOMWAAEAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBKFwABAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAADy6x8AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAftQf"
-			"AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALA7HrAuAQAAZ+nVBgB0AIDQntCx"
+			"0YvRh9C90YvQuQAgTGlnaHQAAABp6dcGAHUAgFNtYWxsIEZvbnRzAAAAAABQNh6wLgEAAGvp2QYA"
+			"dgCABgAAABAAAACwIvjn/////wAAAAAAAAAAbenbBgB3AIAAAAAAAAAAAC96TUMAAAAAcDcesC4B"
+			"AABv6d0GAHgAgCAWLrAuAQAA70pBQAAAAADwOB6wLgEAAHHp3wYAeQCATVMgU2VyaWYAIExpZ2h0"
+			"AAAAAAAAAAAAc+khBwB6AIAGAAAAEAAAAOAc+Of/////AAAAAAAAAAB16SMHAHsAgAYAAAAQAAAA"
+			"ACH45/////8AAAAAAAAAAHfpJQcAfACAU21hbGwgRm9udHMA/////wAAAAAAAAAAeeknBwB9AIAG"
+			"AAAAEAAAAKAe+Of/////AAAAAAAAAAB76SkHAH4AgADyLbAuAQAAXzABFAAAAABQOx6wLgEAAH3p"
+			"KwcAfwCAU21hbGwgRm9udHMAAAAAAAAAAAAAAAAAf+ktBwCAAIBOb3JtYWFsaQAAAAAAAAAAAAAA"
+			"AAAAAABB6S8HAIEAgAAAAAAAAAAAJcB0OAAAAACQRR6wLgEAAEPpMQcAggCAzojOvc+Ezr/Ovc6x"
+			"AAAAAAAAAAAAAAAARekzBwCDAIBCb2xkIEl0YWxpYwAAAAAAAAAAAAAAAABH6TUHAIQAgFN0YW5k"
+			"YWFyZACc//////8AAAAAAAAAAEnpNwcAhQCAAAAAAAAAAADfRlBW/////xBEHrAuAQAAS+k5BwCG"
+			"AIBIYWx2ZmVkIEt1cnNpdgAAAAAAAAAAAABN6TsHAIcAgFBvxaFldm5vAMYcjAAAAACwPx6wLgEA"
+			"AE/pPQcAiACABgAAABAAAADQhJf//////wAAAAAAAAAAUek/BwCJAIBmZWQga3Vyc2l2AHoAAAAA"
+			"cD4esC4BAABT6QEHAIoAgEdyYXMgSXRhbGlxdWUAAAAQQB6wLgEAAFXpAwcAiwCAAAAAAAAAAACM"
+			"IizQAAAAAFBFHrAuAQAAV+kFBwCMAIBGw6lsa8O2dsOpcgD/////AAAAAAAAAABZ6QcHAI0AgFZl"
+			"dCBDdXJzaWVmAP////8AAAAAAAAAAFvpCQcAjgCASGFsdmZldCBLdXJzaXYA/wAAAAAAAAAAXekL"
+			"BwCPAIBDb21pYyBTYW5zIE1TAAAAUEUesC4BAABf6Q0HAJAAgFN0YW5kYXJkAL3OsQAAAAAAAAAA"
+			"AAAAAKHuDwcAkQCAzprOsc69zr/Ovc65zrrOrAAAAAAAAAAAo+4RBwCSAIBQb2dydWJpb25hIEt1"
+			"cnN5d2EAAAAAAACl7hMHAJMAgE5lZ3JpdG8gSXTDoWxpY28APw=="
 		)
 	)
 	(image
-		(at 130.175 58.42)
+		(at 175.895 91.44)
 		(scale 0.383084)
 		(uuid "20fb9b89-c626-4cc4-8df5-98fdf681d69b")
 		(data "iVBORw0KGgoAAAANSUhEUgAAALAAAAECCAIAAADRoMrDAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -1910,11 +1940,29 @@
 			"AAAAAAD8i+YKAAAAAAUPTwUAAAAAYzIAAAAAAAA5NOUKAAAAAFpsTAUAAAAAZDIAAAAAAAAod+MK"
 			"AAAAAMUHSgUAAAAAZTIAAAAAAAAnd+MKAAAAAMQHSgUAAAAAZjIAAAAAAAAgd+MKAAAAALwHSgUA"
 			"AAAAZzIAAAAAAADEX+EKAAAAAGDwRwUAAAAAaDIAAAAAAAC6X+EKAAAAAFfwRwUAAAAAaTIAAAAA"
-			"AAAo+94KAAAAAA=="
+			"AAAo+94KAAAAAAAAAAAAAAAACAAAAAAAAAAg3B6wLgEAAAEAAAAAAAAAAAAAAAAAAABc3+UOAOgC"
+			"gMBYLbAuAQAAAwAAAAAAAAAA+i2wLgEAAAEAAAAAAAAAAAAAAAAAAACh3OgOAOkCgAAAAAAAAAAA"
+			"AwAAAAAAAADA/h6wLgEAAAEAAAAAAAAAAAAAAAAAAACi3O8OAOoCgAAAAAAAAAAAAwAAAAAAAACg"
+			"AB+wLgEAAAEAAAAAAAAAAAAAAAAAAACn3PIOAOsCgHBdLbAuAQAAAwAAAAAAAAAAAR+wLgEAAAEA"
+			"AAAAAAAAAAAAAAAAAACo3PEOAOwCgFBiLbAuAQAAAwAAAAAAAADQAB+wLgEAAAEAAAAAAAAAAAAA"
+			"AAAAAACt3PQOAO0CgAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACu3PsO"
+			"AO4CgKBgLbAuAQAAAwAAAAAAAADA/C2wLgEAAAEAAAAAAAAAAAAAAAAAAACz3P4OAO8CgMBeLbAu"
+			"AQAAAwAAAAAAAACgAi6wLgEAAAEAAAAAAAAAAAAAAAAAAAC03P0OAPACgJBhLbAuAQAAAwAAAAAA"
+			"AAAQAR+wLgEAAAEAAAAAAAAAAAAAAAAAAAC53MAOAPECgAAAAAAAAAAAAwAAAAAAAACg/x6wLgEA"
+			"AAEAAAAAAAAAAAAAAAAAAAC63McOAPICgAAAAAAAAAAAAwAAAAAAAABA+y2wLgEAAAEAAAAAAAAA"
+			"AAAAAAAAAAC/3MoOAPMCgAAAAAAAAAAAAwAAAAAAAABgWy2wLgEAAAEAAAAAAAAAAAAAAAAAAACA"
+			"3MkOAPQCgHBgLbAuAQAAAwAAAAAAAABwAB+wLgEAAAEAAAAAAAAAAAAAAAAAAACF3MwOAPUCgOBi"
+			"LbAuAQAAAwAAAAAAAADg/C2wLgEAAAEAAAAAAAAAAAAAAAAAAACG3NMOAPYCgKBdLbAuAQAAAwAA"
+			"AAAAAACA+y2wLgEAAAEAAAAAAAAAAAAAAAAAAACL3NYOAPcCgAAAAAAAAAAAAwAAAAAAAACg+y2w"
+			"LgEAAAEAAAAAAAAAAAAAAAAAAACM3NUOAPgCgEBjLbAuAQAAAwAAAAAAAAAA/S2wLgEAAAEAAAAA"
+			"AAAAAAAAAAAAAACR3NgOAPkCgAAAAAAAAAAAAwAAAAAAAACAAR+wLgEAAAEAAAAAAAAAAAAAAAAA"
+			"AACS3N8OAPoCgMBbLbAuAQAAAwAAAAAAAABg/h6wLgEAAAEAAAAAAAAAAAAAAAAAAACX3CIPAPsC"
+			"gAAAAAAAAAAAAwAAAAAAAABA/x6wLgEAAAEAAAAAAAAAAAAAAAAAAACY3CEPAPwCgAAAAAAAAAAA"
+			"BAAAAAAAAAABAA=="
 		)
 	)
 	(label "GND"
-		(at 90.805 61.595 0)
+		(at 136.525 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1973,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 53.34 67.31 180)
+		(at 99.06 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,7 +1984,7 @@
 	)
 	(hierarchical_label "IRQ"
 		(shape input)
-		(at 80.01 67.31 0)
+		(at 125.73 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,7 +1995,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 52.705 64.77 180)
+		(at 98.425 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1958,7 +2006,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 80.01 64.77 0)
+		(at 125.73 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1969,7 +2017,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 99.695 53.975 0)
+		(at 145.415 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +2028,7 @@
 	)
 	(hierarchical_label "CE"
 		(shape input)
-		(at 52.705 62.23 180)
+		(at 98.425 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,7 +2039,7 @@
 	)
 	(hierarchical_label "CSN"
 		(shape input)
-		(at 80.01 62.23 0)
+		(at 125.73 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2002,7 +2050,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 52.705 59.69 180)
+		(at 98.425 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +2061,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 85.09 56.515 0)
+		(at 130.81 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2021,7 +2069,7 @@
 		(dnp no)
 		(uuid "832c8a41-f9ed-4cb8-aab8-1d63e16f5012")
 		(property "Reference" "C1_R1"
-			(at 78.74 56.515 0)
+			(at 124.46 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2078,7 @@
 			)
 		)
 		(property "Value" "8.2p"
-			(at 79.375 58.42 0)
+			(at 125.095 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2105,7 @@
 			)
 		)
 		(property "Description" "JLC:C3037650"
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2114,7 @@
 			)
 		)
 		(property "Sim.Device" "C"
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2123,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2132,7 @@
 			)
 		)
 		(property "Datasheet_1" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2140,7 @@
 			)
 		)
 		(property "Footprint_1" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2148,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2156,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2164,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2172,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2180,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2188,7 @@
 			)
 		)
 		(property "Reference_1" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2196,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2204,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 85.09 56.515 0)
+			(at 130.81 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2228,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Odd_Even")
-		(at 68.58 62.23 0)
+		(at 114.3 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2189,7 +2237,7 @@
 		(dnp no)
 		(uuid "be14f1d4-2455-47d9-81e9-094d0b6758d4")
 		(property "Reference" "J_RF1"
-			(at 67.564 70.104 0)
+			(at 113.284 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +2245,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 67.31 55.88 0)
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2206,7 +2254,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical"
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2272,7 @@
 			)
 		)
 		(property "Description" "JLC:C2977588"
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet_1" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2289,7 @@
 			)
 		)
 		(property "Footprint_1" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2297,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,7 +2305,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2313,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +2321,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2329,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2337,7 @@
 			)
 		)
 		(property "Reference_1" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2345,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2353,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 68.58 62.23 0)
+			(at 114.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2395,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 90.805 56.515 0)
+		(at 136.525 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2355,7 +2403,7 @@
 		(dnp no)
 		(uuid "c9949771-2d8e-49ea-805f-933715763a6a")
 		(property "Reference" "C2_R1"
-			(at 93.345 56.515 0)
+			(at 139.065 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2412,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 93.345 58.42 0)
+			(at 139.065 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2421,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2439,7 @@
 			)
 		)
 		(property "Description" "JLC: C1849"
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2448,7 @@
 			)
 		)
 		(property "Datasheet_1" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2456,7 @@
 			)
 		)
 		(property "Footprint_1" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2464,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2472,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2480,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2488,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2496,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,7 +2504,7 @@
 			)
 		)
 		(property "Reference_1" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2512,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2520,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 90.805 56.515 0)
+			(at 136.525 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)

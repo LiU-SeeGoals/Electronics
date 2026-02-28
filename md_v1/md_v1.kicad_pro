@@ -60,10 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "connection_width|109346209|51953648|d2fe4fd0-43d5-44f2-b140-879b6b0e7aa8|c0758904-81cd-44cf-be76-3cd915d5973b",
-          ""
-        ],
-        [
           "missing_courtyard|106890994|51702447|4c0b7412-98ec-4eb4-bef6-3421a998e643|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -97,7 +93,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -116,6 +112,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -488,6 +485,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -541,7 +539,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://SeeGoals_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -724,8 +722,8 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
-    "plot_directory": "",
+    "page_layout_descr_file": "kicad-embed://SeeGoals.kicad_wks",
+    "plot_directory": "Docs and Images/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
