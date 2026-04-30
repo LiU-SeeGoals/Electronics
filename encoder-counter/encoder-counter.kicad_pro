@@ -104,7 +104,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -144,7 +144,7 @@
         "min_text_thickness": 0.17,
         "min_through_hole_diameter": 0.25,
         "min_track_width": 0.3048,
-        "min_via_annular_width": 0.19,
+        "min_via_annular_width": 0.175,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -521,10 +521,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.285,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.6858,
+        "via_drill": 0.3048,
         "wire_width": 6
       }
     ],
