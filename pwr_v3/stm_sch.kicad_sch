@@ -6949,6 +6949,17 @@
 		)
 		(uuid "f479423a-646d-4c75-be91-b7cf1721d6d7")
 	)
+	(hierarchical_label "KICKER_SCK"
+		(shape input)
+		(at 69.85 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "030028e7-91ef-4201-96d7-19da13b2423f")
+	)
 	(hierarchical_label "DRIBBLER_CONTROL"
 		(shape input)
 		(at 45.72 102.87 180)
@@ -7235,6 +7246,17 @@
 		)
 		(uuid "a2cf52f8-7ab7-4786-86bc-89491c8156c5")
 	)
+	(hierarchical_label "KICKER_MOSI"
+		(shape input)
+		(at 69.85 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b64d2298-e2fd-4ec3-ac24-4442b66a12e1")
+	)
 	(hierarchical_label "RF_CSN"
 		(shape input)
 		(at 99.06 54.61 180)
@@ -7289,6 +7311,17 @@
 			(justify left)
 		)
 		(uuid "db468d81-b4ac-494e-a42e-8b42a36edacb")
+	)
+	(hierarchical_label "KICKER_MISO"
+		(shape input)
+		(at 69.85 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2e2d142-ed77-4be3-bc30-447c3abe7408")
 	)
 	(hierarchical_label "KICKER_DONE"
 		(shape input)

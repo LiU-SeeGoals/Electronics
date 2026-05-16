@@ -86,11 +86,11 @@
           "Minimum is 0.15mm, so okay"
         ],
         [
-          "lib_footprint_mismatch|156750000|65475000|07546836-1143-439c-bf1f-c07ec77a0f22|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|154000000|65525000|07546836-1143-439c-bf1f-c07ec77a0f22|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|156750000|85950000|60e8bd0e-fad0-4bed-b97a-100680f4db03|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|194000000|40275000|1b8e2279-61fe-41d5-bcb7-0568d6768ce0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -1113,7 +1113,7 @@
         "uuid": "42eee4f9-ea65-4e89-8296-df9554a24009"
       }
     ],
-    "used_designators": "J2,J5,#PWR10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

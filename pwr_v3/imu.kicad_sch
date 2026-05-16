@@ -949,7 +949,7 @@
 		)
 		(uuid "2c68abd8-384f-4982-b6d3-4c68c2d1cec5")
 	)
-	(text "CS-0 : SPI mode\nCS-1 : I2C mode"
+	(text "CS-0 : SPI mode\nCS-1 : I2C mode (default internal setup)"
 		(exclude_from_sim no)
 		(at 196.85 74.93 0)
 		(effects
@@ -983,6 +983,22 @@
 		(color 0 0 0 0)
 		(uuid "b682ba11-5044-4254-a905-4be53201c2c1")
 	)
+	(no_connect
+		(at 146.05 83.82)
+		(uuid "602ffd80-9463-4356-9e64-c1d397ce8f85")
+	)
+	(no_connect
+		(at 100.33 71.12)
+		(uuid "6255dd25-5f29-478b-83ca-6c4ad1cf59c5")
+	)
+	(no_connect
+		(at 100.33 78.74)
+		(uuid "63379916-c2dd-4ef9-a6d4-3574a2b541cb")
+	)
+	(no_connect
+		(at 146.05 76.2)
+		(uuid "e0f0a667-4ca7-418c-acaf-7a3222f5d4ff")
+	)
 	(wire
 		(pts
 			(xy 96.52 88.9) (xy 96.52 91.44)
@@ -992,16 +1008,6 @@
 			(type default)
 		)
 		(uuid "033e80a8-09b9-490c-95dc-5356817d34a8")
-	)
-	(wire
-		(pts
-			(xy 146.05 76.2) (xy 163.195 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea10354-2a0e-4369-b780-893957ea797b")
 	)
 	(wire
 		(pts
@@ -1022,16 +1028,6 @@
 			(type default)
 		)
 		(uuid "305092ae-db25-4c11-96f1-24fccdeb90ec")
-	)
-	(wire
-		(pts
-			(xy 90.17 78.74) (xy 100.33 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e33685-b5c0-4217-88fa-fd7f4bdf43e1")
 	)
 	(wire
 		(pts
@@ -1085,16 +1081,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 71.12) (xy 100.33 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682d3ff0-1023-4e96-8189-f2abc2778f2c")
-	)
-	(wire
-		(pts
 			(xy 148.59 86.36) (xy 146.05 86.36)
 		)
 		(stroke
@@ -1132,16 +1118,6 @@
 			(type default)
 		)
 		(uuid "82e0366b-aa58-41c8-85e0-cd4b9fd88252")
-	)
-	(wire
-		(pts
-			(xy 146.05 83.82) (xy 163.195 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922aac07-20cd-4dcc-93e7-6a281db8785b")
 	)
 	(wire
 		(pts
@@ -1735,16 +1711,6 @@
 		)
 		(uuid "0127e7eb-e37f-45d9-ba54-71771758c6bb")
 	)
-	(label "INT2"
-		(at 147.955 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04efa3b0-ca21-4d4b-9176-f16fec23a546")
-	)
 	(label "3V3"
 		(at 149.225 86.36 0)
 		(effects
@@ -1785,16 +1751,6 @@
 		)
 		(uuid "4d5027bb-fc53-4757-ba04-8eb677bb9c7b")
 	)
-	(label "INT1"
-		(at 92.71 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58832340-a85b-4a2e-baac-b7b7f9d0513d")
-	)
 	(label "GND"
 		(at 97.79 73.66 0)
 		(effects
@@ -1814,26 +1770,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f062585-b37f-42b3-a941-9ff7b8f0d82a")
-	)
-	(label "CS"
-		(at 146.685 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "80e6c4af-db43-4e9a-b62c-dee1a067686a")
-	)
-	(label "SDO_SAO"
-		(at 90.17 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99278d88-a1f5-4483-ad97-bf02994a0412")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -1857,17 +1793,6 @@
 		)
 		(uuid "4a6dec5f-0422-4558-9f3e-052fb85bc615")
 	)
-	(hierarchical_label "INT2"
-		(shape input)
-		(at 163.195 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63d3ea60-2c97-46b4-ae02-40fbc4109231")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 163.195 86.36 0)
@@ -1879,17 +1804,6 @@
 		)
 		(uuid "79a92171-c790-4ce6-8ced-79f48809833c")
 	)
-	(hierarchical_label "INT1"
-		(shape input)
-		(at 90.17 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9638d7d4-4de2-4fc9-bfe0-e9a2578190fd")
-	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 163.195 73.66 0)
@@ -1900,28 +1814,6 @@
 			(justify left)
 		)
 		(uuid "9725505d-2ada-403f-8b99-319e6a299afc")
-	)
-	(hierarchical_label "CS"
-		(shape input)
-		(at 163.195 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab328b39-1ab8-4bcb-b62c-b746215778c2")
-	)
-	(hierarchical_label "SDO_SAO"
-		(shape input)
-		(at 90.17 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e88ffa88-9f44-44ea-b223-caa18596b46d")
 	)
 	(symbol
 		(lib_id "lsm6dsltr:LSM6DSLTR")
