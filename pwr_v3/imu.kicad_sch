@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "pwr_v2")
-		(date "2025-05-11")
-		(rev "V2")
+		(date "2026-05-23")
+		(rev "3")
 		(company "Buck regulator circuits to generate 12V, 5V and 3.3V supplies.")
 		(comment 1 "IMU circuit")
 	)
@@ -956,6 +956,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "fb283369-29ef-4ead-9aa7-9217cce65a4e")
 	)
@@ -1220,7 +1221,7 @@
 		(uuid "fdd6d094-d213-44ce-9d33-95b4aedc1e56")
 	)
 	(image
-		(at 228.6 76.2)
+		(at 259.08 57.15)
 		(scale 0.275692)
 		(uuid "703b6e20-6f46-499b-bd90-0b675038bb75")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAcYAAAGTCAIAAAA9QyU6AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"

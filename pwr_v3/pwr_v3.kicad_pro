@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.05,
-          "height": 19.0,
-          "width": 5.0
+          "drill": 3.0,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -86,15 +86,7 @@
           "Minimum is 0.15mm, so okay"
         ],
         [
-          "lib_footprint_mismatch|154000000|65525000|07546836-1143-439c-bf1f-c07ec77a0f22|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|194000000|40275000|1b8e2279-61fe-41d5-bcb7-0568d6768ce0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|91800000|139175000|949187f3-bf2b-4520-bacf-055b88139909|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|150570000|65040000|07546836-1143-439c-bf1f-c07ec77a0f22|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -160,7 +152,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -292,7 +284,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2"
+      "sch_revision": "3"
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -781,7 +773,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "pwr_v2_bom.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "pwr_v2")
-		(date "2025-05-11")
-		(rev "V2")
+		(date "2026-05-23")
+		(rev "3")
 		(company "Buck regulator circuits to generate 12V, 5V and 3.3V supplies.")
 	)
 	(lib_symbols
@@ -4233,7 +4233,7 @@
 				)
 			)
 		)
-		(property "Description" "JLC:C194472"
+		(property "Description" "JLC:C880552"
 			(at 97.79 71.755 0)
 			(hide yes)
 			(show_name no)
