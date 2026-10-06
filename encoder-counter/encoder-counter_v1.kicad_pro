@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -146,7 +146,7 @@
         "min_track_width": 0.3048,
         "min_via_annular_width": 0.175,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -274,7 +274,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1003300|1346200|1c16e8fa-0b7e-4bdb-b91f-33a7eaeb43cc|0a45bd1d-685c-4b76-9dd5-2bc013303858|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14",
+        ""
+      ],
+      [
+        "pin_to_pin|2273300|1485900|0a45bd1d-685c-4b76-9dd5-2bc013303858|b1d1630e-e965-464f-b099-039d3badb18a|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14",
+        ""
+      ],
+      [
+        "pin_to_pin|774700|1473200|96db3217-464f-44dd-9bf4-9e5c0383e234|1c16e8fa-0b7e-4bdb-b91f-33a7eaeb43cc|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2222500|749300|3573073f-cee1-4126-a808-a6be02f67dd0|00000000-0000-0000-0000-000000000000|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|",
+        "MOSFET is used in 5V path"
+      ],
+      [
+        "power_pin_not_driven|723900|736600|32898562-51e8-4d4b-8e3c-74fb0bf75eb2|00000000-0000-0000-0000-000000000000|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|/41618d09-218e-4bf9-aa10-55e4d7a4ee14|",
+        "MOSFET is used in 5V path"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -503,7 +524,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "encoder-counter.kicad_pro",
+    "filename": "encoder-counter_v1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -692,7 +713,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://SeeGoals.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "space_save_all_events": true,
@@ -706,8 +727,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "encoder-counter.kicad_sch",
-        "name": "encoder-counter",
+        "filename": "encoder-counter_v1.kicad_sch",
+        "name": "encoder-counter_v1",
         "uuid": "41618d09-218e-4bf9-aa10-55e4d7a4ee14"
       }
     ],

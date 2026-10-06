@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "41618d09-218e-4bf9-aa10-55e4d7a4ee14")
 	(paper "A4")
+	(title_block
+		(title "encoder-counter_v1")
+		(rev "v1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -2618,6 +2622,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Axel E"
+		(exclude_from_sim no)
+		(at 215.392 190.246 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "3ae778f8-3442-440b-8ef8-a8e25d29cb4a")
+	)
 	(junction
 		(at 140.97 99.06)
 		(diameter 0)
@@ -2629,6 +2644,102 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba4c1d4d-07f3-4562-bda2-3da1effb802d")
+	)
+	(no_connect
+		(at 100.33 109.22)
+		(uuid "08dff3f4-e862-48ec-a1ea-d9d59bdda736")
+	)
+	(no_connect
+		(at 204.47 130.81)
+		(uuid "0cc7590f-9f70-46f0-9021-e8971e921e14")
+	)
+	(no_connect
+		(at 250.19 102.87)
+		(uuid "1ba9a4ec-393d-479a-8357-04df690b7c14")
+	)
+	(no_connect
+		(at 100.33 119.38)
+		(uuid "39c6ea95-ece1-4148-a09d-3b52ceebccc7")
+	)
+	(no_connect
+		(at 100.33 99.06)
+		(uuid "47f12d19-2c4c-4a0c-8205-e57799d2e3db")
+	)
+	(no_connect
+		(at 100.33 106.68)
+		(uuid "5de7f9f8-b902-454d-99e6-4d257fed1910")
+	)
+	(no_connect
+		(at 100.33 104.14)
+		(uuid "6c081507-2625-4f56-96af-799747ce5505")
+	)
+	(no_connect
+		(at 100.33 129.54)
+		(uuid "74565de4-8107-464e-a804-11014f7ecbb7")
+	)
+	(no_connect
+		(at 250.19 100.33)
+		(uuid "795a1acc-a20f-42f0-b9ea-81fa2ca00ba7")
+	)
+	(no_connect
+		(at 54.61 127)
+		(uuid "9268cedc-0f0e-472d-93c6-032ea23e2fa8")
+	)
+	(no_connect
+		(at 100.33 111.76)
+		(uuid "a5a7912c-3da2-4c62-b12f-4b1f2fa37c33")
+	)
+	(no_connect
+		(at 250.19 107.95)
+		(uuid "a9f0bf7e-c01d-4486-ac95-476feb006a26")
+	)
+	(no_connect
+		(at 250.19 113.03)
+		(uuid "ac035797-d3a5-480c-b564-57f8ab2d7d78")
+	)
+	(no_connect
+		(at 204.47 90.17)
+		(uuid "affe154f-0c16-4a29-8196-40003902df84")
+	)
+	(no_connect
+		(at 54.61 129.54)
+		(uuid "b3825af6-7956-41fe-b8d9-0b0151c5fa2a")
+	)
+	(no_connect
+		(at 204.47 92.71)
+		(uuid "b69e1687-110d-4044-ba5c-162e2be2332c")
+	)
+	(no_connect
+		(at 250.19 120.65)
+		(uuid "c3a2a0d3-b64a-413b-ba84-98a5741aeec0")
+	)
+	(no_connect
+		(at 100.33 101.6)
+		(uuid "df75cd03-8720-4cc4-92cc-f0d7dde4ff34")
+	)
+	(no_connect
+		(at 250.19 110.49)
+		(uuid "e2ea03b1-3d54-4798-b434-94fe09055ae9")
+	)
+	(no_connect
+		(at 204.47 128.27)
+		(uuid "edbf2647-5021-4be1-b896-d238042058d4")
+	)
+	(no_connect
+		(at 54.61 91.44)
+		(uuid "f3afe05b-4a56-4d30-88a8-1637e7f3c4c6")
+	)
+	(no_connect
+		(at 54.61 88.9)
+		(uuid "f7e298cd-a2ac-439f-9556-536402d1bc21")
+	)
+	(no_connect
+		(at 250.19 105.41)
+		(uuid "f983e4e5-61e0-4ee2-a493-55da761e842a")
+	)
+	(no_connect
+		(at 250.19 130.81)
+		(uuid "fab0eabb-1963-489a-bddc-c02afaf7c3b0")
 	)
 	(wire
 		(pts
@@ -3072,6 +3183,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 138.43) (xy 255.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f17f047-0002-45bd-9b0b-264dd6c041d8")
+	)
+	(wire
+		(pts
 			(xy 204.47 36.83) (xy 207.01 36.83)
 		)
 		(stroke
@@ -3252,6 +3373,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 139.7) (xy 106.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92166c4c-9793-4d58-9002-fdf4bff1750e")
+	)
+	(wire
+		(pts
 			(xy 46.99 38.1) (xy 64.77 38.1)
 		)
 		(stroke
@@ -3279,6 +3410,16 @@
 			(type default)
 		)
 		(uuid "9f69708b-08fc-4cc3-967c-0dd7bf6703bd")
+	)
+	(wire
+		(pts
+			(xy 255.27 135.89) (xy 250.19 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8f907f-5bd3-441d-aea1-e3ec9f6c8d6a")
 	)
 	(wire
 		(pts
@@ -3649,6 +3790,16 @@
 			(type default)
 		)
 		(uuid "ed10e1e6-95ff-4a71-bd88-a1b2d13d4c8a")
+	)
+	(wire
+		(pts
+			(xy 106.68 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5232d60-91ec-4eb2-80f9-a0fd6214c459")
 	)
 	(wire
 		(pts
@@ -4431,6 +4582,83 @@
 		(uuid "fc4caeb3-c06a-4a39-970f-ac42a7be5337")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 255.27 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06b1935d-2859-4096-b52b-f4a86d2a00ca")
+		(property "Reference" "#PWR011"
+			(at 255.27 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9322baf1-7cb9-481d-af03-b35200eb6165")
+		)
+		(instances
+			(project "encoder-counter_v1"
+				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 185.42 82.55 180)
 		(unit 1)
@@ -4505,7 +4733,7 @@
 			(uuid "ca60bddf-6fae-4a67-b70b-a10a745f86fe")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J12")
 					(unit 1)
@@ -4584,7 +4812,7 @@
 			(uuid "1f0e0263-c78b-479f-8149-e155ebdf62b0")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR010")
 					(unit 1)
@@ -4665,7 +4893,7 @@
 			(uuid "a73621d4-a03e-4951-84d7-420abf506710")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "R4")
 					(unit 1)
@@ -4743,7 +4971,7 @@
 			(uuid "8f3c91e3-cc4a-4981-9091-7fdf6e225ea3")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR06")
 					(unit 1)
@@ -4878,7 +5106,7 @@
 			(uuid "4b3f81b1-5e50-47dd-b1aa-ed55c13f1477")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "Q1")
 					(unit 1)
@@ -4907,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Value" "530480910"
+		(property "Value" "530470910"
 			(at 86.36 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -4918,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "530480910_9p:MOLEX_530480910"
+		(property "Footprint" "530470910_9p:530470910_9p"
 			(at 86.36 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4979,7 +5207,7 @@
 			(uuid "012f5a1c-bd88-4c17-9a10-073ec01608ee")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J2")
 					(unit 1)
@@ -5057,7 +5285,7 @@
 			(uuid "376df376-62bf-4a68-952e-4f1287e30acb")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR05")
 					(unit 1)
@@ -5135,7 +5363,7 @@
 			(uuid "2b193557-c9e0-4a47-bb4c-5aa5181bbd15")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR04")
 					(unit 1)
@@ -5164,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Value" "530480910"
+		(property "Value" "530470910"
 			(at 199.39 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "530480910_9p:MOLEX_530480910"
+		(property "Footprint" "530470910_9p:530470910_9p"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5236,7 +5464,7 @@
 			(uuid "4568c7e0-bac2-4dbd-b7bb-d6f5a9f157a9")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J3")
 					(unit 1)
@@ -5315,9 +5543,87 @@
 			(uuid "c54f4e76-5bcc-4da3-a747-30e84863149b")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9138809b-fe2b-49d5-a69c-e246ca0236ac")
+		(property "Reference" "#PWR012"
+			(at 106.68 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c4dbf1f-cc95-42c9-8e54-336bdd9e2526")
+		)
+		(instances
+			(project "encoder-counter_v1"
+				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5450,7 +5756,7 @@
 			(uuid "2cb53432-2807-4f0a-b877-fd8bb3e141fa")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "Q2")
 					(unit 1)
@@ -5528,7 +5834,7 @@
 			(uuid "81d749b1-8005-4ed1-8307-e8bd08242526")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR03")
 					(unit 1)
@@ -5557,7 +5863,7 @@
 				)
 			)
 		)
-		(property "Value" "530480910"
+		(property "Value" "530470910"
 			(at 243.84 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +5874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "530480910_9p:MOLEX_530480910"
+		(property "Footprint" "530470910_9p:530470910_9p"
 			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5629,7 +5935,7 @@
 			(uuid "6f200152-8ded-479c-be65-59fc4feac88e")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J4")
 					(unit 1)
@@ -5707,7 +6013,7 @@
 			(uuid "15e953e4-f287-4e06-a187-aabae70561a0")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR01")
 					(unit 1)
@@ -5786,7 +6092,7 @@
 			(uuid "3f96fc5a-608c-4674-a8ed-c89affb9d366")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "R1")
 					(unit 1)
@@ -5991,7 +6297,7 @@
 			(uuid "b1d1630e-e965-464f-b099-039d3badb18a")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "U2")
 					(unit 1)
@@ -6083,7 +6389,7 @@
 			(uuid "9415ab70-52c7-4930-a84b-ea2d714fadbc")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J5")
 					(unit 1)
@@ -6161,7 +6467,7 @@
 			(uuid "fe64d71a-e968-423e-a579-baed11bc378e")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR02")
 					(unit 1)
@@ -6238,7 +6544,7 @@
 			(uuid "ef8160b8-0dca-4bca-a32a-541ab521a752")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR07")
 					(unit 1)
@@ -6319,7 +6625,7 @@
 			(uuid "e2a9700b-8d54-476a-b633-c2dbde947bd6")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "R3")
 					(unit 1)
@@ -6398,7 +6704,7 @@
 			(uuid "5b9fc538-2af7-4c98-9150-67413c262a89")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR09")
 					(unit 1)
@@ -6603,7 +6909,7 @@
 			(uuid "1c16e8fa-0b7e-4bdb-b91f-33a7eaeb43cc")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "U1")
 					(unit 1)
@@ -6686,7 +6992,7 @@
 			(uuid "35537b0a-2b9a-4a76-9087-678ea35201ad")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J11")
 					(unit 1)
@@ -6764,7 +7070,7 @@
 			(uuid "92e7cdf5-54b2-4696-852d-57e7d02d6bda")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "#PWR08")
 					(unit 1)
@@ -6793,7 +7099,7 @@
 				)
 			)
 		)
-		(property "Value" "530480910"
+		(property "Value" "530470910"
 			(at 41.91 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6804,7 +7110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "530480910_9p:MOLEX_530480910"
+		(property "Footprint" "530470910_9p:530470910_9p"
 			(at 41.91 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6865,7 +7171,7 @@
 			(uuid "8bb242ad-73e4-41c4-b45e-5d1f591c2e02")
 		)
 		(instances
-			(project "encoder-counter"
+			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
 					(reference "J1")
 					(unit 1)
@@ -6879,4 +7185,24 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SeeGoals.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WBICPUUANZgZyHgWD3QESqmGlVjsQFUx2ZXKZahwW65sqLTlmrEGIGDFwJfAFsAXgCjZT0W
+				ebqDmIt27/sb7f7xZD7p6+zhnojTO1g0XCrnf3qYTVhn0XAlfZzKYz/hXgAAAoIRqeNxykktjpVD
+				zBFH1vPdPY419hgySqmts77eeeS4VAAEBGPIxAk9MIcKAVSrVpPZX/eSmF1xmI3B4TKXS6civAJ3
+				j8E5R3HcNQYf1cl9JIFufbqh6v35fd+ktgDoenfo3/rjHlnU+n7C/et32lt/XtSJgzrX7x4e4Z8f
+				asyx5hvs4vzOvR5Z9Hp+Q/16tUvS+je7cmoRTIcRe8aE+TvGn0u1mczoY9cAsRqEXSju7yu1mLT0
+				NWo7DWcpYYv1oQdmiPVdY5Fog9iVSfsUm1C6i4XTcBjbooOoCBebstaZuPK+RqsMAYEhBG7x+/74
+				0z/UpM29v6i19WrS0hHMfX/b8lvX+MMoetuBsfUo7Y1Ee6ElpP3EvRKZzN7Oqjd6o0B9H2LtySNm
+				VExeD8xWwXDc4zKnTFAMwyStnGSbcJGukRtgaaDhNGWcMmMiommSxlCESJm7bs8hZ0mhIwGCEmrp
+				gM2twJTE5vtm2jM3XeB312HI2jjJOiGzbm0d93RF2LkgWSq3FAZbNDCRXBGeBjs3Gcz038WuY5TF
+				zOAIjIc+hXrL1Bdpe3uOiIkaUyDolSCxz6aRwIzN5gSSefLIctPFfRDCJ5WYh6Lg/nc9Z881DNJR
+				pzzQoSxmLKeN5Ta6NYAWthQHDWK05ylvVCl74xAu2L2zXM/Gp02iFq10+7vvme1r+eiJAp2lmjgd
+				pK7YD+xBwVxEI/8js2aADSCyJ0sPEtqblp0FEWaGFwwbFDTq+fr1LAWNz0vcWN5akI6BqQI=|
+			)
+			(checksum "A55FBBC5D295BD1CC0AB4B242C83C48E")
+		)
+	)
 )
