@@ -3043,9 +3043,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5fe920cc-b040-43d4-a13a-d48f9a23cfd9")
 		(property "Reference" "J1"
@@ -3092,6 +3092,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
 			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3196,6 +3207,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1525"
 			(at 158.75 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3505,6 +3527,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "JLCPCB" "C962063"
+			(at 119.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

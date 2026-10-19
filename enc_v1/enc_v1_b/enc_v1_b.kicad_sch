@@ -3101,6 +3101,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C1525"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89c59508-daaa-4c11-921d-5af88213b4ca")
 		)
@@ -3402,6 +3413,17 @@
 				(justify bottom)
 			)
 		)
+		(property "JLCPCB" "C962063"
+			(at 119.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "90bed24d-92f1-4d22-b548-ff7416cba4ec")
 		)
@@ -3538,9 +3560,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "efc8dc67-28a3-454b-9fbe-d721e738503a")
 		(property "Reference" "J1"
@@ -3587,6 +3609,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.69 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" ""
 			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
