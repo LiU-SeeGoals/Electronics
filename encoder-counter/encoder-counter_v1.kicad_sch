@@ -470,7 +470,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x09"
+		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -490,8 +490,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -522,7 +522,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -555,10 +555,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x09_1_1"
+			(symbol "Conn_01x10_1_1"
 				(rectangle
 					(start -1.27 11.43)
-					(end 1.27 -11.43)
+					(end 1.27 -13.97)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -658,6 +658,17 @@
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -821,6 +832,24 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2640,6 +2669,30 @@
 		(uuid "16f82075-6e50-4cf2-b824-d3ec1c6b4f12")
 	)
 	(junction
+		(at 64.77 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "531aa5e3-c265-407b-8fb5-f24e4390e7b7")
+	)
+	(junction
+		(at 266.7 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5260dd-a8da-4928-b7c5-797bed04ff0f")
+	)
+	(junction
+		(at 222.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe0f6d7-0070-4218-bfd2-66737153ade5")
+	)
+	(junction
+		(at 109.22 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7286b2f-85d3-4839-b053-4e8bf433b40c")
+	)
+	(junction
 		(at 154.94 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2763,6 +2816,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 34.29) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b25236-dbc1-44e0-aa09-7a1d6a8d2737")
+	)
+	(wire
+		(pts
 			(xy 46.99 45.72) (xy 49.53 45.72)
 		)
 		(stroke
@@ -2813,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 33.02) (xy 109.22 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cac78a8-2f60-4c02-b8b3-5c4f09d2bd19")
+	)
+	(wire
+		(pts
 			(xy 222.25 73.66) (xy 222.25 74.93)
 		)
 		(stroke
@@ -2853,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 39.37) (xy 224.79 41.91)
+			(xy 222.25 39.37) (xy 222.25 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3003,6 +3076,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 34.29) (xy 266.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a5979b-9963-44dd-a202-5204b0ef4dd0")
+	)
+	(wire
+		(pts
 			(xy 77.47 147.32) (xy 77.47 153.67)
 		)
 		(stroke
@@ -3020,6 +3103,16 @@
 			(type default)
 		)
 		(uuid "37fa41dc-b253-4189-98ee-96942bae8b15")
+	)
+	(wire
+		(pts
+			(xy 64.77 33.02) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397f8345-ef4b-409d-9c1e-97c67e66102c")
 	)
 	(wire
 		(pts
@@ -3133,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 39.37) (xy 224.79 39.37)
+			(xy 204.47 39.37) (xy 222.25 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 39.37) (xy 269.24 43.18)
+			(xy 266.7 39.37) (xy 266.7 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3260,6 +3353,16 @@
 			(type default)
 		)
 		(uuid "78049272-40e6-439a-a60c-13a70e275fa6")
+	)
+	(wire
+		(pts
+			(xy 222.25 34.29) (xy 222.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792c5d0f-17e1-4ee2-a1a5-06ffd2be65d0")
 	)
 	(wire
 		(pts
@@ -3403,6 +3506,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 33.02) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdfc335-0cd5-4235-8f1f-1397316cc75b")
+	)
+	(wire
+		(pts
 			(xy 200.66 100.33) (xy 204.47 100.33)
 		)
 		(stroke
@@ -3440,6 +3553,16 @@
 			(type default)
 		)
 		(uuid "a1648a68-e500-4e9f-8351-c5af8d7e7a76")
+	)
+	(wire
+		(pts
+			(xy 46.99 33.02) (xy 64.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27971b0-4362-42db-b35f-518aa0d762a1")
 	)
 	(wire
 		(pts
@@ -3510,6 +3633,16 @@
 			(type default)
 		)
 		(uuid "ae16e4ea-5b08-449f-90ec-e59c60858213")
+	)
+	(wire
+		(pts
+			(xy 266.7 34.29) (xy 266.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa490e7-4c1a-41b4-b383-fc441d7a9811")
 	)
 	(wire
 		(pts
@@ -3723,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 39.37) (xy 269.24 39.37)
+			(xy 248.92 39.37) (xy 266.7 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +4024,7 @@
 		)
 		(uuid "1ba73980-f6e1-4451-a689-8c44c58a0da6")
 	)
-	(label "I2C_SLC"
+	(label "I2C_SCL"
 		(at 139.7 99.06 180)
 		(effects
 			(font
@@ -3971,7 +4104,7 @@
 		)
 		(uuid "3f3c250e-7e93-40bb-ae5d-6652a6d5c60b")
 	)
-	(label "I2C_SLC"
+	(label "I2C_SCL"
 		(at 50.8 99.06 180)
 		(effects
 			(font
@@ -4351,7 +4484,7 @@
 		)
 		(uuid "b1811de0-59d5-4fe0-906b-acb6eacb0ddc")
 	)
-	(label "I2C_SLC"
+	(label "I2C_SCL"
 		(at 200.66 100.33 180)
 		(effects
 			(font
@@ -4664,9 +4797,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "09176087-6928-4a43-a387-89af8c144abd")
 		(property "Reference" "J12"
@@ -4713,6 +4846,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 185.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "-"
 			(at 185.42 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4876,6 +5020,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C313823"
 			(at 120.65 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5096,6 +5251,17 @@
 				(justify bottom)
 			)
 		)
+		(property "JLCPCB" "C144153"
+			(at 74.93 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a9ab326-f5c7-4866-bea8-07d9a614b51b")
 		)
@@ -5115,18 +5281,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 86.36 45.72 180)
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 86.36 43.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "48192bc8-67fb-4895-8e53-b7c3c1ecab65")
-		(property "Reference" "J2"
-			(at 82.804 46.736 0)
+		(property "Reference" "J1"
+			(at 82.804 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5136,7 +5303,7 @@
 			)
 		)
 		(property "Value" "530470910"
-			(at 86.36 31.75 0)
+			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,8 +5313,8 @@
 				)
 			)
 		)
-		(property "Footprint" "530470910_9p:530470910_9p"
-			(at 86.36 45.72 0)
+		(property "Footprint" "530471010_10p:530471010_10p"
+			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/530470910?display=pdf"
-			(at 86.36 45.72 0)
+			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,8 +5335,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 45.72 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 86.36 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C564027"
+			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,10 +5384,13 @@
 		(pin "9"
 			(uuid "012f5a1c-bd88-4c17-9a10-073ec01608ee")
 		)
+		(pin "10"
+			(uuid "34c415a8-56f9-4b27-bebd-db84bca3862b")
+		)
 		(instances
 			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 43.18 0)
+		(at 266.7 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5225,10 +5406,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a8ba9f2-6385-4811-bd96-36712d74b883")
 		(property "Reference" "#PWR05"
-			(at 269.24 49.53 0)
+			(at 266.7 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5239,7 +5419,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 48.26 0)
+			(at 270.51 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5249,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 43.18 0)
+			(at 266.7 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5260,7 +5440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 43.18 0)
+			(at 266.7 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 43.18 0)
+			(at 266.7 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 41.91 0)
+		(at 222.25 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5303,10 +5483,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "623d9c69-6a51-4293-8151-54056b0fdc37")
 		(property "Reference" "#PWR04"
-			(at 224.79 48.26 0)
+			(at 222.25 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 46.99 0)
+			(at 226.06 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5327,7 +5506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 41.91 0)
+			(at 222.25 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5338,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 41.91 0)
+			(at 222.25 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +5528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 41.91 0)
+			(at 222.25 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,18 +5551,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 199.39 46.99 180)
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 199.39 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6b71f41d-7673-4529-a486-a4b5867c0bd1")
-		(property "Reference" "J3"
-			(at 195.58 48.006 0)
+		(property "Reference" "J2"
+			(at 195.58 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5393,7 +5573,7 @@
 			)
 		)
 		(property "Value" "530470910"
-			(at 199.39 33.02 0)
+			(at 199.39 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5403,8 +5583,8 @@
 				)
 			)
 		)
-		(property "Footprint" "530470910_9p:530470910_9p"
-			(at 199.39 46.99 0)
+		(property "Footprint" "530471010_10p:530471010_10p"
+			(at 199.39 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/530470910?display=pdf"
-			(at 199.39 46.99 0)
+			(at 199.39 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5425,8 +5605,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 46.99 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C564027"
+			(at 199.39 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,10 +5654,13 @@
 		(pin "9"
 			(uuid "4568c7e0-bac2-4dbd-b7bb-d6f5a9f157a9")
 		)
+		(pin "10"
+			(uuid "ae536e91-15df-48ac-a632-29d78bf1ce28")
+		)
 		(instances
 			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5526,6 +5720,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 149.86 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C844835"
 			(at 149.86 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5746,6 +5951,17 @@
 				(justify bottom)
 			)
 		)
+		(property "JLCPCB" "C144153"
+			(at 224.79 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd9ebf55-6f1f-4042-9647-0809a78a4a14")
 		)
@@ -5843,18 +6059,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 243.84 46.99 180)
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 243.84 44.45 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9b4d09c4-e6cb-4088-9723-ecf25f6c7088")
-		(property "Reference" "J4"
-			(at 240.538 47.498 0)
+		(property "Reference" "J3"
+			(at 240.538 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5864,7 +6081,7 @@
 			)
 		)
 		(property "Value" "530470910"
-			(at 243.84 33.02 0)
+			(at 243.84 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,8 +6091,8 @@
 				)
 			)
 		)
-		(property "Footprint" "530470910_9p:530470910_9p"
-			(at 243.84 46.99 0)
+		(property "Footprint" "530471010_10p:530471010_10p"
+			(at 243.84 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +6103,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/530470910?display=pdf"
-			(at 243.84 46.99 0)
+			(at 243.84 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5896,8 +6113,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 46.99 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C564027"
+			(at 243.84 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,10 +6162,13 @@
 		(pin "9"
 			(uuid "6f200152-8ded-479c-be65-59fc4feac88e")
 		)
+		(pin "10"
+			(uuid "ecad203c-7d3e-45cd-afb8-3f533e25f6bc")
+		)
 		(instances
 			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6085,6 +6316,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C844835"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da9852a4-55da-40f1-ae25-d411917a87bc")
 		)
@@ -6106,9 +6348,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af912341-e086-4725-9925-eb8ce2618295")
@@ -6158,6 +6400,17 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 227.33 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 227.33 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6311,9 +6564,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b7a327ea-e8c1-491c-a06c-289f4a603680")
 		(property "Reference" "J5"
@@ -6360,6 +6613,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 161.29 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C385109"
 			(at 161.29 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6618,6 +6882,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C313823"
+			(at 255.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21195980-682c-439a-b245-ab3244ec8723")
 		)
@@ -6718,9 +6993,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f00ac7fe-47f7-4848-8385-71c4be9936b1")
@@ -6770,6 +7045,17 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 77.47 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 77.47 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,9 +7209,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f1fcc150-e21a-4415-8a19-b301299942ec")
 		(property "Reference" "J11"
@@ -6972,6 +7258,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "-"
 			(at 33.02 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7079,18 +7376,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 41.91 45.72 180)
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 41.91 43.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f9b2fb83-806f-42f6-9008-af093468c194")
-		(property "Reference" "J1"
-			(at 38.1 46.99 0)
+		(property "Reference" "J0"
+			(at 38.1 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7100,7 +7398,7 @@
 			)
 		)
 		(property "Value" "530470910"
-			(at 41.91 31.75 0)
+			(at 41.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,8 +7408,8 @@
 				)
 			)
 		)
-		(property "Footprint" "530470910_9p:530470910_9p"
-			(at 41.91 45.72 0)
+		(property "Footprint" "530471010_10p:530471010_10p"
+			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7122,7 +7420,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/530470910?display=pdf"
-			(at 41.91 45.72 0)
+			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7132,8 +7430,19 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 45.72 0)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C564027"
+			(at 41.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,10 +7479,13 @@
 		(pin "9"
 			(uuid "8bb242ad-73e4-41c4-b45e-5d1f591c2e02")
 		)
+		(pin "10"
+			(uuid "2fc9881a-f798-4821-ac06-03fef560cb41")
+		)
 		(instances
 			(project "encoder-counter_v1"
 				(path "/41618d09-218e-4bf9-aa10-55e4d7a4ee14"
-					(reference "J1")
+					(reference "J0")
 					(unit 1)
 				)
 			)
