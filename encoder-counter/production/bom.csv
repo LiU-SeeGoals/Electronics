@@ -1,0 +1,7 @@
+"Reference","Qty","Value","DNP","Exclude from Board","Exclude from BOM","Footprint","JLCPCB"
+"R4","1","10k","","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C313823"
+"R3","1","10k","","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C313823"
+"R2","1","2.2k","","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C844835"
+"R1","1","2.2k","","","","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","C844835"
+"Q2","1","DMG2305UX-13","","","","DMG2305UX_13:SOT91P240X110-3N","C144153"
+"Q1","1","DMG2305UX-13","","","","DMG2305UX_13:SOT91P240X110-3N","C144153"
